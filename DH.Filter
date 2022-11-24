@@ -1951,6 +1951,8 @@ ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=4]: %GRAY%[%WHITE%et
 ItemDisplay[(crs OR bsd OR lsd) (NMAG OR RW) SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=0 (ILVL>25 AND ILVL<40)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (!ETH AND (NMAG OR RW)) SOCK=0 (ILVL>25 AND ILVL<40)]: %NAME% %TAN%[%SOCKETS%]
+//Fanged Knife
+ItemDisplay[7kr NMAG !ETH !INF SOCK=3]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //eth crystal for imbue/roll
 ItemDisplay[crs (ETH AND (NMAG OR RW)) SOCK=0]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///Spears
