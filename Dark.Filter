@@ -2178,7 +2178,7 @@ ItemDisplay[CL5 ELT (ETH AND !INF) AND (NMAG OR RW) AND ED>14 (SOCK=0 OR SOCK=3)
 ItemDisplay[CL5 ELT (ETH AND !INF) AND (NMAG OR RW) AND ED>9 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Plague
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) !ETH NMAG (SOCK=0 OR SOCK=3) (SK262>2 AND SK276>0)]: %GRAY%[%WHITE%3fireds%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) ETH NMAG (SOCK=0 OR SOCK=3) (SK262>2 AND SK276>0)]: %GRAY%[%WHITE%3fireds%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) ETH NMAG (SOCK=0 OR SOCK=3) (SK262>2 AND SK276>0)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3fireds%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) !ETH NMAG (SOCK=0 OR SOCK=3) (SK262>2 AND SK272>0 AND SK276>0)]:%GRAY%[%WHITE%3fireds%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) ETH NMAG (SOCK=0 OR SOCK=3) (SK262>2 AND SK272>0 AND SK276>0)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3fireds%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) !ETH NMAG (SOCK=0 OR SOCK=3) (SK271>2 AND SK366>2)]: %GRAY%[%WHITE%3clsls%GRAY%] %NAME% %TAN%[%SOCKETS%]
