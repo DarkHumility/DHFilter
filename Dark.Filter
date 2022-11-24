@@ -1,5 +1,5 @@
 // Adev's Loot Filter for PD2, Dark Edition. S6 v6.01
-//twitch.tv/Adevelopment
+//twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
