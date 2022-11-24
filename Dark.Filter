@@ -244,7 +244,7 @@ ItemDisplay[r26s OR r26]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%run
 ItemDisplay[r27s OR r27]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 27}
 ItemDisplay[r28s OR r28]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 28}
 ItemDisplay[r29s OR r29]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%ORANGE%rune 29}
-ItemDisplay[r30s OR r30]: %PURPLE%oo%GOLD%ooo%PURPLE%oo %ORANGE%%NAME% %PURPLE%oo%GOLD%ooo%PURPLE%oo%MAP% {%ORANGE%rune 30}
+ItemDisplay[r30s OR r30]: %PURPLE%oo%GOLD%oo%PURPLE%oo%GOLD%oo %ORANGE%%NAME% %GOLD%oo%PURPLE%oo%GOLD%oo%PURPLE%oo%MAP% {%ORANGE%rune 30}
 ItemDisplay[r31s OR r31]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%ORANGE%rune 31}
 ItemDisplay[r32s OR r32]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 32}
 ItemDisplay[r33s OR r33]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 33}
