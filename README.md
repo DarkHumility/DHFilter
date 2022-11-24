@@ -1,3 +1,4 @@
 # DHFilter - Dark.Filter - Joint Project by ADevelopment and DarkHumility
-PD2 Full Service Early-Game Filter Udpated for Season 6
-Focuses on Updated Item/Map Tiering and Immunities and Highlights Jewels and other items for GG stats. Includes all bases you'll ever need!
+PD2 All-Purpose Early-Late Game Filter Udpated for Season 6
+Focuses on Updated Item Tiering + Map Tiering/Immunities + Highlights Jewels and Other Items for GG Stats. Includes all Crafting/Socket Bases you'll ever need!
+Low Overall Strictness! Filters out the garbage though!
