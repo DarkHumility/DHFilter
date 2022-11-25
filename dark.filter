@@ -67,6 +67,7 @@ ItemDisplay[fort]: %TAN%o %NAME%%TAN% o%MAP% {%GREEN%2x Loot %WHITE%* %GREEN%2x 
 ItemDisplay[scrb]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Tier 3 %RED%Map %NL%%WHITE%Turns %RED%Map%WHITE% into %PURPLE%Dungeon%PURPLE%}
 ItemDisplay[lbox]: %WHITE%ooo %GOLD%%NAME% %WHITE%ooo%MAP%
 ItemDisplay[lpp]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
+ItemDisplay[lmal]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[llmr]: %WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o %NAME% %WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%MAP%
 ItemDisplay[lsvl]: %WHITE%oo%RED%oo%WHITE%oo %NAME% %WHITE%oo%RED%oo%WHITE%oo%MAP%
 ItemDisplay[rkey]: %PURPLE%oooo %WHITE%%NAME% %PURPLE%oooo%MAP%
