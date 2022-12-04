@@ -653,7 +653,7 @@ ItemDisplay[jew RARE !UNI !MAG (ED>29 AND STR>4)]: %NAME% {%GOLD%ED %WHITE%* %DA
 ItemDisplay[jew RARE !UNI !MAG (ED>29 AND DEX>4)]: %NAME% {%GOLD%ED %WHITE%* %GREEN%Dex %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (ED>29 AND MFIND>6)]: %NAME% {%GOLD%ED %WHITE%* %GREEN%MF %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG ED>34]: %NAME% {%GOLD%ED %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (MAXDMG>12 AND MINDMG>7)]: %NAME% {%TAN%Max Dmg %WHITE%* %TAN%Min Dmg %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG ((MAXDMG>12 AND MINDMG>7) OR (MAXDMG>7 AND MINDMG>12))]: %NAME% {%TAN%Max Dmg %WHITE%* %TAN%Min Dmg %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (MAXDMG>9 AND FHR>0)]: %NAME% {%TAN%Max Dmg %WHITE%* %ORANGE%FHR %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (MINDMG>9 AND FHR>0)]: %NAME% {%TAN%Min Dmg %WHITE%* %ORANGE%FHR %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (MAXDMG>9 AND RES>5)]: %NAME% {%TAN%Max Dmg %WHITE%* %PURPLE%All %WHITE%Res %YELLOW%Jewel}
@@ -728,6 +728,7 @@ ItemDisplay[amu MAG ILVL=97]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%B
 ItemDisplay[amu MAG ILVL=98]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
 ItemDisplay[amu MAG ILVL=99]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
 ItemDisplay[amu MAG ILVL<88]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG CLVL<80]: %BLUE%o %NAME% o%WHITE%%MAP% {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
 //Rings
 ItemDisplay[rin MAG ILVL=86]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL=87]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
@@ -740,6 +741,7 @@ ItemDisplay[rin MAG ILVL=93]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%] {%RED%B
 ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG CLVL<80]: %BLUE%o %NAME% o%WHITE%%MAP% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 //s5 PD2 Uniques
 ItemDisplay[utg UNI !ID !ETH]: %RED%ooo %PURPLE%Occultist %RED%ooo%MAP%
 ItemDisplay[utg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Occultist %RED%o%MAP%
