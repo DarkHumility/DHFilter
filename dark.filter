@@ -784,7 +784,7 @@ ItemDisplay[dr2 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Quetzalcoatl 
 ItemDisplay[ob6 UNI !ID !ETH]: %RED%o Tempest %RED%o%MAP%
 ItemDisplay[ob6 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Tempest %RED%o%MAP%
 ItemDisplay[pa3 UNI !ID !ETH]: %GOLD%o %GOLD%Sankekur's Fall %GOLD%o%MAP%
-ItemDisplay[pa3 UNI !ID ETH]: %GOLDo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Sankekur's Fall %GOLD%o%MAP%
+ItemDisplay[pa3 UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Sankekur's Fall %GOLD%o%MAP%
 ItemDisplay[9ar UNI !ID !ETH]: %RED%oo %RED%Mage Slayer %RED%oo%MAP%
 ItemDisplay[9ar UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Mage Slayer %RED%oo%MAP%
 //Uniques
