@@ -191,8 +191,8 @@ ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a MAG !ID]
 ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
 ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a (NMAG OR !RARE) ID]: %RED%ooo %WHITE%%NAME% %RED%ooo%MAP%
 ///tier4
-ItemDisplay[t41 OR t42 OR t43 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%PURPLE%Ultra Danger %WHITE%* Blood Bringers %GOLD%The Synthetic One %NL%%RED%Dungeons Require a Strong Party}
-ItemDisplay[t41 OR t42 OR t43 RARE ID]: %NAME%%MAP% {%PURPLE%Ultra Danger %WHITE%* Blood Bringers %GOLD%The Synthetic One %NL%%RED%Dungeons Require a Strong Party}
+ItemDisplay[t41 OR t42 OR t43 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs %GOLD%The Synthetic One %NL%%RED%Dungeons Require a Strong Party}
+ItemDisplay[t41 OR t42 OR t43 RARE ID]: %NAME%%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs %GOLD%The Synthetic One %NL%%RED%Dungeons Require a Strong Party}
 ///PvP
 ItemDisplay[t61 OR t62 (NMAG OR !RARE) ID]: %BLUE%o %WHITE%%NAME% %BLUE%o%MAP%
 //Misc
