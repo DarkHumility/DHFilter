@@ -68,11 +68,11 @@ ItemDisplay[scrb]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Tier 3 %RED%Map %NL
 ItemDisplay[lbox]: %WHITE%ooo %GOLD%%NAME% %WHITE%ooo%MAP%
 ItemDisplay[lpp]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[lmal]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
-ItemDisplay[llmr]: %WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o %NAME% %WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%MAP%
-ItemDisplay[lsvl]: %WHITE%oo%RED%oo%WHITE%oo %NAME% %WHITE%oo%RED%oo%WHITE%oo%MAP%
-ItemDisplay[rkey]: %PURPLE%oooo %WHITE%%NAME% %PURPLE%oooo%MAP%
+ItemDisplay[llmr]: %WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o %NAME% %RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%MAP%
+ItemDisplay[lsvl]: %WHITE%oo%RED%oo%WHITE%oo%RED%oo %NAME% %RED%oo%WHITE%oo%RED%oo%WHITE%oo%MAP%
+ItemDisplay[rkey]: %PURPLE%ooooo %WHITE%%NAME% %PURPLE%ooooo%MAP%
 ItemDisplay[wss]: %GREEN%o %PURPLE%%NAME% %GREEN%o%MAP%
-ItemDisplay[cwss]: %RED%oooo %PURPLE%%NAME% %RED%oooo%MAP%
+ItemDisplay[cwss]: %RED%ooooo %PURPLE%%NAME% %RED%ooooo%MAP%
 ItemDisplay[ubtm]: %RED%o %PURPLE%%NAME%%RED% o%MAP%
 ItemDisplay[dcma]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[dcbl]: %RED%o %NAME%%RED% o%MAP%
@@ -191,11 +191,8 @@ ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a MAG !ID]
 ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
 ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a (NMAG OR !RARE) ID]: %RED%ooo %WHITE%%NAME% %RED%ooo%MAP%
 ///tier4
-ItemDisplay[t41 OR t42 OR t43 MAG !ID]: %PURPLE%oooo %BLUE%%NAME% %PURPLE%oooo%MAP% {%RED%Dungeons Require a Strong Party %NL%%PURPLE%Danger %WHITE%* Everything Else%NL%%PURPLE%Ultra Danger %WHITE%* Blood Bringers %GOLD%The Synthetic One}
-ItemDisplay[t41 OR t42 OR t43 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%RED%Dungeons Require a Strong Party %NL%%PURPLE%Danger %WHITE%* Everything Else%NL%%PURPLE%Ultra Danger %WHITE%* Blood Bringers %GOLD%The Synthetic One}
-ItemDisplay[t41 OR t42 OR t43 MAG ID]: %PURPLE%oooo %BLUE%%NAME% %PURPLE%oooo%MAP% {%RED%Dungeons Require a Strong Party %NL%%PURPLE%Danger %WHITE%* Everything Else%NL%%PURPLE%Ultra Danger %WHITE%* Blood Bringers %GOLD%The Synthetic One}
-ItemDisplay[t41 OR t42 OR t43 RARE ID]: %NAME%%MAP% {%RED%Dungeons Require a Strong Party %NL%%PURPLE%Danger %WHITE%* Everything Else%NL%%PURPLE%Ultra Danger %WHITE%* Blood Bringers %GOLD%The Synthetic One}
-ItemDisplay[t41 OR t42 OR t43 (NMAG OR !RARE) ID]: %PURPLE%oooo %WHITE%%NAME% %PURPLE%oooo%MAP% {%RED%Dungeons Require a Strong Party %NL%%PURPLE%Danger %WHITE%* Everything Else%NL%%PURPLE%Ultra Danger %WHITE%* Blood Bringers %GOLD%The Synthetic One}
+ItemDisplay[t41 OR t42 OR t43 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%PURPLE%Ultra Danger %WHITE%* Blood Bringers %GOLD%The Synthetic One %NL%%RED%Dungeons Require a Strong Party}
+ItemDisplay[t41 OR t42 OR t43 RARE ID]: %NAME%%MAP% {%PURPLE%Ultra Danger %WHITE%* Blood Bringers %GOLD%The Synthetic One %NL%%RED%Dungeons Require a Strong Party}
 ///PvP
 ItemDisplay[t61 OR t62 (NMAG OR !RARE) ID]: %BLUE%o %WHITE%%NAME% %BLUE%o%MAP%
 //Misc
@@ -691,6 +688,7 @@ ItemDisplay[jew RARE !UNI !MAG (MAXDMG>9 AND ED>19 AND FHR>0)]: %NAME% {%ORANGE%
 ItemDisplay[jew RARE !UNI !MAG (MINDMG>9 AND ED>19 AND FHR>0)]: %NAME% {%ORANGE%FHR% %GOLD%ED% %TAN%Min Dmg %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (MINDMG>5 AND MAXDMG>5 AND ED>19 AND FHR>0)]: %NAME% {%ORANGE%FHR% %GOLD%ED% %TAN%Max Dmg %TAN%Min Dmg %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (ED>29 AND STAT91>0)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%-Req %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND STAT91>0)]: %NAME% {%ORANGE%FHR% %WHITE%* %ORANGE%-Req %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND ED>19 AND STAT91>0)]: %NAME% {%ORANGE%FHR% %WHITE%* %GOLD%ED %ORANGE%-Req %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND MAEK>1 AND STAT91>0)]: %NAME% {%ORANGE%FHR% %WHITE%* %BLUE%Mana %WHITE%Per Kill %ORANGE%-Req %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND STAT86>1 AND STAT91>0)]: %NAME% {%ORANGE%FHR% %WHITE%* %RED%Life %WHITE%Per Kill %ORANGE%-Req %YELLOW%Jewel}
@@ -702,7 +700,7 @@ ItemDisplay[cm1 UNI !ID]: %PURPLE%ooooo %GOLD%Annihilus %PURPLE%ooooo%MAP%
 ItemDisplay[cm2 UNI !ID]: %PURPLE%ooooo %GOLD%Hellfire Torch %PURPLE%ooooo%MAP%
 ItemDisplay[cm3 UNI !ID]: %PURPLE%ooo %GOLD%Gheed's Fortune %PURPLE%ooo%MAP%
 //Grand
-ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%o %BLUE%%NAME% %RED%o%MAP% {ilvl 91+ Reroll Gc}
+ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%o %BLUE%%NAME% %RED%o%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<91 ILVL>49]: %BLUE%o %NAME% %BLUE%o%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<50]: %GREEN%o %BLUE%%NAME% %GREEN%o%MAP%
 //Large
@@ -742,8 +740,8 @@ ItemDisplay[rin MAG CLVL<80]: %BLUE%o %NAME% o%WHITE%%MAP% {%RED%Blood %WHITE%+ 
 //s5 PD2 Uniques
 ItemDisplay[utg UNI !ID !ETH]: %RED%ooo %PURPLE%Occultist %RED%ooo%MAP%
 ItemDisplay[utg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Occultist %RED%o%MAP%
-ItemDisplay[7fb UNI !ID !ETH]: %RED%o %PURPLE%Odium %RED%o%MAP%
-ItemDisplay[7fb UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Odium %RED%ooo%MAP%
+ItemDisplay[7fb UNI !ID !ETH]: %RED%oo %PURPLE%Odium %RED%oo%MAP%
+ItemDisplay[7fb UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Odium %RED%oooo%MAP%
 ItemDisplay[ame UNI !ID !ETH]: %RED%o %RED%Zerae's Resolve %RED%o%MAP%
 ItemDisplay[ame UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Zerae's Resolve %RED%ooo%MAP%
 ItemDisplay[ulb UNI !ID !ETH]: %RED%o %PURPLE%Merman's Sprocket %RED%o%MAP%
@@ -752,8 +750,8 @@ ItemDisplay[ned UNI !ID !ETH]: %RED%ooo %PURPLE%Martyrdom %RED%ooo%MAP%
 ItemDisplay[ned UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Martyrdom %RED%o%MAP%
 ItemDisplay[6bs UNI !ID !ETH]: %RED%oooo %PURPLE%Brimstone Rain %RED%oooo%MAP%
 ItemDisplay[6bs UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Brimstone Rain %RED%oooo%MAP%
-ItemDisplay[7qs UNI !ID !ETH]: %RED%oo %PURPLE%Akarat's Devotion %RED%oo%MAP%
-ItemDisplay[7qs UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Akarat's Devotion %RED%oo%MAP%
+ItemDisplay[7qs UNI !ID !ETH]: %RED%ooo %PURPLE%Akarat's Devotion %RED%ooo%MAP%
+ItemDisplay[7qs UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Akarat's Devotion %RED%ooo%MAP%
 ItemDisplay[7tw UNI !ID !ETH]: %RED%oo %PURPLE%Stalker's Cull %RED%oo%MAP%
 ItemDisplay[7tw UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stalker's Cull %RED%oo%MAP%
 ItemDisplay[baf UNI !ID !ETH]: %RED%ooo %PURPLE%Raekor's Virtue %RED%ooo%MAP%
