@@ -1214,8 +1214,8 @@ ItemDisplay[7ls UNI !ID !ETH]: %RED%ooo Frostwind ooo%MAP%
 ItemDisplay[7ls UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Frostwind ooo%MAP%
 ItemDisplay[7gs UNI !ID !ETH]: %GOLD%ooo Flamebellow ooo%MAP%
 ItemDisplay[7gs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Flamebellow o%MAP%
-ItemDisplay[9gs UNI !ID !ETH]: %GOLD%ooo The Vile Husk ooo%MAP%
-ItemDisplay[9gs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%The Vile Husk o%MAP%
+ItemDisplay[9gs UNI !ID !ETH]: %RED%o The Vile Husk o%MAP%
+ItemDisplay[9gs UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%The Vile Husk ooo%MAP%
 ItemDisplay[7dg UNI !ID !ETH]: %RED%oo Wizardspike oo%MAP%
 ItemDisplay[9kr UNI !ID !ETH]: %RED%o Blackbog's Sharp o%MAP%
 ItemDisplay[9kr UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Blackbog's Sharp o%MAP%
