@@ -1120,7 +1120,7 @@ ItemDisplay[7gi UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Executio
 ItemDisplay[9ba UNI !ID !ETH]: %GOLD%ooo Spellsteel ooo%MAP%
 ItemDisplay[9ba UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spellsteel%MAP%
 ItemDisplay[7ga UNI !ID !ETH]: %RED%ooo Messerschmidt's Reaver ooo%MAP%
-ItemDisplay[7ga UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Messerschmidt's Reaver ooo%MAP%
+ItemDisplay[7ga UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Messerschmidt's Reaver %RED%ooo%MAP%
 ItemDisplay[7sp UNI !ID !ETH]: %RED%oo Demon Limb oo%MAP%
 ItemDisplay[7sp UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Demon Limb oo%MAP%
 ItemDisplay[9wh UNI !ID !ETH]: %RED%ooo Earthshaker ooo%MAP%
@@ -1193,7 +1193,7 @@ ItemDisplay[am9 UNI !ID !ETH]: %RED%oo Lycander's Flank oo%MAP%
 ItemDisplay[am9 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Lycander's Flank %RED%oo%MAP%
 ItemDisplay[7wc UNI !ID !ETH]: %RED%oo %PURPLE%Stormspire %RED%oo%MAP%
 ItemDisplay[7wc UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stormspire %RED%ooo%MAP%
-ItemDisplay[7wh UNI !ID !ETH]: %RED%oo %PURPLE%Stone Crusher or Schaefer's Hammer %RED%oo%MAP%
+ItemDisplay[7wh UNI !ID !ETH]: %RED%ooo %PURPLE%Stone Crusher or Schaefer's Hammer %RED%ooo%MAP%
 ItemDisplay[7wh UNI !ID ETH]: %YELLOW%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stone Crusher or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Schaefer's Hammer %YELLOW%oooo%MAP%
 ItemDisplay[7gm UNI !ID !ETH]: %RED%oo %PURPLE%Earth Shifter or The Cranium Basher %RED%oo%MAP%
 ItemDisplay[7gm UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Earth Shifter or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Cranium Basher %RED%oooo%MAP%
