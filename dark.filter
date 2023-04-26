@@ -1697,7 +1697,7 @@ ItemDisplay[!RW NMAG ETH !SUP (uar OR uul OR utp or uea or utu) SOCK=0 DEF>600]:
 ItemDisplay[ltp NMAG !ETH !SOCK=1 CLVL<81]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[ltp NMAG ETH !SOCK=1 CLVL<81]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(xea OR xui) NMAG !INF !ETH !SOCK=1 CLVL<81]: %GRAY%%NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(xea OR xui) NMAG ETH !SOCK=1 CLVL<81]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %WHITE%%TAN%[%SOCKETS%]
+ItemDisplay[(xea OR xui) NMAG ETH !SOCK=1 CLVL<81]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Helmets
 //Precast Helms/Lore/Delirium/ferocity
 ItemDisplay[CL1 NMAG !ETH SK245>2 AND (SK250>2 OR SK240>2) !SOCK=1]: %GRAY%[%WHITE%wind%GRAY%] %NAME% %TAN%[%SOCKETS%]
