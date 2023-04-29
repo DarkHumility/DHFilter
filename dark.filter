@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S7 v7.01
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S7 v7.02
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -729,7 +729,7 @@ ItemDisplay[amu MAG ILVL=97]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%B
 ItemDisplay[amu MAG ILVL=98]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
 ItemDisplay[amu MAG ILVL=99]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
 ItemDisplay[amu MAG ILVL<88]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG CLVL<80]: %BLUE%o %NAME% o%WHITE%%MAP% {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG CLVL<80]: %BLUE%o %NAME% o%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
 //Rings
 ItemDisplay[rin MAG ILVL=86]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL=87]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
@@ -742,7 +742,7 @@ ItemDisplay[rin MAG ILVL=93]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%] {%RED%B
 ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
-ItemDisplay[rin MAG CLVL<80]: %BLUE%o %NAME% o%WHITE%%MAP% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+ItemDisplay[rin MAG CLVL<80]: %BLUE%o %NAME% o%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 //s5 PD2 Uniques
 ItemDisplay[utg UNI !ID !ETH]: %RED%ooo %PURPLE%Occultist %RED%ooo%MAP%
 ItemDisplay[utg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Occultist %RED%o%MAP%
@@ -1871,10 +1871,10 @@ ItemDisplay[WP11 NMAG SK47>2 ILVL<81]: %GRAY%[%WHITE%3fb%GRAY%] %NAME% %TAN%[%SO
 ItemDisplay[WP11 NMAG SK38=2 ILVL<67]: %GRAY%[%WHITE%2cbol%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP11 NMAG SK44=2 ILVL<67]: %GRAY%[%WHITE%2fno%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP11 NMAG SK47=2 ILVL<67]: %GRAY%[%WHITE%2fb%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[STAFF ELT NMAG SOCK>2 !ETH]: %GRAY%%NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[STAFF ELT NMAG SOCK>2 ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[STAFF NMAG SOCK=2 !ETH CLVL<91]: %GRAY%%NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[STAFF NMAG SOCK=2 ETH CLVL<91]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[STAFF ELT NMAG SOCK>2 !ETH]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[STAFF ELT NMAG SOCK>2 ETH]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[STAFF NMAG SOCK=2 !ETH CLVL<91]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[STAFF NMAG SOCK=2 ETH CLVL<91]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Orbs s3 & s5
 ItemDisplay[CL6 NMAG (SOCK=3 OR SOCK=2) !ETH ((SK48>2 OR SK53>2 OR SK49>2 OR SK38>2) AND SK63>2))]: %GRAY%[%WHITE%Light%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[CL6 NMAG (SOCK=3 OR SOCK=2) !ETH ((SK59>2 OR SK369>2 OR SK64>2 OR SK44>2) AND SK65>2))]: %GRAY%[%WHITE%Cold%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
@@ -2190,9 +2190,11 @@ ItemDisplay[CL4 (NMAG OR RW) !ETH SK75>2 !SOCK=1]: %GRAY%[%WHITE%3cgo%GRAY%] %NA
 ItemDisplay[CL4 NMAG !ETH (SK85>2 AND SK79>1) !SOCK=1]: %GRAY%[%WHITE%3bgm%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL4 (NMAG OR RW) !ETH SK85>2 !SOCK=1]: %GRAY%[%WHITE%3bgo%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL4 NMAG !ETH (SK67>2 OR SK84>2) !SOCK=1]: %GRAY%[%WHITE%bone%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL4 NMAG !ETH (SK67>0 OR SK84>0) CLVL<30]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL4 NMAG !ETH SK92>2 !SOCK=1]: %GRAY%[%WHITE%3psn%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL4 NMAG !ETH SK381>2 !SOCK=1]: %GRAY%[%WHITE%3dpct%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL4 NMAG !ETH SK70>2 !SOCK=1]: %GRAY%[%WHITE%3swar%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL4 NMAG !ETH SK70>0 CLVL<30]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL4 NMAG !ETH SK80>2 !SOCK=1]: %GRAY%[%WHITE%3smag%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL4 NMAG !ETH (SK70>2 AND SK69>1) !SOCK=1]: %GRAY%[%WHITE%swam%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Infi/Insi/Pride and Obedience/Doom
