@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S7 v7.02
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S7 v7.03
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -1687,13 +1687,13 @@ ItemDisplay[WEAPON !BOW !XBOW !RARE ETH !CRAFT !RW MAG ID]: %GRAY%[%WHITE%eth%GR
 //Armors
 ItemDisplay[(utp OR uui OR urs or uar) NMAG ETH !SOCK=1 ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(utp OR uui OR urs or uar) NMAG !ETH !SOCK=1 ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[(utp OR uui OR urs or uar) NMAG ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ed%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[(utp OR uui OR urs or uar) NMAG !ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%ED%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[(utp OR uui OR urs or uar) NMAG ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ED%%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[(utp OR uui OR urs or uar) NMAG !ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%%ED%%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[EQ2 !uth !ult !uul !uld ELT NMAG !ETH !SOCK=1 ED=15]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[EQ2 !uth !ult !uul !uld ELT NMAG !ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%ED%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[EQ2 !uth !ult !uul !uld ELT NMAG !ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%%ED%%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(xtp OR uui OR utp OR uea OR utu OR ula) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>1)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 ELT NMAG ETH !SOCK=1 ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[EQ2 ELT NMAG ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%ED%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[EQ2 ELT NMAG ETH !SOCK=1 ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%ED%%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[EQ2 ELT ETH (NMAG OR RW) (SOCK=0 OR SOCK>1)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[!RW NMAG ETH !SUP ELT EQ2 (SOCK=3 OR SOCK=4) DEF>600]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[!RW NMAG ETH !SUP ELT EQ2 SOCK=0 DEF>600]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
