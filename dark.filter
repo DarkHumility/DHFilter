@@ -191,12 +191,12 @@ ItemDisplay[t39 NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%m
 ItemDisplay[t3a MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
 ItemDisplay[t3a RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
 ItemDisplay[t3a NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
-ItemDisplay[t51 MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t51 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t51 NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t52 MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t52 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t52 NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t51 MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t51 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t51 NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t52 MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t52 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %NL%%PURPLE%Danger %WHITE%* None %GOLD%Boss}%MAP%
+ItemDisplay[t52 NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
 ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a OR t51 OR t52 MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
 ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a OR t51 OR t52 RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
 ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a OR t51 OR t52 (NMAG OR !RARE) ID]: %RED%ooo %WHITE%%NAME% %RED%ooo%MAP%
@@ -1083,8 +1083,8 @@ ItemDisplay[9gi UNI !ID !ETH]: %GOLD%o The Minotaur o%MAP%
 ItemDisplay[9gi UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Minotaur o%MAP%
 ItemDisplay[7ha UNI !ID !ETH]: %RED%oo Razor's Edge oo%MAP%
 ItemDisplay[7ha UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Razor's Edge %RED%oo%MAP%
-ItemDisplay[7mp UNI !ID !ETH]: %GOLD%Cranebeak%MAP%
-ItemDisplay[7mp UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cranebeak%MAP%
+ItemDisplay[7mp UNI !ID !ETH]: %GOLD%o Cranebeak o%MAP%
+ItemDisplay[7mp UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cranebeak o%MAP%
 ItemDisplay[7ba UNI !ID ETH]: %GOLD%ooo Ethereal Edge ooo%MAP%
 ItemDisplay[spc UNI !ID !ETH]: %GOLD%Stoutnail%MAP%
 ItemDisplay[spc UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stoutnail%MAP%
@@ -1217,7 +1217,7 @@ ItemDisplay[7gd UNI !ID !ETH]: %RED%ooo %PURPLE%The Grandfather %RED%ooo%MAP%
 ItemDisplay[7gd UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Grandfather %RED%oooo%MAP%
 ItemDisplay[7ls UNI !ID !ETH]: %RED%ooo Frostwind ooo%MAP%
 ItemDisplay[7ls UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Frostwind ooo%MAP%
-ItemDisplay[7gs UNI !ID !ETH]: %GOLD%ooo Flamebellow ooo%MAP%
+ItemDisplay[7gs UNI !ID !ETH]: %RED%oo Flamebellow oo%MAP%
 ItemDisplay[7gs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Flamebellow o%MAP%
 ItemDisplay[9gs UNI !ID !ETH]: %RED%o The Vile Husk o%MAP%
 ItemDisplay[9gs UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%The Vile Husk ooo%MAP%
@@ -1302,7 +1302,7 @@ ItemDisplay[swb UNI !ID]: %GOLD%Hellclap%MAP%
 ItemDisplay[lwb UNI !ID]: %GOLD%Blastbark%MAP%
 ItemDisplay[8sb UNI !ID]: %GOLD%Skystrike%MAP%
 ItemDisplay[8hb UNI !ID]: %GOLD%Riphook%MAP%
-ItemDisplay[8lb UNI !ID]: %RED%o Kuko Shakaku o%MAP%
+ItemDisplay[8lb UNI !ID]: %GOLD%o Kuko Shakaku o%MAP%
 ItemDisplay[8cb UNI !ID]: %RED%o Endlesshail o%MAP%
 ItemDisplay[8l8 UNI !ID]: %GOLD%ooo Cliffkiller ooo%MAP%
 ItemDisplay[8sw UNI !ID]: %RED%oo Magewrath oo%MAP%
