@@ -192,13 +192,15 @@ ItemDisplay[t39 NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%m
 ItemDisplay[t3a MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
 ItemDisplay[t3a RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
 ItemDisplay[t3a NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
-ItemDisplay[t51 UNI ID]: %RED%ooo %PURPLE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t52 UNI ID]: %RED%ooo %PURPLE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t51 UNI ID]: %RED%ooo %PURPLE%Zhar's Sanctum Map %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t52 UNI ID]: %RED%ooo %PURPLE%Stygian Caverns Map %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
 ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
 ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
 ItemDisplay[t24 OR t25 OR t31 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a (NMAG OR !RARE) ID]: %RED%ooo %WHITE%%NAME% %RED%ooo%MAP%
-ItemDisplay[t51 OR t52 UNI !ID]: %RED%ooo %PURPLE%%NAME% %RED%ooo%MAP%
-ItemDisplay[t51 OR t52 UNI ID]: %RED%ooo %PURPLE%%NAME% %RED%ooo%MAP%
+ItemDisplay[t51 UNI !ID]: %RED%ooo %PURPLE%Zhar's Sanctum Map %RED%ooo%MAP%
+ItemDisplay[t51 UNI ID]: %RED%ooo %PURPLE%%Zhar's Sanctum Map %RED%ooo%MAP%
+ItemDisplay[t52 UNI !ID]: %RED%ooo %PURPLE%Stygian Caverns Map %RED%ooo%MAP%
+ItemDisplay[t52 UNI ID]: %RED%ooo %PURPLE%%Stygian Caverns Map %RED%ooo%MAP%
 ///tier4
 ItemDisplay[t41 OR t42 OR t43 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs %GOLD%The Synthetic One %NL%%RED%Requires a Strong Party}
 ItemDisplay[t41 OR t42 OR t43 RARE ID]: %NAME%%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs %GOLD%The Synthetic One %NL%%RED%Requires a Strong Party}
