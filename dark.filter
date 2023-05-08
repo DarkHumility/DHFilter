@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S7 v7.04
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S7 v7.05
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -2053,9 +2053,9 @@ ItemDisplay[9vo ETH NMAG (SOCK=0 OR SOCK=4) CLVL<81]: %GRAY%[%WHITE%eth%GRAY%] %
 ItemDisplay[9vo !ETH !INF NMAG (SOCK=0 OR SOCK=4) CLVL<81]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Ama Spears
 ItemDisplay[(amd OR ame) NMAG ETH (SOCK=0 OR SOCK>2) AND TABSK2>2 ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %GRAY%[%WHITE%3jav%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[(amd OR ame) NMAG ETH (SOCK=0 OR SOCK>2) AND TABSK2>2 ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%ED%GRAY%] %GRAY%[%WHITE%3jav%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(amd OR ame) NMAG ETH (SOCK=0 OR SOCK>2) AND TABSK2>2 ED>0 ED<15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %GRAY%[%WHITE%3jav%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(amd OR ame) NMAG !ETH (SOCK=0 OR SOCK>1) AND TABSK2>2 ED=15]: %GRAY%[%WHITE%%15%GRAY%] %GRAY%[%WHITE%3jav%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[(amd OR ame) NMAG !ETH (SOCK=0 OR SOCK>1) AND TABSK2>2 ED>0 ED<15]: %GRAY%[%WHITE%ED%GRAY%] %GRAY%[%WHITE%3jav%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(amd OR ame) NMAG !ETH (SOCK=0 OR SOCK>1) AND TABSK2>2 ED>0 ED<15]: %GRAY%[%WHITE%%%ED%%GRAY%] %GRAY%[%WHITE%3jav%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(amd OR ame) NMAG ETH (SOCK=0 OR SOCK>2) AND TABSK2>2]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3jav%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(amd OR ame) NMAG !ETH !INF (SOCK=0 OR SOCK=2 OR SOCK=4) AND TABSK2>2]: %GRAY%[%WHITE%3jav%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[am3 NMAG !ETH !INF (SOCK=0 OR SOCK=4) AND TABSK2>2]: %GRAY%[%WHITE%3jav%GRAY%] %NAME% %TAN%[%SOCKETS%]
