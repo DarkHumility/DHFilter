@@ -1438,7 +1438,7 @@ ItemDisplay[xtb SET !ID]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
 ItemDisplay[dr8 SET !ID]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
 ItemDisplay[uul SET !ID]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
 ItemDisplay[9mt SET !ID]: %RED%o %GREEN%Aldur's %NAME% %RED%o%MAP%
-ItemDisplay[xh9 SET !ID]: %RED%o %GREEN%Natalya's %NAME% %RED%o%MAP%
+ItemDisplay[xh9 SET !ID]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
 ItemDisplay[7qr SET !ID]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
 ItemDisplay[ucl SET !ID]: %RED%ooo %GREEN%Natalya's %NAME% %RED%ooo%MAP%
 ItemDisplay[xmb SET !ID]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
@@ -1446,7 +1446,7 @@ ItemDisplay[oba SET !ID]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
 ItemDisplay[xsk SET !ID]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
 ItemDisplay[uth SET !ID]: %RED%oooo %GREEN%Tal Rasha's %NAME% %RED%oooo%MAP%
 ItemDisplay[zmb SET !ID]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
-ItemDisplay[uh9 SET !ID]: %RED%o %GREEN%Trang-Oul's %NAME% %RED%o%MAP%
+ItemDisplay[uh9 SET !ID]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
 ItemDisplay[xul SET !ID]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
 ItemDisplay[ne9 SET !ID]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
 ItemDisplay[utc SET !ID]: %RED%ooo %GREEN%Trang-Oul's %NAME% %RED%ooo%MAP%
@@ -2229,8 +2229,9 @@ ItemDisplay[CL5 ELT NMAG (ETH AND !INF) (SK263>0 AND SK278>2) (SOCK=0 OR SOCK=3)
 ItemDisplay[CL5 ELT (ETH AND !INF) AND (NMAG OR RW) (SK278>2 AND SK275>0) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%fury%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL5 ELT NMAG (ETH AND !INF) SK266>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3bf%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL5 ELT NMAG (ETH AND !INF) (SK266>2 AND SK257>2) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3bfs%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL5 ELT (ETH AND !INF) AND (NMAG OR RW) AND ED>14 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[CL5 ELT (ETH AND !INF) AND (NMAG OR RW) AND ED>9 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL5 ELT (ETH AND !INF) AND (NMAG OR RW) AND ED=15 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL5 ELT (ETH AND !INF) AND (NMAG OR RW) AND (ED>0 ED<15) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[CL5 ELT (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Plague+Pattern
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) !ETH NMAG (SOCK=0 OR SOCK=3) (SK262>2 AND SK276>0)]: %GRAY%[%WHITE%3fireds%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) ETH NMAG (SOCK=0 OR SOCK=3) (SK262>2 AND SK276>0)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3fireds%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
