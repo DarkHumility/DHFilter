@@ -588,7 +588,7 @@ ItemDisplay[cm3 TABSK48>0]: %GOLD%Trap Skiller
 ItemDisplay[cm3 TABSK49>0]: %GOLD%Shadow Skiller
 ItemDisplay[cm3 TABSK50>0]: %GOLD%Martial Skiller
 //Good Magic Jewels
-ItemDisplay[jew !UNI !RARE (ED>29 AND STAT90>0)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%-Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (ED>29 AND STAT91)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%-Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MAXDMG>9 AND STAT91>0)]: %NAME% {%TAN%Max Dmg %WHITE%* %ORANGE%-Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MINDMG>9 AND STAT91>0)]: %NAME% {%TAN%Min Dmg %WHITE%* %ORANGE%-Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (ED>19 AND IAS>0)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%IAS %BLUE%Jewel}
