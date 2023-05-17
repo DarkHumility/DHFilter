@@ -91,7 +91,7 @@ ItemDisplay[ubaa]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[ubab]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[ubac]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[uba]: %RED%o %NAME%%RED% o%MAP%
-ItemDisplay[jewf]: %BLUE%o %NAME% o%MAP%
+ItemDisplay[jewf]: %TAN%o %BLUE%%NAME% %TAN%o%MAP%
 ItemDisplay[rtp]: %GREEN%!%GOLD%%NAME%%MAP%
 ItemDisplay[rid]: %GREEN%!%GOLD%%NAME%%MAP%
 //Maps
