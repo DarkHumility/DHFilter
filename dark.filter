@@ -588,9 +588,9 @@ ItemDisplay[cm3 TABSK48>0]: %GOLD%Trap Skiller
 ItemDisplay[cm3 TABSK49>0]: %GOLD%Shadow Skiller
 ItemDisplay[cm3 TABSK50>0]: %GOLD%Martial Skiller
 //Good Magic Jewels
-ItemDisplay[jew !UNI !RARE (STAT91>0 AND ED>29)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%-Req %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (STAT91>0 AND MAXDMG>9)]: %NAME% {%TAN%Max Dmg %WHITE%* %ORANGE%-Req %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (STAT91>0 AND MINDMG>9)]: %NAME% {%TAN%Min Dmg %WHITE%* %ORANGE%-Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (ED>29 AND STAT91=15)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (MAXDMG>9 AND STAT91=15)]: %NAME% {%TAN%Max Dmg %WHITE%* %ORANGE%Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (MINDMG>9 AND STAT91=15)]: %NAME% {%TAN%Min Dmg %WHITE%* %ORANGE%Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (ED>19 AND IAS>0)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%IAS %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (ED>29 AND FHR>0)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%FHR %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (ED>29 AND MAXDMG>9)]: %NAME% {%GOLD%ED %WHITE%* %TAN%Max Dmg %BLUE%Jewel}
@@ -599,18 +599,16 @@ ItemDisplay[jew !UNI !RARE (ED>29 AND LIFE>9)]: %NAME% {%GOLD%ED %WHITE%* %RED%L
 ItemDisplay[jew !UNI !RARE (ED>29 AND STR>4)]: %NAME% {%GOLD%ED %WHITE%* %DARK_GREEN%Str %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (ED>29 AND DEX>4)]: %NAME% {%GOLD%ED %WHITE%* %GREEN%Dex %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (ED>29 AND MFIND>6)]: %NAME% {%GOLD%ED %WHITE%* %GREEN%MF %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE ED>34]: %NAME% {%GOLD%ED %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE MAXDMG>14]: %NAME% {%TAN%Max Dmg %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (MAXDMG>12 AND MINDMG>7)]: %NAME% {%TAN%Max Dmg %WHITE%* %TAN%Min Dmg %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (MAXDMG>12 AND MINDMG>9)]: %NAME% {%TAN%Max Dmg %WHITE%* %TAN%Min Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MAXDMG>9 AND IAS>0)]: %NAME% {%TAN%Max Dmg %WHITE%* %ORANGE%IAS %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MINDMG>9 AND IAS>0)]: %NAME% {%TAN%Min Dmg %WHITE%* %ORANGE%IAS %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MAXDMG>9 AND FHR>0)]: %NAME% {%TAN%Max Dmg %WHITE%* %ORANGE%FHR %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MINDMG>9 AND FHR>0)]: %NAME% {%TAN%Min Dmg %WHITE%* %ORANGE%FHR %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (STAT91>0 AND FRES>24)]: %NAME% {%RED%Fire %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (STAT91>0 AND CRES>24)]: %NAME% {%BLUE%Cold %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (STAT91>0 AND LRES>24)]: %NAME% {%YELLOW%Light %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (STAT91>0 AND PRES>24)]: %NAME% {%GREEN%Psn %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (STAT91>0 AND RES>9)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (FRES>24 AND STAT91=15)]: %NAME% {%RED%Fire %WHITE%Res %WHITE%* %ORANGE%Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (CRES>24 AND STAT91=15)]: %NAME% {%BLUE%Cold %WHITE%Res %WHITE%* %ORANGE%Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (LRES>24 AND STAT91=15)]: %NAME% {%YELLOW%Light %WHITE%Res %WHITE%* %ORANGE%Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (PRES>24 AND STAT91=15)]: %NAME% {%GREEN%Psn %WHITE%Res %WHITE%* %ORANGE%Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (RES>9 AND STAT91=15)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %ORANGE%Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MAXDMG>9 AND RES>9)]: %NAME% {%TAN%Max Dmg %WHITE%* %PURPLE%All %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MINDMG>6 AND RES>9)]: %NAME% {%TAN%Min Dmg %WHITE%* %PURPLE%All %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (IAS>0 AND FRES>14)]: %NAME% {%ORANGE%IAS %WHITE%* %RED%Fire %WHITE%Res %BLUE%Jewel}
@@ -646,32 +644,19 @@ ItemDisplay[jew !UNI !RARE (STR>4 AND STAT86>2)]: %NAME% {%DARK_GREEN%Str %WHITE
 ItemDisplay[jew !UNI !RARE (DEX>4 AND STAT86>2)]: %NAME% {%GREEN%Dex %WHITE%* %RED%Life %WHITE%Per Kill %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (FHR>0 AND MAEK>2)]: %NAME% {%ORANGE%FHR %WHITE%* %BLUE%Mana %WHITE%Per Kill %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (FHR>0 AND STAT86>2)]: %NAME% {%ORANGE%FHR %WHITE%* %RED%Life %WHITE%Per Kill %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (STAT91>0 AND STAT86>2)]: %NAME% {%RED%Life %WHITE%Per Kill %WHITE%* %ORANGE%-Req %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (STAT91>0 AND MAEK>2)]: %NAME% {%BLUE%Mana %WHITE%Per Kill %WHITE%* %ORANGE%-Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (STAT86>2 AND STAT91=15)]: %NAME% {%RED%Life %WHITE%Per Kill %WHITE%* %ORANGE%Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (MAEK>2 AND STAT91=15)]: %NAME% {%BLUE%Mana %WHITE%Per Kill %WHITE%* %ORANGE%Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MAEK>2 AND IAS>0)]: %NAME% {%BLUE%Mana %WHITE%Per Kill %WHITE%* %ORANGE%IAS %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (STAT86>2 AND IAS>0)]: %NAME% {%RED%Life %WHITE%Per Kill %WHITE%* %ORANGE%IAS %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE ED>34]: %NAME% {%GOLD%ED %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE MAXDMG>14]: %NAME% {%TAN%Max Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE MAEK>2]: %NAME% {%BLUE%Mana %WHITE%Per Kill %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE STAT86>2]: %NAME% {%RED%Life %WHITE%Per Kill %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE RES>11]: %NAME% {%PURPLE%All %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (STAT501>74 AND IAS>0)]: %NAME% {%CORAL%Bleed %WHITE%* %ORANGE%IAS %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (STAT501>74 AND ED>0)]: %NAME% {%CORAL%Bleed %WHITE%* %GOLD%ED %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE STAT501>74]: %NAME% {%CORAL%Bleed %BLUE%Jewel}
 //Good Rare Jewels
-ItemDisplay[jew RARE !UNI !MAG ((MAXDMG>12 AND MINDMG>7) OR (MAXDMG>7 AND MINDMG>12))]: %NAME% {%TAN%Max Dmg %WHITE%* %TAN%Min Dmg %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (MAXDMG>9 AND FHR>0)]: %NAME% {%TAN%Max Dmg %WHITE%* %ORANGE%FHR %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (MINDMG>9 AND FHR>0)]: %NAME% {%TAN%Min Dmg %WHITE%* %ORANGE%FHR %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (MAXDMG>9 AND RES>5)]: %NAME% {%TAN%Max Dmg %WHITE%* %PURPLE%All %WHITE%Res %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (MINDMG>6 AND RES>5)]: %NAME% {%TAN%Min Dmg %WHITE%* %PURPLE%All %WHITE%Res %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND FRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %RED%Fire %WHITE%Res %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND CRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %BLUE%Cold %WHITE%Res %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND LRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %YELLOW%Light %WHITE%Res %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND PRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %GREEN%Psn %WHITE%Res %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND RES>5)]: %NAME% {%ORANGE%FHR %WHITE%* %PURPLE%All %WHITE%Res %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND MAEK>2)]: %NAME% {%ORANGE%FHR %WHITE%* %BLUE%Mana %WHITE%Per Kill %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND STAT86>2)]: %NAME% {%ORANGE%FHR %WHITE%* %RED%Life %WHITE%Per Kill %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (RES>7 AND FRES>24)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %RED%Fire %WHITE%Res %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (RES>7 AND CRES>24)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %BLUE%Cold %WHITE%Res %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (RES>7 AND LRES>24)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %YELLOW%Light %WHITE%Res %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (RES>7 AND PRES>24)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %GREEN%Psn %WHITE%Res %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (DEX>4 AND STR>4 AND ED>19 AND FHR>0)]: %NAME% {%ORANGE%FHR% %GOLD%ED% %WHITE%* %DARK_GREEN%Str %GREEN%Dex %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (MFIND>4 AND ED>19 AND FHR>0)]: %NAME% {%ORANGE%FHR% %GOLD%ED% %GREEN%MF %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (RES>4 AND ED>19 AND FHR>0)]: %NAME% {%ORANGE%FHR% %GOLD%ED% %PURPLE%All %WHITE%Res %YELLOW%Jewel}
@@ -694,11 +679,27 @@ ItemDisplay[jew RARE !UNI !MAG (STAT86>1 AND MAEK>1)]: %NAME% {%RED%Life %WHITE%
 ItemDisplay[jew RARE !UNI !MAG (MAXDMG>9 AND ED>19 AND FHR>0)]: %NAME% {%ORANGE%FHR% %GOLD%ED% %TAN%Max Dmg %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (MINDMG>9 AND ED>19 AND FHR>0)]: %NAME% {%ORANGE%FHR% %GOLD%ED% %TAN%Min Dmg %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (MINDMG>5 AND MAXDMG>5 AND ED>19 AND FHR>0)]: %NAME% {%ORANGE%FHR% %GOLD%ED% %TAN%Max Dmg %TAN%Min Dmg %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (STAT91>0 AND FHR>0 AND ED>19)]: %NAME% {%ORANGE%FHR% %WHITE%* %GOLD%ED %ORANGE%-Req %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (STAT91>0 AND FHR>0 AND MAEK>1)]: %NAME% {%ORANGE%FHR% %WHITE%* %BLUE%Mana %WHITE%Per Kill %ORANGE%-Req %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (STAT91>0 AND FHR>0 AND STAT86>1)]: %NAME% {%ORANGE%FHR% %WHITE%* %RED%Life %WHITE%Per Kill %ORANGE%-Req %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (STAT91>0 AND STAT86>2)]: %NAME% {%RED%Life %WHITE%Per Kill %WHITE%* %ORANGE%-Req %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (STAT91>0 AND MAEK>2)]: %NAME% {%BLUE%Mana %WHITE%Per Kill %WHITE%* %ORANGE%-Req %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND ED>19 AND STAT91=15)]: %NAME% {%ORANGE%FHR% %WHITE%* %GOLD%ED %ORANGE%Req %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND MAEK>1 AND STAT91=15)]: %NAME% {%ORANGE%FHR% %WHITE%* %BLUE%Mana %WHITE%Per Kill %ORANGE%Req %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND STAT86>1 AND STAT91=15)]: %NAME% {%ORANGE%FHR% %WHITE%* %RED%Life %WHITE%Per Kill %ORANGE%Req %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (STAT86>2 AND STAT91=15)]: %NAME% {%RED%Life %WHITE%Per Kill %WHITE%* %ORANGE%Req %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (MAEK>2 AND STAT91=15)]: %NAME% {%BLUE%Mana %WHITE%Per Kill %WHITE%* %ORANGE%Req %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG ((MAXDMG>12 AND MINDMG>7) OR (MAXDMG>7 AND MINDMG>12))]: %NAME% {%TAN%Max Dmg %WHITE%* %TAN%Min Dmg %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (MAXDMG>9 AND FHR>0)]: %NAME% {%TAN%Max Dmg %WHITE%* %ORANGE%FHR %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (MINDMG>9 AND FHR>0)]: %NAME% {%TAN%Min Dmg %WHITE%* %ORANGE%FHR %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (MAXDMG>9 AND RES>5)]: %NAME% {%TAN%Max Dmg %WHITE%* %PURPLE%All %WHITE%Res %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (MINDMG>6 AND RES>5)]: %NAME% {%TAN%Min Dmg %WHITE%* %PURPLE%All %WHITE%Res %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND FRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %RED%Fire %WHITE%Res %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND CRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %BLUE%Cold %WHITE%Res %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND LRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %YELLOW%Light %WHITE%Res %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND PRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %GREEN%Psn %WHITE%Res %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND RES>5)]: %NAME% {%ORANGE%FHR %WHITE%* %PURPLE%All %WHITE%Res %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND MAEK>2)]: %NAME% {%ORANGE%FHR %WHITE%* %BLUE%Mana %WHITE%Per Kill %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND STAT86>2)]: %NAME% {%ORANGE%FHR %WHITE%* %RED%Life %WHITE%Per Kill %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (RES>7 AND FRES>24)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %RED%Fire %WHITE%Res %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (RES>7 AND CRES>24)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %BLUE%Cold %WHITE%Res %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (RES>7 AND LRES>24)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %YELLOW%Light %WHITE%Res %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (RES>7 AND PRES>24)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %GREEN%Psn %WHITE%Res %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (ED>29 AND FHR>0)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%FHR %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (ED>29 AND MAXDMG>9)]: %NAME% {%GOLD%ED %WHITE%* %TAN%Max Dmg %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (ED>29 AND MINDMG>6)]: %NAME% {%GOLD%ED %WHITE%* %TAN%Min Dmg %YELLOW%Jewel}
@@ -706,11 +707,12 @@ ItemDisplay[jew RARE !UNI !MAG (ED>29 AND LIFE>9)]: %NAME% {%GOLD%ED %WHITE%* %R
 ItemDisplay[jew RARE !UNI !MAG (ED>29 AND STR>4)]: %NAME% {%GOLD%ED %WHITE%* %DARK_GREEN%Str %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (ED>29 AND DEX>4)]: %NAME% {%GOLD%ED %WHITE%* %GREEN%Dex %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG (ED>29 AND MFIND>6)]: %NAME% {%GOLD%ED %WHITE%* %GREEN%MF %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (STAT91>0 AND ED>29)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%-Req %YELLOW%Jewel}
-ItemDisplay[jew RARE !UNI !MAG (STAT91>0 AND FHR>0)]: %NAME% {%ORANGE%FHR% %WHITE%* %ORANGE%-Req %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (ED>29 AND STAT91=15)]: %NAME% {%GOLD%ED %WHITE%* %ORANGE%Req %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (FHR>0 AND STAT91=15)]: %NAME% {%ORANGE%FHR% %WHITE%* %ORANGE%Req %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG ED>34]: %NAME% {%GOLD%ED %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG MAEK>2]: %NAME% {%BLUE%Mana %WHITE%Per Kill %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG STAT86>2]: %NAME% {%RED%Life %WHITE%Per Kill %YELLOW%Jewel}
+ItemDisplay[jew RARE !UNI !MAG (STAT501>74 AND ED>29)]: %NAME% {%CORAL%Bleed %WHITE%* %GOLD%ED %YELLOW%Jewel}
 ItemDisplay[jew RARE !UNI !MAG STAT501>74]: %NAME% {%CORAL%Bleed %YELLOW%Jewel}
 ///All Charms
 //Unique Charms
