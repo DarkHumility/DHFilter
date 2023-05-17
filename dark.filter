@@ -85,7 +85,7 @@ ItemDisplay[dcho]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[dcso]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[rtma]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[rtmo]: %RED%o %NAME%%RED% o%MAP%
-ItemDisplay[cm2f]: %RED%o %ORANGE%%NAME% %%RED%o%MAP%
+ItemDisplay[cm2f]: %RED%o %ORANGE%%NAME% %RED%o%MAP%
 ItemDisplay[rtmv]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[ubaa]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[ubab]: %RED%o %NAME%%RED% o%MAP%
