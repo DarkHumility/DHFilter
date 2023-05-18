@@ -4,12 +4,8 @@
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
 //Gold
-ItemDisplay[GOLD<250 CLVL<15]:
-ItemDisplay[GOLD<500 CLVL>14 AND CLVL<30]:
-ItemDisplay[GOLD<1000 CLVL>29 AND CLVL<50]:
-ItemDisplay[GOLD<2000 CLVL>49 AND CLVL<65]:
-ItemDisplay[GOLD<2500 CLVL>64 AND CLVL<80]:
-ItemDisplay[GOLD<5000 CLVL>79]:
+ItemDisplay[GOLD<1000 CLVL<65]:
+ItemDisplay[GOLD<5000 CLVL>65]:
 //HP & MPs
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
