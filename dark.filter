@@ -603,18 +603,18 @@ ItemDisplay[jew !UNI !RARE (MAXDMG>9 AND IAS>0)]: %NAME% {%TAN%Max Dmg %WHITE%* 
 ItemDisplay[jew !UNI !RARE (MINDMG>9 AND IAS>0)]: %NAME% {%TAN%Min Dmg %WHITE%* %ORANGE%IAS %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MAXDMG>9 AND FHR>0)]: %NAME% {%TAN%Max Dmg %WHITE%* %ORANGE%FHR %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MINDMG>9 AND FHR>0)]: %NAME% {%TAN%Min Dmg %WHITE%* %ORANGE%FHR %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (RES>9 AND STAT91=-15)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (FRES>24 AND STAT91=-15)]: %NAME% {%RED%Fire %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (CRES>24 AND STAT91=-15)]: %NAME% {%BLUE%Cold %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (LRES>24 AND STAT91=-15)]: %NAME% {%YELLOW%Light %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (PRES>24 AND STAT91=-15)]: %NAME% {%GREEN%Psn %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (RES>9 AND STAT91=-15)]: %NAME% {%PURPLE%All %WHITE%Res %WHITE%* %ORANGE%-Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MAXDMG>9 AND RES>9)]: %NAME% {%TAN%Max Dmg %WHITE%* %PURPLE%All %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (MINDMG>6 AND RES>9)]: %NAME% {%TAN%Min Dmg %WHITE%* %PURPLE%All %WHITE%Res %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (IAS>0 AND RES>5)]: %NAME% {%ORANGE%IAS %WHITE%* %PURPLE%All %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (IAS>0 AND FRES>14)]: %NAME% {%ORANGE%IAS %WHITE%* %RED%Fire %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (IAS>0 AND CRES>19)]: %NAME% {%ORANGE%IAS %WHITE%* %BLUE%Cold %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (IAS>0 AND LRES>19)]: %NAME% {%ORANGE%IAS %WHITE%* %YELLOW%Light %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (IAS>0 AND PRES>19)]: %NAME% {%ORANGE%IAS %WHITE%* %GREEN%Psn %WHITE%Res %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE (IAS>0 AND RES>5)]: %NAME% {%ORANGE%IAS %WHITE%* %PURPLE%All %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (FHR>0 AND FRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %RED%Fire %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (FHR>0 AND CRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %BLUE%Cold %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (FHR>0 AND LRES>24)]: %NAME% {%ORANGE%FHR %WHITE%* %YELLOW%Light %WHITE%Res %BLUE%Jewel}
