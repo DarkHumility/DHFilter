@@ -1506,7 +1506,7 @@ ItemDisplay[lsd SET !ID]: %GREEN%Cleglaw's %NAME%%MAP%
 ItemDisplay[mgl SET !ID]: %RED%o %GREEN%Cleglaw's %NAME% %RED%o%MAP%
 ItemDisplay[sml SET !ID]: %GREEN%Cleglaw's %NAME%%MAP%
 ItemDisplay[buc SET !ID]: %GREEN%Hsarus' %NAME%%MAP%
-ItemDisplay[mbl SET !ID]: %GREEN%Hsarus' %NAME%%MAP%
+ItemDisplay[mbl SET !ID]: %GREEN%Hsarus' or Hwanin's %NAME%%MAP%
 ItemDisplay[mbt SET !ID]: %GREEN%Hsarus' %NAME%%MAP%
 ItemDisplay[cap SET !ID]: %RED%o %GREEN%Infernal or Sander's %NAME% %RED%o%MAP%
 ItemDisplay[tbl SET !ID]: %RED%o %GREEN%Infernal or Iratha's %NAME% %RED%o%MAP%
