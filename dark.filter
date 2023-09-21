@@ -277,7 +277,7 @@ ItemDisplay[r32s OR r32]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%run
 ItemDisplay[r33s OR r33]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 33}
 ///GEMS
 ItemDisplay[GEM=3 CLVL<26]: %NAME%
-ItemDisplay[GEM=2 CLVL<19]: %NAME%
+ItemDisplay[GEM=2 CLVL<21]: %NAME%
 ItemDisplay[GEM=1 CLVL<16]: %NAME%
 //Flawless
 ItemDisplay[(GEM=4 AND GEMTYPE=1) OR gzv OR gzvs]: %ORANGE%Amethyst
@@ -296,7 +296,7 @@ ItemDisplay[GEM=5 AND GEMTYPE=5 OR gpb OR gpbs]: %ORANGE%Sapphire+
 ItemDisplay[GEM=5 AND GEMTYPE=6 OR gpy OR gpys]: %ORANGE%Topaz+
 ItemDisplay[GEM=5 AND GEMTYPE=7 OR skz OR skzs]: %ORANGE%Skull+
 ItemDisplay[GEM=3 CLVL>25]:
-ItemDisplay[GEM=2 CLVL>18]:
+ItemDisplay[GEM=2 CLVL>20]:
 ItemDisplay[GEM=1 CLVL>15]:
 //Circlets,Amulets,Rings,Jewels
 ItemDisplay[EQ7 RARE !ETH !ID]: %YELLOW%ooo %NAME% ooo%MAP%
