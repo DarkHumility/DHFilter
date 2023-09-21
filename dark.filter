@@ -758,7 +758,7 @@ ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%] {%RED%B
 ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG CLVL<80]: %BLUE%o %NAME% o%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 //s8 PD2 Uniques
-ItemDisplay[7cm UNI !ID !ETH]: %RED%ooo Leoric's Mithril Bane ooo%MAP%
+ItemDisplay[7cm UNI !ID !ETH]: %RED%o %PURPLE%Leoric's Mithril Bane %RED%o%MAP%
 ItemDisplay[7cm UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Leoric's Mithril Bane %RED%ooo%MAP%
 ItemDisplay[7st UNI !ID !ETH]: %RED%o Uldyssian's Awakening o%MAP%
 ItemDisplay[7st UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Uldyssian's Awakening %RED%o%MAP%
@@ -1226,9 +1226,9 @@ ItemDisplay[9ss UNI !ID !ETH]: %GOLD%oo Bloodletter oo%MAP%
 ItemDisplay[9ss UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bloodletter oo%MAP%
 ItemDisplay[7cr UNI !ID]: %RED%oo %PURPLE%Lightsabre or Azurewrath %RED%oo%MAP%
 ItemDisplay[7b7 UNI !ID !ETH]: %RED%ooo Doombringer ooo%MAP%
-ItemDisplay[7b7 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Doombringer %RED%ooo%MAP%
-ItemDisplay[7gd UNI !ID !ETH]: %RED%ooo %PURPLE%The Grandfather %RED%ooo%MAP%
-ItemDisplay[7gd UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Grandfather %RED%oooo%MAP%
+ItemDisplay[7b7 UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Doombringer %RED%oooo%MAP%
+ItemDisplay[7gd UNI !ID !ETH]: %RED%oooo %PURPLE%The Grandfather %RED%oooo%MAP%
+ItemDisplay[7gd UNI !ID ETH]: %YELLOW%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Grandfather %YELLOW%oooo%MAP%
 ItemDisplay[7ls UNI !ID !ETH]: %RED%ooo Frostwind ooo%MAP%
 ItemDisplay[7ls UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Frostwind ooo%MAP%
 ItemDisplay[7gs UNI !ID !ETH]: %RED%ooo Flamebellow ooo%MAP%
