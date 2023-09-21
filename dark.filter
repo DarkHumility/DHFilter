@@ -2308,8 +2308,8 @@ ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw 
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) (!ETH AND !INF) AND (NMAG OR RW) SK270>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3dt%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) (!ETH AND !INF) AND (NMAG OR RW) SK254>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3ts%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) (!ETH AND !INF) AND (NMAG OR RW) SK275>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%3df%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) (!ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=3) CLVL<81: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=3) CLVL<81: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) (!ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=3) CLVL<81]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=3) CLVL<81]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //Silence
 ItemDisplay[7gd (!INF AND ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ////CATCHALL/HIDING
