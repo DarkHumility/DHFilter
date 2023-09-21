@@ -1,11 +1,11 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S8 v8.02
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S8 v8.04
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
 //Gold
 ItemDisplay[GOLD<1000 CLVL<65]:
-ItemDisplay[GOLD<5000 CLVL>65]:
+ItemDisplay[GOLD<5000 CLVL>64]:
 //HP & MPs
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
@@ -26,14 +26,33 @@ ItemDisplay[(mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
 ItemDisplay[tsc CLVL<16]: %GREEN%!%WHITE%TP
 ItemDisplay[isc CLVL<16]: %GREEN%!%WHITE%ID
 ItemDisplay[(tsc OR isc) CLVL>15]:
-ItemDisplay[vps CLVL<25]: %GRAY%!%WHITE%stam
+ItemDisplay[vps CLVL<26]: %GRAY%!%WHITE%stam
 ItemDisplay[vps CLVL>25]:
 ItemDisplay[wms]: %YELLOW%!%WHITE%t
 ItemDisplay[yps]: %GREEN%!%WHITE%a
 ItemDisplay[key CLVL<25]: %GRAY%Key%WHITE%
 ItemDisplay[key CLVL>24]:
-//Choking, Exploding, Fulminating, Oil, Rancid, Strangling
-ItemDisplay[(gpm OR opm OR opl OR ops OR gps OR gpl) CLVL>15]:
+//S8 Throwing Potions
+ItemDisplay[tpfs CLVL<16]: %WHITE%!%ORANGE%Fulm%WHITE%!
+ItemDisplay[tpfs CLVL>15]:
+ItemDisplay[tpfm CLVL<30]: %WHITE%!%ORANGE%Expl%WHITE%!
+ItemDisplay[tpfm CLVL>29]:
+ItemDisplay[tpfl]: %WHITE%!%ORANGE%Oil%WHITE%!
+ItemDisplay[tpgs CLVL<16]: %WHITE%!%GREEN%Stra%WHITE%!
+ItemDisplay[tpgs CLVL>15]:
+ItemDisplay[tpgm CLVL<30]: %WHITE%!%GREEN%Chok%WHITE%!
+ItemDisplay[tpgm CLVL>29]:
+ItemDisplay[tpgl]: %WHITE%!%GREEN%Ranc%WHITE%!
+ItemDisplay[tpcs CLVL<16]: %WHITE%!%BLUE%Chil%WHITE%!
+ItemDisplay[tpcs CLVL>15]:
+ItemDisplay[tpcm CLVL<30]: %WHITE%!%BLUE%Fros%WHITE%!
+ItemDisplay[tpcm CLVL>29]:
+ItemDisplay[tpcl]: %WHITE%!%BLUE%Free%WHITE%!
+ItemDisplay[tpls CLVL<16]: %WHITE%!%YELLOW%Char%WHITE%!
+ItemDisplay[tpls CLVL>15]:
+ItemDisplay[tplm CLVL<30]: %WHITE%!%YELLOW%Stat%WHITE%!
+ItemDisplay[tplm CLVL>29]:
+ItemDisplay[tpll]: %WHITE%!%YELLOW%Shoc%WHITE%!
 //Quivers & Bolts
 ItemDisplay[(aqv OR cqv) RARE]: %NAME%
 ItemDisplay[(aqv OR cqv) NMAG CLVL>12]:
