@@ -1210,8 +1210,8 @@ ItemDisplay[92h UNI !ID !ETH]: %GOLD%oo Crainte Vomir oo%MAP%
 ItemDisplay[92h UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Crainte Vomir oo%MAP%
 ItemDisplay[9cm UNI !ID !ETH]: %GOLD%Bing Sz Wang%MAP%
 ItemDisplay[9cm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bing Sz Wang%MAP%
-ItemDisplay[9b9 UNI !ID !ETH]: %GOLD%Cloudcrack%MAP%
-ItemDisplay[9b9 UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cloudcrack%MAP%
+ItemDisplay[9b9 UNI !ID !ETH]: %GOLD%ooo Cloudcrack ooo%MAP%
+ItemDisplay[9b9 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Cloudcrack o%MAP%
 ItemDisplay[9fb UNI !ID !ETH]: %GOLD%ooo Todesfaelle Flamme ooo%MAP%
 ItemDisplay[9fb UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Todesfaelle Flamme ooo%MAP%
 ItemDisplay[9gd UNI !ID !ETH]: %GOLD%o Swordguard o%MAP%
@@ -1249,7 +1249,7 @@ ItemDisplay[9ls UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Plague Beare
 ItemDisplay[9ss UNI !ID !ETH]: %GOLD%oo Bloodletter oo%MAP%
 ItemDisplay[9ss UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Bloodletter oo%MAP%
 ItemDisplay[7cr UNI !ID]: %RED%oo %PURPLE%Lightsabre or Azurewrath %RED%oo%MAP%
-ItemDisplay[7b7 UNI !ID !ETH]: %RED%ooo Doombringer ooo%MAP%
+ItemDisplay[7b7 UNI !ID !ETH]: %RED%o %PURPLE%Doombringer %RED%o%MAP%
 ItemDisplay[7b7 UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Doombringer %RED%oooo%MAP%
 ItemDisplay[7gd UNI !ID !ETH]: %RED%oooo %PURPLE%The Grandfather %RED%oooo%MAP%
 ItemDisplay[7gd UNI !ID ETH]: %YELLOW%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Grandfather %YELLOW%oooo%MAP%
@@ -1257,8 +1257,8 @@ ItemDisplay[7ls UNI !ID !ETH]: %RED%ooo Frostwind ooo%MAP%
 ItemDisplay[7ls UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Frostwind ooo%MAP%
 ItemDisplay[7gs UNI !ID !ETH]: %RED%ooo Flamebellow ooo%MAP%
 ItemDisplay[7gs UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Flamebellow ooo%MAP%
-ItemDisplay[9gs UNI !ID !ETH]: %GOLD%ooo The Vile Husk ooo%MAP%
-ItemDisplay[9gs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%The Vile Husk o%MAP%
+ItemDisplay[9gs UNI !ID !ETH]: %RED%o The Vile Husk o%MAP%
+ItemDisplay[9gs UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%The Vile Husk oo%MAP%
 ItemDisplay[7dg UNI !ID !ETH]: %RED%oo Wizardspike oo%MAP%
 ItemDisplay[9kr UNI !ID !ETH]: %RED%o Blackbog's Sharp o%MAP%
 ItemDisplay[9kr UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Blackbog's Sharp o%MAP%
