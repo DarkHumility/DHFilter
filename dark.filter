@@ -30,33 +30,34 @@ ItemDisplay[vps CLVL<26]: %GRAY%!%WHITE%stam
 ItemDisplay[vps CLVL>25]:
 ItemDisplay[wms]: %YELLOW%!%WHITE%t
 ItemDisplay[yps]: %GREEN%!%WHITE%a
-ItemDisplay[key CLVL<25]: %GRAY%Key%WHITE%
+ItemDisplay[key CLVL<25]: %GRAY%Key
 ItemDisplay[key CLVL>24]:
 //S8 Throwing Potions
-ItemDisplay[tpfs CLVL<16]: %WHITE%!%ORANGE%Fulm%WHITE%!
+ItemDisplay[tpfs CLVL<16]: %WHITE%!%ORANGE%F
 ItemDisplay[tpfs CLVL>15]:
-ItemDisplay[tpfm CLVL<30]: %WHITE%!%ORANGE%Expl%WHITE%!
+ItemDisplay[tpfm CLVL<30]: %WHITE%!%ORANGE%E
 ItemDisplay[tpfm CLVL>29]:
-ItemDisplay[tpfl]: %WHITE%!%ORANGE%Oil%WHITE%!
-ItemDisplay[tpgs CLVL<16]: %WHITE%!%GREEN%Stra%WHITE%!
+ItemDisplay[tpfl]: %WHITE%!%ORANGE%O
+ItemDisplay[tpgs CLVL<16]: %WHITE%!%GREEN%S
 ItemDisplay[tpgs CLVL>15]:
-ItemDisplay[tpgm CLVL<30]: %WHITE%!%GREEN%Chok%WHITE%!
+ItemDisplay[tpgm CLVL<30]: %WHITE%!%GREEN%C
 ItemDisplay[tpgm CLVL>29]:
-ItemDisplay[tpgl]: %WHITE%!%GREEN%Ranc%WHITE%!
-ItemDisplay[tpcs CLVL<16]: %WHITE%!%BLUE%Chil%WHITE%!
+ItemDisplay[tpgl]: %WHITE%!%GREEN%R
+ItemDisplay[tpcs CLVL<16]: %WHITE%!%BLUE%C
 ItemDisplay[tpcs CLVL>15]:
-ItemDisplay[tpcm CLVL<30]: %WHITE%!%BLUE%Fros%WHITE%!
+ItemDisplay[tpcm CLVL<30]: %WHITE%!%BLUE%Fro
 ItemDisplay[tpcm CLVL>29]:
-ItemDisplay[tpcl]: %WHITE%!%BLUE%Free%WHITE%!
-ItemDisplay[tpls CLVL<16]: %WHITE%!%YELLOW%Char%WHITE%!
+ItemDisplay[tpcl]: %WHITE%!%BLUE%Fre
+ItemDisplay[tpls CLVL<16]: %WHITE%!%YELLOW%C
 ItemDisplay[tpls CLVL>15]:
-ItemDisplay[tplm CLVL<30]: %WHITE%!%YELLOW%Stat%WHITE%!
+ItemDisplay[tplm CLVL<30]: %WHITE%!%YELLOW%St
 ItemDisplay[tplm CLVL>29]:
-ItemDisplay[tpll]: %WHITE%!%YELLOW%Shoc%WHITE%!
+ItemDisplay[tpll]: %WHITE%!%YELLOW%Sh
 //Quivers & Bolts
 ItemDisplay[(aqv OR cqv) RARE]: %NAME%
+ItemDisplay[(aqv OR cqv) MAG]: %NAME%
 ItemDisplay[(aqv OR cqv) NMAG CLVL>12]:
-ItemDisplay[(aqv OR cqv) MAG CLVL>80]:
+ItemDisplay[(aqv OR cqv) MAG CLVL>90]:
 //Quest items
 ItemDisplay[bbb]: %GOLD%%NAME%%MAP%
 ItemDisplay[ass]: %GOLD%%NAME%%MAP%
@@ -77,10 +78,14 @@ ItemDisplay[ice]: %GOLD%%NAME%%MAP%
 ItemDisplay[std]: %RED%%NAME%%MAP%
 //PD2 Items
 ItemDisplay[imma]: %YELLOW%o %NAME%%YELLOW% o%MAP% {%WHITE%+ %BLUE%Jewel %NL%%WHITE% Imbue White to %BLUE%Magic Map}
+ItemDisplay[irma]: %YELLOW%ooo %NAME%%YELLOW% ooo%MAP% {%WHITE% Imbue White to %BLUE%Magic Map}
 ItemDisplay[imra]: %RED%o %NAME%%RED% o%MAP% {%WHITE%+ %BLUE%Jewel %WHITE%+ %TAN%Thul>%NL%%WHITE%White to %YELLOW%Rare Map}
+ItemDisplay[irra]: %RED%ooo %NAME%%RED% ooo%MAP% {%WHITE%White to %YELLOW%Rare Map}
 ItemDisplay[rera]: %ORANGE%o %NAME%%ORANGE% o%MAP% {%WHITE%+ PGem + %TAN%Thul>%NL%%WHITE%Reroll %YELLOW%Rare Map}
+ItemDisplay[rrra]: %ORANGE%ooo %NAME%%ORANGE% ooo%MAP% {%WHITE%Reroll %YELLOW%Rare Map}
 ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP% {%WHITE%Return to White Map}
 ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP% {%WHITE%+ PSkull + %TAN%Thul>%NL%%WHITE%Upg %BLUE%Magic %WHITE%to %YELLOW%Rare Map}
+ItemDisplay[urma]: %BLUE%ooo %NAME%%BLUE% ooo%MAP% {%WHITE%Upg %BLUE%Magic %WHITE%to %YELLOW%Rare Map}
 ItemDisplay[upmp]: %GRAY%o %NAME%%GRAY% o%MAP% {%WHITE%+ Three %WHITE%M%BLUE%A%YELLOW%P%WHITE%s of Same Tier %NL%%WHITE%Upg Maps to Next Tier}
 ItemDisplay[fort]: %TAN%o %NAME%%TAN% o%MAP% {%RED%2x Monster HP %WHITE%* %RED%+20% Monster Dmg %WHITE%* %RED%-50% Density %NL%%WHITE%Map * %GREEN%2x Loot %WHITE%* %GREEN%2x EXP}
 ItemDisplay[scrb]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Tier 3 %RED%Map %NL%%WHITE%Turns %RED%Map%WHITE% into %PURPLE%Dungeon%PURPLE%}
@@ -796,8 +801,8 @@ ItemDisplay[6bs UNI !ID !ETH]: %RED%oooo %PURPLE%Brimstone Rain %RED%oooo%MAP%
 ItemDisplay[6bs UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Brimstone Rain %RED%oooo%MAP%
 ItemDisplay[7qs UNI !ID !ETH]: %RED%ooo %PURPLE%Akarat's Devotion %RED%ooo%MAP%
 ItemDisplay[7qs UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Akarat's Devotion %RED%ooo%MAP%
-ItemDisplay[7tw UNI !ID !ETH]: %RED%o %PURPLE%Stalker's Cull %RED%o%MAP%
-ItemDisplay[7tw UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stalker's Cull %RED%o%MAP%
+ItemDisplay[7tw UNI !ID !ETH]: %RED%oo %PURPLE%Stalker's Cull %RED%oo%MAP%
+ItemDisplay[7tw UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stalker's Cull %RED%ooo%MAP%
 ItemDisplay[baf UNI !ID !ETH]: %RED%oo %PURPLE%Raekor's Virtue %RED%oo%MAP%
 ItemDisplay[baf UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Raekor's Virtue %RED%oo%MAP%
 ItemDisplay[utp UNI !ID !ETH]: %RED%ooo Purgatory ooo%MAP%
@@ -1337,7 +1342,7 @@ ItemDisplay[8sb UNI !ID]: %GOLD%Skystrike%MAP%
 ItemDisplay[8hb UNI !ID]: %GOLD%Riphook%MAP%
 ItemDisplay[8lb UNI !ID]: %GOLD%o Kuko Shakaku o%MAP%
 ItemDisplay[8cb UNI !ID]: %GOLD%oo Endlesshail oo%MAP%
-ItemDisplay[8l8 UNI !ID]: %GOLD%oo Cliffkiller oo%MAP%
+ItemDisplay[8l8 UNI !ID]: %RED%oo Cliffkiller oo%MAP%
 ItemDisplay[8sw UNI !ID]: %RED%oo Magewrath oo%MAP%
 ItemDisplay[8s8 UNI !ID]: %RED%ooo Witchwild String ooo%MAP%
 ItemDisplay[6l7 UNI !ID]: %RED%ooo Eaglehorn ooo%MAP%
