@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S8 v8.06
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S8 v8.07
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -1100,8 +1100,8 @@ ItemDisplay[btx UNI !ID !ETH]: %GOLD%The Chieftain%MAP%
 ItemDisplay[btx UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Chieftain%MAP%
 ItemDisplay[gax UNI !ID !ETH]: %GOLD%Brainhew%MAP%
 ItemDisplay[gax UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Brainhew%MAP%
-ItemDisplay[gix UNI !ID !ETH]: %GOLD%Humongous%MAP%
-ItemDisplay[gix UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Humongous%MAP%
+ItemDisplay[gix UNI !ID !ETH]: %GOLD%ooo Humongous ooo%MAP%
+ItemDisplay[gix UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Humongous o%MAP%
 ItemDisplay[9ha UNI !ID !ETH]: %GOLD%o Coldkill o%MAP%
 ItemDisplay[9ha UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Coldkill o%MAP%
 ItemDisplay[9ax UNI !ID !ETH]: %GOLD%ooo Butcher's Pupil ooo%MAP%
@@ -1156,8 +1156,8 @@ ItemDisplay[7mt UNI !ID !ETH]: %GOLD%ooo Baranar's Star ooo%MAP%
 ItemDisplay[7mt UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Baranar's Star%MAP%
 ItemDisplay[7wa UNI !ID !ETH]: %RED%oo %PURPLE%Death Cleaver %RED%oo%MAP%
 ItemDisplay[7wa UNI !ID ETH]: %YELLOW%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Death Cleaver %YELLOW%oooo%MAP%
-ItemDisplay[7bt UNI !ID !ETH]: %GOLD%oo Hellslayer oo%MAP%
-ItemDisplay[7bt UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Hellslayer %RED%oo%MAP%
+ItemDisplay[7bt UNI !ID !ETH]: %RED%oo Hellslayer oo%MAP%
+ItemDisplay[7bt UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Hellslayer %RED%o%MAP%
 ItemDisplay[7gi UNI !ID !ETH]: %RED%oo %PURPLE%Executioner's Justice %RED%oo%MAP%
 ItemDisplay[7gi UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Executioner's Justice %RED%oooo%MAP%
 ItemDisplay[9ba UNI !ID !ETH]: %GOLD%ooo Spellsteel ooo%MAP%
@@ -1172,8 +1172,8 @@ ItemDisplay[9gm UNI !ID !ETH]: %RED%ooo The Gavel of Pain ooo%MAP%
 ItemDisplay[9gm UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Gavel of Pain %RED%oooo%MAP%
 ItemDisplay[7fl UNI !ID !ETH]: %RED%ooo %PURPLE%Horizon's Tornado or Stormlash %RED%ooo%MAP%
 ItemDisplay[7fl UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Horizon's Tornado or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stormlash %RED%ooo%MAP%
-ItemDisplay[7m7 UNI !ID !ETH]: %RED%o %PURPLE%Windhammer %RED%o%MAP%
-ItemDisplay[7m7 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Windhammer oo%MAP%
+ItemDisplay[7m7 UNI !ID !ETH]: %RED%ooo Windhammer ooo%MAP%
+ItemDisplay[7m7 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Windhammer o%MAP%
 ItemDisplay[scm UNI !ID !ETH]: %GOLD%o Blood Crescent o%MAP%
 ItemDisplay[scm UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blood Crescent o%MAP%
 ItemDisplay[sbr UNI !ID !ETH]: %GOLD%Skewer of Krintiz%MAP%
