@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S9 v9.01
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S9 v9.02
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -77,13 +77,13 @@ ItemDisplay[xyz]: %GOLD%%NAME%%MAP%
 ItemDisplay[ice]: %GOLD%%NAME%%MAP%
 ItemDisplay[std]: %RED%%NAME%%MAP%
 //PD2 Items
-ItemDisplay[crfb]: %RED%<%WHITE%>%RED%<%WHITE%> %TAN%Blood Craft Infusion %WHITE%<%RED%>%WHITE%<%RED%>
-ItemDisplay[crfc]: %PURPLE%<%WHITE%>%PURPLE%<%WHITE%> %TAN%Caster Craft Infusion %WHITE%<%PURPLE%>%WHITE%<%PURPLE%>
-ItemDisplay[crfs]: %GREEN%<%WHITE%>%GREEN%<%WHITE%> %TAN%Safety Craft Infusion %WHITE%<%GREEN%>%WHITE%<%GREEN%>
-ItemDisplay[crfh]: %BLUE%<%WHITE%>%BLUE%<%WHITE%> %TAN%Hit Power Craft Infusion %WHITE%<%BLUE%>%WHITE%<%BLUE%>
-ItemDisplay[crfv]: %GRAY%<%WHITE%>%GRAY%<%WHITE%> %TAN%Vampiric Craft Infusion %WHITE%<%GRAY%>%WHITE%<%GRAY%>
-ItemDisplay[crfu]: %YELLOW%<%WHITE%>%YELLOW%<%WHITE%> %TAN%Bountiful Craft Infusion %WHITE%<%YELLOW%>%WHITE%<%YELLOW%>
-ItemDisplay[crfp]: %LIGHT GRAY%<%WHITE%>%LIGHT GRAY%<%WHITE%> %TAN%Prismatic Craft Infusion %WHITE%<%LIGHT GRAY%>%WHITE%<%LIGHT GRAY%>
+ItemDisplay[crfb]: %RED%<%WHITE%>%RED%<%WHITE%> %TAN%Blood Craft Infusion %WHITE%<%RED%>%WHITE%<%RED%>%MAP%
+ItemDisplay[crfc]: %PURPLE%<%WHITE%>%PURPLE%<%WHITE%> %TAN%Caster Craft Infusion %WHITE%<%PURPLE%>%WHITE%<%PURPLE%>%MAP%
+ItemDisplay[crfs]: %GREEN%<%WHITE%>%GREEN%<%WHITE%> %TAN%Safety Craft Infusion %WHITE%<%GREEN%>%WHITE%<%GREEN%>%MAP%
+ItemDisplay[crfh]: %BLUE%<%WHITE%>%BLUE%<%WHITE%> %TAN%Hit Power Craft Infusion %WHITE%<%BLUE%>%WHITE%<%BLUE%>%MAP%
+ItemDisplay[crfv]: %GRAY%<%WHITE%>%GRAY%<%WHITE%> %TAN%Vampiric Craft Infusion %WHITE%<%GRAY%>%WHITE%<%GRAY%>%MAP%
+ItemDisplay[crfu]: %YELLOW%<%WHITE%>%YELLOW%<%WHITE%> %TAN%Bountiful Craft Infusion %WHITE%<%YELLOW%>%WHITE%<%YELLOW%>%MAP%
+ItemDisplay[crfp]: %BLACK%<%WHITE%>%BLACK%<%WHITE%> %TAN%Prismatic Craft Infusion %WHITE%<%BLACK%>%WHITE%<%BLACK%>%MAP%
 ItemDisplay[imma]: %YELLOW%o %NAME%%YELLOW% o%MAP% {%WHITE%+ %BLUE%Jewel %NL%%WHITE% Imbue White to %BLUE%Magic Map}
 ItemDisplay[irma]: %YELLOW%ooo %NAME%%YELLOW% ooo%MAP% {%WHITE% Imbue White to %BLUE%Magic Map}
 ItemDisplay[imra]: %RED%o %NAME%%RED% o%MAP% {%WHITE%+ %BLUE%Jewel %WHITE%+ %TAN%Thul>%NL%%WHITE%White to %YELLOW%Rare Map}
