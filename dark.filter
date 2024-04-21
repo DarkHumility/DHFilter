@@ -916,8 +916,8 @@ ItemDisplay[ci3 UNI !ID !ETH]: %YELLOW%oooo %PURPLE%Griffon's Eye %YELLOW%oooo%M
 ItemDisplay[ci3 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Griffon's Eye %RED%o%MAP%
 ItemDisplay[ci2 UNI !ID !ETH]: %RED%ooo %PURPLE%Kira's Guardian %RED%ooo%MAP%
 ItemDisplay[ci2 UNI !ID ETH]: %RED%o%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Kira's Guardian %RED%o%MAP%
-ItemDisplay[xsk UNI !ID !ETH]: %GOLD%ooo Blackhorn's Face ooo%MAP%
-ItemDisplay[xsk UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blackhorn's Face ooo%MAP%
+ItemDisplay[xsk UNI !ID !ETH]: %RED%o %PURPLE%Blackhorn's Face %RED%o%MAP%
+ItemDisplay[xsk UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Blackhorn's Face ooo%MAP%
 ItemDisplay[hla UNI !ID !ETH]: %GOLD%The Centurion%MAP%
 ItemDisplay[hla UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Centurion%MAP%
 ItemDisplay[stu UNI !ID !ETH]: %GOLD%oo Twitchthroe oo%MAP%
