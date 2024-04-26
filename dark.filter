@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S9 v9.06
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S9 v9.07
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -916,7 +916,7 @@ ItemDisplay[ci3 UNI !ID !ETH]: %YELLOW%oooo %PURPLE%Griffon's Eye %YELLOW%oooo%M
 ItemDisplay[ci3 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Griffon's Eye %RED%o%MAP%
 ItemDisplay[ci2 UNI !ID !ETH]: %RED%ooo %PURPLE%Kira's Guardian %RED%ooo%MAP%
 ItemDisplay[ci2 UNI !ID ETH]: %RED%o%GRAY%[%WHITE%eth%GRAY%] %PURPLE%Kira's Guardian %RED%o%MAP%
-ItemDisplay[xsk UNI !ID !ETH]: %RED%o %PURPLE%Blackhorn's Face %RED%o%MAP%
+ItemDisplay[xsk UNI !ID !ETH]: %RED%ooo Blackhorn's Face ooo%MAP%
 ItemDisplay[xsk UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Blackhorn's Face ooo%MAP%
 ItemDisplay[hla UNI !ID !ETH]: %GOLD%The Centurion%MAP%
 ItemDisplay[hla UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Centurion%MAP%
@@ -1040,8 +1040,8 @@ ItemDisplay[xmg UNI !ID !ETH]: %RED%o Ghoulhide o%MAP%
 ItemDisplay[xmg UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Ghoulhide ooo%MAP%
 ItemDisplay[xtg UNI !ID !ETH]: %RED%ooo Lava Gout ooo%MAP%
 ItemDisplay[xtg UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Lava Gout ooo%MAP%
-ItemDisplay[uvg UNI !ID !ETH]: %RED%ooo Dracul's Grasp ooo%MAP%
-ItemDisplay[uvg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Dracul's Grasp %RED%o%MAP%
+ItemDisplay[uvg UNI !ID !ETH]: %RED%oo %PURPLE%Dracul's Grasp %REDoo%MAP%
+ItemDisplay[uvg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Dracul's Grasp %RED%oo%MAP%
 ItemDisplay[umg UNI !ID !ETH]: %RED%ooo %PURPLE%Soul Drainer %RED%ooo%MAP%
 ItemDisplay[umg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Soul Drainer %RED%o%MAP%
 ItemDisplay[uhg UNI !ID !ETH]: %RED%ooo %PURPLE%Steelrend %RED%ooo%MAP%
@@ -1481,116 +1481,226 @@ ItemDisplay[7sr UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Arioc's N
 ItemDisplay[7bl UNI !ID ETH]: %RED%o %PURPLE%Ghostflame %RED%o%MAP%
 ItemDisplay[7o7 UNI !ID !ETH]: %RED%o Bonehew o%MAP%
 ItemDisplay[7o7 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Bonehew %RED%oo%MAP%
-ItemDisplay[xtb SET !ID]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
-ItemDisplay[dr8 SET !ID]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
-ItemDisplay[uul SET !ID]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
-ItemDisplay[9mt SET !ID]: %RED%o %GREEN%Aldur's %NAME% %RED%o%MAP%
-ItemDisplay[xh9 SET !ID]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
-ItemDisplay[7qr SET !ID]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
-ItemDisplay[ucl SET !ID]: %RED%ooo %GREEN%Natalya's %NAME% %RED%ooo%MAP%
-ItemDisplay[xmb SET !ID]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
-ItemDisplay[oba SET !ID]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
-ItemDisplay[xsk SET !ID]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
-ItemDisplay[uth SET !ID]: %RED%oooo %GREEN%Tal Rasha's %NAME% %RED%oooo%MAP%
-ItemDisplay[zmb SET !ID]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
-ItemDisplay[uh9 SET !ID]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
-ItemDisplay[xul SET !ID]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
-ItemDisplay[ne9 SET !ID]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
-ItemDisplay[utc SET !ID]: %RED%ooo %GREEN%Trang-Oul's %NAME% %RED%ooo%MAP%
-ItemDisplay[xmg SET !ID]: %RED%ooo %GREEN%Trang-Oul's %NAME% %RED%ooo%MAP%
-ItemDisplay[xar SET !ID]: %RED%oo %GREEN%Griswold's %NAME% %RED%oo%MAP%
-ItemDisplay[urn SET !ID]: %RED%ooo %GREEN%Griswold's %NAME% %RED%ooo%MAP%
-ItemDisplay[7ws SET !ID]: %RED%oooo %GREEN%Griswold's %NAME% %RED%oooo%MAP%
-ItemDisplay[paf SET !ID]: %RED%oooo %GREEN%Griswold's %NAME% %RED%oooo%MAP%
-ItemDisplay[ci3 SET !ID]: %RED%ooo %GREEN%Mavina's %NAME% %RED%ooo%MAP%
-ItemDisplay[amc SET !ID]: %RED%oo %GREEN%Mavina's %NAME% %RED%oo%MAP%
-ItemDisplay[uld SET !ID]: %RED%ooo %GREEN%Mavina's %NAME% %RED%ooo%MAP%
-ItemDisplay[xtg SET !ID]: %RED%oo %GREEN%Mavina's %NAME% %RED%oo%MAP%
-ItemDisplay[zvb SET !ID]: %RED%o %GREEN%Mavina's %NAME% %RED%o%MAP%
-ItemDisplay[ba5 SET !ID]: %RED%oo %GREEN%Immortal King's %NAME% %RED%oo%MAP%
-ItemDisplay[7m7 SET !ID]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
-ItemDisplay[uar SET !ID]: %RED%oooo %GREEN%Immortal King's %NAME% %RED%oooo%MAP%
-ItemDisplay[zhb SET !ID]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
-ItemDisplay[xhg SET !ID]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
-ItemDisplay[xhb SET !ID]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
-ItemDisplay[7gd SET !ID]: %RED%oo %GREEN%Bul-Kathos' %NAME% %RED%oo%MAP%
-ItemDisplay[7fb SET !ID]: %RED%oo %GREEN%Bul-Kathos' %NAME% %RED%oo%MAP%
-ItemDisplay[lgl SET !ID]: %GREEN%oo %GREEN%Death's %NAME% oo%MAP%
-ItemDisplay[lbl SET !ID]: %GREEN%oo %GREEN%Death's %NAME% oo%MAP%
-ItemDisplay[wsd SET !ID]: %GREEN%Death's %NAME%%MAP%
-ItemDisplay[xap SET !ID]: %RED%oo %GREEN%Cow King's %NAME% %RED%oo%MAP%
-ItemDisplay[stu SET !ID]: %RED%oo %GREEN%Cow King's %NAME% %RED%oo%MAP%
-ItemDisplay[vbt SET !ID]: %RED%oo %GREEN%Sander's or Cow King's %NAME% %RED%oo%MAP%
-ItemDisplay[rng SET !ID]: %GREEN%Angelic %NAME%%MAP%
-ItemDisplay[sbr SET !ID]: %GREEN%Angelic %NAME%%MAP%
-ItemDisplay[skp SET !ID]: %GREEN%Arcanna's %NAME%%MAP%
-ItemDisplay[ltp SET !ID]: %GREEN%Arcanna's %NAME%%MAP%
-ItemDisplay[wst SET !ID]: %GREEN%Arcanna's %NAME%%MAP%
-ItemDisplay[qui SET !ID]: %GREEN%Arctic %NAME%%MAP%
-ItemDisplay[vbl SET !ID]: %GREEN%Arctic %NAME%%MAP%
-ItemDisplay[tgl SET !ID]: %RED%o %GREEN%Arctic or Iratha's %NAME% %RED%o%MAP%
-ItemDisplay[swb SET !ID]: %GREEN%Arctic %NAME%%MAP%
-ItemDisplay[hlm SET !ID]: %GREEN%Berserker's %NAME%%MAP%
-ItemDisplay[spl SET !ID]: %GREEN%Berserker's %NAME%%MAP%
-ItemDisplay[2ax SET !ID]: %GREEN%Berserker's %NAME%%MAP%
-ItemDisplay[msk SET !ID]: %GREEN%Cathan's %NAME%%MAP%
-ItemDisplay[chn SET !ID]: %GREEN%Cathan's %NAME%%MAP%
-ItemDisplay[bst SET !ID]: %GREEN%Cathan's %NAME%%MAP%
-ItemDisplay[gsc SET !ID]: %GREEN%Civerb's %NAME%%MAP%
-ItemDisplay[lrg SET !ID]: %GREEN%Civerb's %NAME%%MAP%
-ItemDisplay[lsd SET !ID]: %GREEN%Cleglaw's %NAME%%MAP%
-ItemDisplay[mgl SET !ID]: %RED%o %GREEN%Cleglaw's %NAME% %RED%o%MAP%
-ItemDisplay[sml SET !ID]: %GREEN%Cleglaw's %NAME%%MAP%
-ItemDisplay[buc SET !ID]: %GREEN%Hsarus' %NAME%%MAP%
-ItemDisplay[mbl SET !ID]: %GREEN%Hsarus' or Hwanin's %NAME%%MAP%
-ItemDisplay[mbt SET !ID]: %GREEN%Hsarus' %NAME%%MAP%
-ItemDisplay[cap SET !ID]: %RED%o %GREEN%Infernal or Sander's %NAME% %RED%o%MAP%
-ItemDisplay[tbl SET !ID]: %RED%o %GREEN%Infernal or Iratha's %NAME% %RED%o%MAP%
-ItemDisplay[dgr SET !ID]: %GREEN%Infernal %NAME%%MAP%
-ItemDisplay[crn SET !ID]: %RED%o %GREEN%Iratha's or Milabrega's %NAME% %RED%o%MAP%
-ItemDisplay[bsd SET !ID]: %GREEN%Isenhart's %NAME%%MAP%
-ItemDisplay[fhl SET !ID]: %GREEN%Isenhart's %NAME%%MAP%
-ItemDisplay[brs SET !ID]: %GREEN%Isenhart's %NAME%%MAP%
-ItemDisplay[gts SET !ID]: %GREEN%Isenhart's %NAME%%MAP%
-ItemDisplay[aar SET !ID]: %GREEN%Milabrega's %NAME%%MAP% 
-ItemDisplay[kit SET !ID]: %RED%o %GREEN%Milabrega's %NAME% %RED%o%MAP%
-ItemDisplay[wsp SET !ID]: %GREEN%Milabrega's %NAME%%MAP%
-ItemDisplay[ghm SET !ID]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
-ItemDisplay[gth SET !ID]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
-ItemDisplay[hbt SET !ID]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
-ItemDisplay[tow SET !ID]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
-ItemDisplay[hbl SET !ID]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
-ItemDisplay[hgl SET !ID]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
-ItemDisplay[bhm SET !ID]: %GREEN%Tancred's %NAME%%MAP%
-ItemDisplay[ful SET !ID]: %GREEN%Tancred's %NAME%%MAP%
-ItemDisplay[lbt SET !ID]: %RED%o %GREEN%Tancred's %NAME% %RED%o%MAP%
-ItemDisplay[mpi SET !ID]: %GREEN%Tancred's %NAME%%MAP%
-ItemDisplay[lbb SET !ID]: %GREEN%Vidala's %NAME%%MAP%
-ItemDisplay[lea SET !ID]: %GREEN%Vidala's %NAME%%MAP%
-ItemDisplay[tbt SET !ID]: %GREEN%Vidala's %NAME%%MAP%
-ItemDisplay[ulg SET !ID]: %RED%ooo %GREEN%Laying of Hands %NAME% %RED%ooo%MAP%
-ItemDisplay[uui SET !ID]: %RED%o %GREEN%Dark Adherent %NAME% %RED%o%MAP%
-ItemDisplay[xlb SET !ID]: %RED%o %GREEN%Rite of Passage %NAME% %RED%o%MAP%
-ItemDisplay[umc SET !ID]: %RED%oo %GREEN%Credendum %NAME% %RED%oo%MAP%
-ItemDisplay[xrs SET !ID]: %RED%oo %GREEN%Haemosu's Adamant %NAME% %RED%oo%MAP%
-ItemDisplay[7ma SET !ID]: %RED%o %GREEN%Dangoon's Teaching %NAME% %RED%o%MAP%
-ItemDisplay[uts SET !ID]: %RED%ooo %GREEN%Taebaek's Glory %NAME% %RED%ooo%MAP%
-ItemDisplay[uhm SET !ID]: %RED%oo %GREEN%Ondal's Almighty %NAME% %RED%oo%MAP%
-ItemDisplay[xrn SET !ID]: %RED%o %GREEN%Hwanin's %NAME% %RED%o%MAP%
-ItemDisplay[9vo SET !ID]: %GREEN%Hwanin's %NAME%%MAP%
-ItemDisplay[xcl SET !ID]: %RED%o %GREEN%Hwanin's %NAME% %RED%o%MAP%
-ItemDisplay[ci0 SET !ID]: %RED%o %GREEN%Naj's %NAME% %RED%o%MAP%
-ItemDisplay[ult SET !ID]: %RED%oo %GREEN%Naj's %NAME% %RED%oo%MAP%
-ItemDisplay[6cs SET !ID]: %RED%oo %GREEN%Naj's %NAME% %RED%oo%MAP%
-ItemDisplay[xhm SET !ID]: %RED%ooo %GREEN%Guillaume's Face %NAME% %RED%ooo%MAP%
-ItemDisplay[xml SET !ID]: %RED%o %GREEN%Whitstan's Guard %NAME% %RED%o%MAP%
-ItemDisplay[xvg SET !ID]: %RED%oo %GREEN%Magnus' Skin %NAME% %RED%oo%MAP%
-ItemDisplay[ztb SET !ID]: %RED%o %GREEN%Wilhelm's Pride %NAME% %RED%o%MAP%
-ItemDisplay[bwn SET !ID]: %GREEN%Sander's %NAME%%MAP%
-ItemDisplay[vgl SET !ID]: %RED%o %GREEN%Sander's %NAME% %RED%o%MAP%
-ItemDisplay[xhl SET !ID]: %RED%o %GREEN%Sazabi's %NAME% %RED%o%MAP%
-ItemDisplay[7ls SET !ID]: %RED%o %GREEN%Sazabi's %NAME% %RED%o%MAP%
-ItemDisplay[upl SET !ID]: %RED%o %GREEN%Sazabi's %NAME% %RED%o%MAP%
+ItemDisplay[xtb SET !ID !ETH]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
+ItemDisplay[xtb SET !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %GREEN%Aldur's %NAME% %RED%ooo%MAP%
+ItemDisplay[dr8 SET !ID !ETH]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
+ItemDisplay[dr8 SET !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %GREEN%Aldur's %NAME% %RED%ooo%MAP%
+ItemDisplay[uul SET !ID !ETH]: %RED%ooo %GREEN%Aldur's %NAME% %RED%ooo%MAP%
+ItemDisplay[uul SET !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %GREEN%Aldur's %NAME% %RED%ooo%MAP%
+ItemDisplay[9mt SET !ID !ETH]: %RED%o %GREEN%Aldur's %NAME% %RED%o%MAP%
+ItemDisplay[9mt SET !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %GREEN%Aldur's %NAME% %RED%o%MAP%
+ItemDisplay[xh9 SET !ID !ETH]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
+ItemDisplay[xh9 SET !ID ETH]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
+ItemDisplay[7qr SET !ID !ETH]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
+ItemDisplay[7qr SET !ID ETH]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
+ItemDisplay[ucl SET !ID !ETH]: %RED%ooo %GREEN%Natalya's %NAME% %RED%ooo%MAP%
+ItemDisplay[ucl SET !ID ETH]: %RED%ooo %GREEN%Natalya's %NAME% %RED%ooo%MAP%
+ItemDisplay[xmb SET !ID !ETH]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
+ItemDisplay[xmb SET !ID ETH]: %RED%oo %GREEN%Natalya's %NAME% %RED%oo%MAP%
+ItemDisplay[oba SET !ID !ETH]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
+ItemDisplay[oba SET !ID ETH]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
+ItemDisplay[xsk SET !ID !ETH]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
+ItemDisplay[xsk SET !ID ETH]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
+ItemDisplay[uth SET !ID !ETH]: %RED%oooo %GREEN%Tal Rasha's %NAME% %RED%oooo%MAP%
+ItemDisplay[uth SET !ID ETH]: %RED%oooo %GREEN%Tal Rasha's %NAME% %RED%oooo%MAP%
+ItemDisplay[zmb SET !ID !ETH]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
+ItemDisplay[zmb SET !ID ETH]: %RED%oo %GREEN%Tal Rasha's %NAME% %RED%oo%MAP%
+ItemDisplay[uh9 SET !ID !ETH]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
+ItemDisplay[uh9 SET !ID ETH]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
+ItemDisplay[xul SET !ID !ETH]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
+ItemDisplay[xul SET !ID ETH]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
+ItemDisplay[ne9 SET !ID !ETH]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
+ItemDisplay[ne9 SET !ID ETH]: %RED%oo %GREEN%Trang-Oul's %NAME% %RED%oo%MAP%
+ItemDisplay[utc SET !ID !ETH]: %RED%ooo %GREEN%Trang-Oul's %NAME% %RED%ooo%MAP%
+ItemDisplay[utc SET !ID ETH]: %RED%ooo %GREEN%Trang-Oul's %NAME% %RED%ooo%MAP%
+ItemDisplay[xmg SET !ID !ETH]: %RED%ooo %GREEN%Trang-Oul's %NAME% %RED%ooo%MAP%
+ItemDisplay[xmg SET !ID ETH]: %RED%ooo %GREEN%Trang-Oul's %NAME% %RED%ooo%MAP%
+ItemDisplay[xar SET !ID !ETH]: %RED%oo %GREEN%Griswold's %NAME% %RED%oo%MAP%
+ItemDisplay[xar SET !ID ETH]: %RED%oo %GREEN%Griswold's %NAME% %RED%oo%MAP%
+ItemDisplay[urn SET !ID !ETH]: %RED%ooo %GREEN%Griswold's %NAME% %RED%ooo%MAP%
+ItemDisplay[urn SET !ID ETH]: %RED%ooo %GREEN%Griswold's %NAME% %RED%ooo%MAP%
+ItemDisplay[7ws SET !ID !ETH]: %RED%oooo %GREEN%Griswold's %NAME% %RED%oooo%MAP%
+ItemDisplay[7ws SET !ID ETH]: %RED%oooo %GREEN%Griswold's %NAME% %RED%oooo%MAP%
+ItemDisplay[paf SET !ID !ETH]: %RED%oooo %GREEN%Griswold's %NAME% %RED%oooo%MAP%
+ItemDisplay[paf SET !ID ETH]: %RED%oooo %GREEN%Griswold's %NAME% %RED%oooo%MAP%
+ItemDisplay[ci3 SET !ID !ETH]: %RED%ooo %GREEN%Mavina's %NAME% %RED%ooo%MAP%
+ItemDisplay[ci3 SET !ID ETH]: %RED%ooo %GREEN%Mavina's %NAME% %RED%ooo%MAP%
+ItemDisplay[amc SET !ID !ETH]: %RED%oo %GREEN%Mavina's %NAME% %RED%oo%MAP%
+ItemDisplay[amc SET !ID ETH]: %RED%oo %GREEN%Mavina's %NAME% %RED%oo%MAP%
+ItemDisplay[uld SET !ID !ETH]: %RED%ooo %GREEN%Mavina's %NAME% %RED%ooo%MAP%
+ItemDisplay[uld SET !ID ETH]: %RED%ooo %GREEN%Mavina's %NAME% %RED%ooo%MAP%
+ItemDisplay[xtg SET !ID !ETH]: %RED%oo %GREEN%Mavina's %NAME% %RED%oo%MAP%
+ItemDisplay[xtg SET !ID ETH]: %RED%oo %GREEN%Mavina's %NAME% %RED%oo%MAP%
+ItemDisplay[zvb SET !ID !ETH]: %RED%o %GREEN%Mavina's %NAME% %RED%o%MAP%
+ItemDisplay[zvb SET !ID ETH]: %RED%o %GREEN%Mavina's %NAME% %RED%o%MAP%
+ItemDisplay[ba5 SET !ID !ETH]: %RED%oo %GREEN%Immortal King's %NAME% %RED%oo%MAP%
+ItemDisplay[ba5 SET !ID ETH]: %RED%oo %GREEN%Immortal King's %NAME% %RED%oo%MAP%
+ItemDisplay[7m7 SET !ID !ETH]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[7m7 SET !ID ETH]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[uar SET !ID !ETH]: %RED%oooo %GREEN%Immortal King's %NAME% %RED%oooo%MAP%
+ItemDisplay[uar SET !ID ETH]: %RED%oooo %GREEN%Immortal King's %NAME% %RED%oooo%MAP%
+ItemDisplay[zhb SET !ID !ETH]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[zhb SET !ID ETH]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[xhg SET !ID !ETH]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[xhg SET !ID ETH]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[xhb SET !ID !ETH]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[xhb SET !ID ETH]: %RED%o %GREEN%Immortal King's %NAME% %RED%o%MAP%
+ItemDisplay[7gd SET !ID !ETH]: %RED%oo %GREEN%Bul-Kathos' %NAME% %RED%oo%MAP%
+ItemDisplay[7gd SET !ID ETH]: %RED%oo %GREEN%Bul-Kathos' %NAME% %RED%oo%MAP%
+ItemDisplay[7fb SET !ID !ETH]: %RED%oo %GREEN%Bul-Kathos' %NAME% %RED%oo%MAP%
+ItemDisplay[7fb SET !ID ETH]: %RED%oo %GREEN%Bul-Kathos' %NAME% %RED%oo%MAP%
+ItemDisplay[lgl SET !ID !ETH]: %GREEN%oo %GREEN%Death's %NAME% oo%MAP%
+ItemDisplay[lgl SET !ID ETH]: %GREEN%oo %GREEN%Death's %NAME% oo%MAP%
+ItemDisplay[lbl SET !ID !ETH]: %GREEN%oo %GREEN%Death's %NAME% oo%MAP%
+ItemDisplay[lbl SET !ID ETH]: %GREEN%oo %GREEN%Death's %NAME% oo%MAP%
+ItemDisplay[wsd SET !ID !ETH]: %GREEN%Death's %NAME%%MAP%
+ItemDisplay[wsd SET !ID ETH]: %GREEN%Death's %NAME%%MAP%
+ItemDisplay[xap SET !ID !ETH]: %RED%oo %GREEN%Cow King's %NAME% %RED%oo%MAP%
+ItemDisplay[xap SET !ID ETH]: %RED%oo %GREEN%Cow King's %NAME% %RED%oo%MAP%
+ItemDisplay[stu SET !ID !ETH]: %RED%oo %GREEN%Cow King's %NAME% %RED%oo%MAP%
+ItemDisplay[stu SET !ID ETH]: %RED%oo %GREEN%Cow King's %NAME% %RED%oo%MAP%
+ItemDisplay[vbt SET !ID !ETH]: %RED%oo %GREEN%Sander's or Cow King's %NAME% %RED%oo%MAP%
+ItemDisplay[vbt SET !ID ETH]: %RED%oo %GREEN%Sander's or Cow King's %NAME% %RED%oo%MAP%
+ItemDisplay[rng SET !ID !ETH]: %GREEN%Angelic %NAME%%MAP%
+ItemDisplay[rng SET !ID ETH]: %GREEN%Angelic %NAME%%MAP%
+ItemDisplay[sbr SET !ID !ETH]: %GREEN%Angelic %NAME%%MAP%
+ItemDisplay[sbr SET !ID ETH]: %GREEN%Angelic %NAME%%MAP%
+ItemDisplay[skp SET !ID !ETH]: %GREEN%Arcanna's %NAME%%MAP%
+ItemDisplay[skp SET !ID ETH]: %GREEN%Arcanna's %NAME%%MAP%
+ItemDisplay[ltp SET !ID !ETH]: %GREEN%Arcanna's %NAME%%MAP%
+ItemDisplay[ltp SET !ID ETH]: %GREEN%Arcanna's %NAME%%MAP%
+ItemDisplay[wst SET !ID !ETH]: %GREEN%Arcanna's %NAME%%MAP%
+ItemDisplay[wst SET !ID ETH]: %GREEN%Arcanna's %NAME%%MAP%
+ItemDisplay[qui SET !ID !ETH]: %GREEN%Arctic %NAME%%MAP%
+ItemDisplay[qui SET !ID ETH]: %GREEN%Arctic %NAME%%MAP%
+ItemDisplay[vbl SET !ID !ETH]: %GREEN%Arctic %NAME%%MAP%
+ItemDisplay[vbl SET !ID ETH]: %GREEN%Arctic %NAME%%MAP%
+ItemDisplay[tgl SET !ID !ETH]: %RED%o %GREEN%Arctic or Iratha's %NAME% %RED%o%MAP%
+ItemDisplay[tgl SET !ID ETH]: %RED%o %GREEN%Arctic or Iratha's %NAME% %RED%o%MAP%
+ItemDisplay[swb SET !ID !ETH]: %GREEN%Arctic %NAME%%MAP%
+ItemDisplay[swb SET !ID ETH]: %GREEN%Arctic %NAME%%MAP%
+ItemDisplay[hlm SET !ID !ETH]: %GREEN%Berserker's %NAME%%MAP%
+ItemDisplay[hlm SET !ID ETH]: %GREEN%Berserker's %NAME%%MAP%
+ItemDisplay[spl SET !ID !ETH]: %GREEN%Berserker's %NAME%%MAP%
+ItemDisplay[spl SET !ID ETH]: %GREEN%Berserker's %NAME%%MAP%
+ItemDisplay[2ax SET !ID !ETH]: %GREEN%Berserker's %NAME%%MAP%
+ItemDisplay[2ax SET !ID ETH]: %GREEN%Berserker's %NAME%%MAP%
+ItemDisplay[msk SET !ID !ETH]: %GREEN%Cathan's %NAME%%MAP%
+ItemDisplay[msk SET !ID ETH]: %GREEN%Cathan's %NAME%%MAP%
+ItemDisplay[chn SET !ID !ETH]: %GREEN%Cathan's %NAME%%MAP%
+ItemDisplay[chn SET !ID ETH]: %GREEN%Cathan's %NAME%%MAP%
+ItemDisplay[bst SET !ID !ETH]: %GREEN%Cathan's %NAME%%MAP%
+ItemDisplay[bst SET !ID ETH]: %GREEN%Cathan's %NAME%%MAP%
+ItemDisplay[gsc SET !ID !ETH]: %GREEN%Civerb's %NAME%%MAP%
+ItemDisplay[gsc SET !ID !ETH]: %GREEN%Civerb's %NAME%%MAP%
+ItemDisplay[lrg SET !ID !ETH]: %GREEN%Civerb's %NAME%%MAP%
+ItemDisplay[lrg SET !ID ETH]: %GREEN%Civerb's %NAME%%MAP%
+ItemDisplay[lsd SET !ID !ETH]: %GREEN%Cleglaw's %NAME%%MAP%
+ItemDisplay[lsd SET !ID ETH]: %GREEN%Cleglaw's %NAME%%MAP%
+ItemDisplay[mgl SET !ID !ETH]: %RED%o %GREEN%Cleglaw's %NAME% %RED%o%MAP%
+ItemDisplay[mgl SET !ID ETH]: %RED%o %GREEN%Cleglaw's %NAME% %RED%o%MAP%
+ItemDisplay[sml SET !ID !ETH]: %GREEN%Cleglaw's %NAME%%MAP%
+ItemDisplay[sml SET !ID ETH]: %GREEN%Cleglaw's %NAME%%MAP%
+ItemDisplay[buc SET !ID !ETH]: %GREEN%Hsarus' %NAME%%MAP%
+ItemDisplay[buc SET !ID ETH]: %GREEN%Hsarus' %NAME%%MAP%
+ItemDisplay[mbl SET !ID ETH]: %GREEN%Hsarus' or Hwanin's %NAME%%MAP%
+ItemDisplay[mbl SET !ID !ETH]: %GREEN%Hsarus' or Hwanin's %NAME%%MAP%
+ItemDisplay[mbt SET !ID !ETH]: %GREEN%Hsarus' %NAME%%MAP%
+ItemDisplay[mbt SET !ID ETH]: %GREEN%Hsarus' %NAME%%MAP%
+ItemDisplay[cap SET !ID !ETH]: %RED%o %GREEN%Infernal or Sander's %NAME% %RED%o%MAP%
+ItemDisplay[cap SET !ID ETH]: %RED%o %GREEN%Infernal or Sander's %NAME% %RED%o%MAP%
+ItemDisplay[tbl SET !ID !ETH]: %RED%o %GREEN%Infernal or Iratha's %NAME% %RED%o%MAP%
+ItemDisplay[tbl SET !ID ETH]: %RED%o %GREEN%Infernal or Iratha's %NAME% %RED%o%MAP%
+ItemDisplay[dgr SET !ID !ETH]: %GREEN%Infernal %NAME%%MAP%
+ItemDisplay[dgr SET !ID ETH]: %GREEN%Infernal %NAME%%MAP%
+ItemDisplay[crn SET !ID !ETH]: %RED%o %GREEN%Iratha's or Milabrega's %NAME% %RED%o%MAP%
+ItemDisplay[crn SET !ID ETH]: %RED%o %GREEN%Iratha's or Milabrega's %NAME% %RED%o%MAP%
+ItemDisplay[bsd SET !ID !ETH]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[bsd SET !ID ETH]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[fhl SET !ID !ETH]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[fhl SET !ID ETH]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[brs SET !ID !ETH]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[brs SET !ID ETH]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[gts SET !ID !ETH]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[gts SET !ID ETH]: %GREEN%Isenhart's %NAME%%MAP%
+ItemDisplay[aar SET !ID !ETH]: %GREEN%Milabrega's %NAME%%MAP%
+ItemDisplay[aar SET !ID ETH]: %GREEN%Milabrega's %NAME%%MAP% 
+ItemDisplay[kit SET !ID !ETH]: %RED%o %GREEN%Milabrega's %NAME% %RED%o%MAP%
+ItemDisplay[kit SET !ID ETH]: %RED%o %GREEN%Milabrega's %NAME% %RED%o%MAP%
+ItemDisplay[wsp SET !ID !ETH]: %GREEN%Milabrega's %NAME%%MAP%
+ItemDisplay[wsp SET !ID ETH]: %GREEN%Milabrega's %NAME%%MAP%
+ItemDisplay[ghm SET !ID !ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[ghm SET !ID ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[gth SET !ID !ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[gth SET !ID ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[hbt SET !ID !ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[hbt SET !ID ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[tow SET !ID !ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[tow SET !ID ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[hbl SET !ID !ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[hbl SET !ID ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[hgl SET !ID !ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[hgl SET !ID ETH]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[bhm SET !ID !ETH]: %GREEN%Tancred's %NAME%%MAP%
+ItemDisplay[bhm SET !ID ETH]: %GREEN%Tancred's %NAME%%MAP%
+ItemDisplay[ful SET !ID !ETH]: %GREEN%Tancred's %NAME%%MAP%
+ItemDisplay[ful SET !ID ETH]: %GREEN%Tancred's %NAME%%MAP%
+ItemDisplay[lbt SET !ID !ETH]: %RED%o %GREEN%Tancred's %NAME% %RED%o%MAP%
+ItemDisplay[lbt SET !ID ETH]: %RED%o %GREEN%Tancred's %NAME% %RED%o%MAP%
+ItemDisplay[mpi SET !ID !ETH]: %GREEN%Tancred's %NAME%%MAP%
+ItemDisplay[mpi SET !ID ETH]: %GREEN%Tancred's %NAME%%MAP%
+ItemDisplay[lbb SET !ID !ETH]: %GREEN%Vidala's %NAME%%MAP%
+ItemDisplay[lbb SET !ID ETH]: %GREEN%Vidala's %NAME%%MAP%
+ItemDisplay[lea SET !ID !ETH]: %GREEN%Vidala's %NAME%%MAP%
+ItemDisplay[lea SET !ID ETH]: %GREEN%Vidala's %NAME%%MAP%
+ItemDisplay[tbt SET !ID !ETH]: %GREEN%Vidala's %NAME%%MAP%
+ItemDisplay[tbt SET !ID ETH]: %GREEN%Vidala's %NAME%%MAP%
+ItemDisplay[ulg SET !ID !ETH]: %RED%ooo %GREEN%Laying of Hands %NAME% %RED%ooo%MAP%
+ItemDisplay[ulg SET !ID ETH]: %RED%ooo %GREEN%Laying of Hands %NAME% %RED%ooo%MAP%
+ItemDisplay[uui SET !ID !ETH]: %RED%o %GREEN%Dark Adherent %NAME% %RED%o%MAP%
+ItemDisplay[uui SET !ID ETH]: %RED%o %GREEN%Dark Adherent %NAME% %RED%o%MAP%
+ItemDisplay[xlb SET !ID !ETH]: %RED%o %GREEN%Rite of Passage %NAME% %RED%o%MAP%
+ItemDisplay[xlb SET !ID ETH]: %RED%o %GREEN%Rite of Passage %NAME% %RED%o%MAP%
+ItemDisplay[umc SET !ID !ETH]: %RED%oo %GREEN%Credendum %NAME% %RED%oo%MAP%
+ItemDisplay[umc SET !ID ETH]: %RED%oo %GREEN%Credendum %NAME% %RED%oo%MAP%
+ItemDisplay[xrs SET !ID !ETH]: %RED%oo %GREEN%Haemosu's Adamant %NAME% %RED%oo%MAP%
+ItemDisplay[xrs SET !ID ETH]: %RED%oo %GREEN%Haemosu's Adamant %NAME% %RED%oo%MAP%
+ItemDisplay[7ma SET !ID !ETH]: %RED%o %GREEN%Dangoon's Teaching %NAME% %RED%o%MAP%
+ItemDisplay[7ma SET !ID ETH]: %RED%o %GREEN%Dangoon's Teaching %NAME% %RED%o%MAP%
+ItemDisplay[uts SET !ID !ETH]: %RED%ooo %GREEN%Taebaek's Glory %NAME% %RED%ooo%MAP%
+ItemDisplay[uts SET !ID ETH]: %RED%ooo %GREEN%Taebaek's Glory %NAME% %RED%ooo%MAP%
+ItemDisplay[uhm SET !ID !ETH]: %RED%oo %GREEN%Ondal's Almighty %NAME% %RED%oo%MAP%
+ItemDisplay[uhm SET !ID ETH]: %RED%oo %GREEN%Ondal's Almighty %NAME% %RED%oo%MAP%
+ItemDisplay[xrn SET !ID !ETH]: %RED%o %GREEN%Hwanin's %NAME% %RED%o%MAP%
+ItemDisplay[xrn SET !ID ETH]: %RED%o %GREEN%Hwanin's %NAME% %RED%o%MAP%
+ItemDisplay[9vo SET !ID !ETH]: %GREEN%Hwanin's %NAME%%MAP%
+ItemDisplay[9vo SET !ID ETH]: %GREEN%Hwanin's %NAME%%MAP%
+ItemDisplay[xcl SET !ID !ETH]: %RED%o %GREEN%Hwanin's %NAME% %RED%o%MAP%
+ItemDisplay[xcl SET !ID ETH]: %RED%o %GREEN%Hwanin's %NAME% %RED%o%MAP%
+ItemDisplay[ci0 SET !ID !ETH]: %RED%o %GREEN%Naj's %NAME% %RED%o%MAP%
+ItemDisplay[ci0 SET !ID ETH]: %RED%o %GREEN%Naj's %NAME% %RED%o%MAP%
+ItemDisplay[ult SET !ID !ETH]: %RED%oo %GREEN%Naj's %NAME% %RED%oo%MAP%
+ItemDisplay[ult SET !ID ETH]: %RED%oo %GREEN%Naj's %NAME% %RED%oo%MAP%
+ItemDisplay[6cs SET !ID !ETH]: %RED%oo %GREEN%Naj's %NAME% %RED%oo%MAP%
+ItemDisplay[6cs SET !ID ETH]: %RED%oo %GREEN%Naj's %NAME% %RED%oo%MAP%
+ItemDisplay[xhm SET !ID !ETH]: %RED%ooo %GREEN%Guillaume's Face %NAME% %RED%ooo%MAP%
+ItemDisplay[xhm SET !ID ETH]: %RED%ooo %GREEN%Guillaume's Face %NAME% %RED%ooo%MAP%
+ItemDisplay[xml SET !ID !ETH]: %RED%o %GREEN%Whitstan's Guard %NAME% %RED%o%MAP%
+ItemDisplay[xml SET !ID ETH]: %RED%o %GREEN%Whitstan's Guard %NAME% %RED%o%MAP%
+ItemDisplay[xvg SET !ID !ETH]: %RED%oo %GREEN%Magnus' Skin %NAME% %RED%oo%MAP%
+ItemDisplay[xvg SET !ID ETH]: %RED%oo %GREEN%Magnus' Skin %NAME% %RED%oo%MAP%
+ItemDisplay[ztb SET !ID !ETH]: %RED%o %GREEN%Wilhelm's Pride %NAME% %RED%o%MAP%
+ItemDisplay[ztb SET !ID ETH]: %RED%o %GREEN%Wilhelm's Pride %NAME% %RED%o%MAP%
+ItemDisplay[bwn SET !ID !ETH]: %GREEN%Sander's %NAME%%MAP%
+ItemDisplay[bwn SET !ID ETH]: %GREEN%Sander's %NAME%%MAP%
+ItemDisplay[vgl SET !ID !ETH]: %RED%o %GREEN%Sander's %NAME% %RED%o%MAP%
+ItemDisplay[vgl SET !ID ETH]: %RED%o %GREEN%Sander's %NAME% %RED%o%MAP%
+ItemDisplay[xhl SET !ID !ETH]: %RED%o %GREEN%Sazabi's %NAME% %RED%o%MAP%
+ItemDisplay[xhl SET !ID ETH]: %RED%o %GREEN%Sazabi's %NAME% %RED%o%MAP%
+ItemDisplay[7ls SET !ID !ETH]: %RED%o %GREEN%Sazabi's %NAME% %RED%o%MAP%
+ItemDisplay[7ls SET !ID ETH]: %RED%o %GREEN%Sazabi's %NAME% %RED%o%MAP%
+ItemDisplay[upl SET !ID !ETH]: %RED%o %GREEN%Sazabi's %NAME% %RED%o%MAP%
+ItemDisplay[upl SET !ID ETH]: %RED%o %GREEN%Sazabi's %NAME% %RED%o%MAP%
 ///DClone Uniques
 ItemDisplay[uth UNI !ETH !ID]: %YELLOW%ooooo %PURPLE%Dark Abyss %YELLOW%ooooo%MAP%
 ItemDisplay[uth UNI ETH !ID]: %YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Dark Abyss %YELLOW%ooooo%MAP%
