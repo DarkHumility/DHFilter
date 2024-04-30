@@ -1995,7 +1995,7 @@ ItemDisplay[CL2 NMAG ETH SK138>2 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHIT
 ItemDisplay[CL2 NMAG ETH SK142>2 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3fitem%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL2 NMAG ETH SK140>2 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3dthrw%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(ci3 OR uh9) ETH AND (NMAG OR RW) (SOCK=3 OR SOCK=0)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(ci3 OR uh9) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=3 OR SOCK=0)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(ci3 OR uh9) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=3)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(xsh OR uh9 OR xhm OR crn OR usk OR ci2) ETH AND (NMAG OR RW) (SOCK=3 OR SOCK=0) CLVL<91]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(xsh OR uh9 OR xhm OR crn OR usk OR ci2) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=3 OR SOCK=0) CLVL<91]: %NAME% %TAN%[%SOCKETS%]
 //STAVES s3 & s7
