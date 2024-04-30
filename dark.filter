@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S9 v9.07
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S9 v9.08
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -232,8 +232,8 @@ ItemDisplay[t51 UNI !ID]: %RED%ooo %TAN%Zhar the Mad Map %RED%ooo%MAP%
 ItemDisplay[t51 UNI ID]: %RED%ooo %TAN%Zhar the Mad Map %RED%ooo%MAP%
 ItemDisplay[t52 UNI !ID]: %RED%ooo %TAN%Warlord of Blood Map %RED%ooo%MAP%
 ItemDisplay[t52 UNI ID]: %RED%ooo %TAN%Warlord of Blood Map %RED%ooo%MAP%
-ItemDisplay[t53 UNI !ID]: %RED%ooo %TAN%The Fallen Gardens Map %RED%ooo%MAP%
-ItemDisplay[t53 UNI ID]: %RED%ooo %TAN%The Fallen Gardens Map %RED%ooo%MAP%
+ItemDisplay[t53 UNI !ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo%MAP%
+ItemDisplay[t53 UNI ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo%MAP%
 ///tier4
 ItemDisplay[t41 OR t42 OR t43 OR t44 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs %GOLD%The Synthetic One %NL%%RED%Requires a Strong Party}
 ItemDisplay[t41 OR t42 OR t43 OR t44 RARE ID]: %NAME%%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs %GOLD%The Synthetic One %NL%%RED%Requires a Strong Party}
@@ -289,7 +289,7 @@ ItemDisplay[r29s OR r29]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%OR
 ItemDisplay[r30s OR r30]: %PURPLE%oo%GOLD%oo%PURPLE%oo%GOLD%oo %ORANGE%%NAME% %GOLD%oo%PURPLE%oo%GOLD%oo%PURPLE%oo%MAP% {%ORANGE%rune 30}
 ItemDisplay[r31s OR r31]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%ORANGE%rune 31}
 ItemDisplay[r32s OR r32]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 32}
-ItemDisplay[r33s OR r33]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 33}
+ItemDisplay[r33s OR r33]: %PURPLE%oo%RED%oo%PURPLE%oo %ORANGE%%NAME% %PURPLE%oo%RED%oo%PURPLE%oo%MAP% {%ORANGE%rune 33}
 ///GEMS
 ItemDisplay[GEM=3 CLVL<26]: %NAME%
 ItemDisplay[GEM=2 CLVL<21]: %NAME%
@@ -805,7 +805,7 @@ ItemDisplay[ame UNI !ID !ETH]: %RED%ooo Zerae's Resolve ooo%MAP%
 ItemDisplay[ame UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Zerae's Resolve %RED%ooo%MAP%
 ItemDisplay[ulb UNI !ID !ETH]: %RED%o %PURPLE%Merman's Sprocket %RED%o%MAP%
 ItemDisplay[ulb UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Merman's Sprocket %RED%o%MAP%
-ItemDisplay[ned UNI !ID !ETH]: %RED%ooo Martyrdom ooo%MAP%
+ItemDisplay[ned UNI !ID !ETH]: %RED%o %PURPLE%Martyrdom %RED%o%MAP%
 ItemDisplay[ned UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Martyrdom o%MAP%
 ItemDisplay[6bs UNI !ID !ETH]: %RED%oooo %PURPLE%Brimstone Rain %RED%oooo%MAP%
 ItemDisplay[6bs UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Brimstone Rain %RED%oooo%MAP%
@@ -1040,7 +1040,7 @@ ItemDisplay[xmg UNI !ID !ETH]: %RED%o Ghoulhide o%MAP%
 ItemDisplay[xmg UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Ghoulhide ooo%MAP%
 ItemDisplay[xtg UNI !ID !ETH]: %RED%ooo Lava Gout ooo%MAP%
 ItemDisplay[xtg UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Lava Gout ooo%MAP%
-ItemDisplay[uvg UNI !ID !ETH]: %RED%oo %PURPLE%Dracul's Grasp %REDoo%MAP%
+ItemDisplay[uvg UNI !ID !ETH]: %RED%oo %PURPLE%Dracul's Grasp %RED%oo%MAP%
 ItemDisplay[uvg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Dracul's Grasp %RED%oo%MAP%
 ItemDisplay[umg UNI !ID !ETH]: %RED%ooo %PURPLE%Soul Drainer %RED%ooo%MAP%
 ItemDisplay[umg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Soul Drainer %RED%o%MAP%
@@ -1361,8 +1361,8 @@ ItemDisplay[6sw UNI !ID]: %RED%oo Widowmaker oo%MAP%
 ItemDisplay[6lw UNI !ID]: %RED%oooo %PURPLE%Windforce %RED%oooo%MAP%
 ItemDisplay[8ls UNI !ID !ETH]: %RED%oo Ribcracker oo%MAP%
 ItemDisplay[8ls UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Ribcracker %RED%ooo%MAP%
-ItemDisplay[8ws UNI !ID !ETH]: %RED%o %PURPLE%Skull Collector %RED%o%MAP%
-ItemDisplay[8ws UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Skull Collector %RED%o%MAP%
+ItemDisplay[8ws UNI !ID !ETH]: %RED%oo %PURPLE%Skull Collector %RED%oo%MAP%
+ItemDisplay[8ws UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Skull Collector %RED%oo%MAP%
 ItemDisplay[9wn UNI !ID !ETH]: %RED%o Suicide Branch o%MAP%
 ItemDisplay[9wn UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Suicide Branch o%MAP%
 ItemDisplay[9yw UNI !ID !ETH]: %GOLD%ooo Carin Shard ooo%MAP%
