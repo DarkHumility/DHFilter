@@ -2390,6 +2390,8 @@ ItemDisplay[(amb OR amc) NMAG TABSK0>2 SOCK=0]: %GRAY%[%WHITE%3bow%GRAY%] %NAME%
 ItemDisplay[(7tk OR 7ta OR 7bk OR 7b8) (ETH AND (NMAG OR RW))]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
 ///Ghost Glaive & Harpoons
 ItemDisplay[(7gl OR 7ts) (ETH AND (NMAG OR RW))]: %GRAY%[%WHITE%eth%GRAY%] %NAME%%GRAY%[%TAN%imbue%GRAY%]
+//Other Imbue
+ItemDisplay[(ci3 (NMAG OR RW) !ETH SOCK=0]: %NAME%%GRAY%[%TAN%imbue%GRAY%]
 ///Scepters
 ItemDisplay[WP13 NMAG !ETH SOCK=4]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP13 NMAG ETH SOCK=4]: %NAME% %TAN%[%SOCKETS%]
