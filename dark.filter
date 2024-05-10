@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S9 v9.08
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S9 v9.09
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -278,18 +278,18 @@ ItemDisplay[r18s OR r18]: %BLUE%oo %ORANGE%%NAME% %BLUE%oo%MAP% {%ORANGE%rune 18
 ItemDisplay[r19s OR r19]: %BLUE%oo %ORANGE%%NAME% %BLUE%oo%MAP% {%ORANGE%rune 19}
 ItemDisplay[r20s OR r20]: %GREEN%ooo %ORANGE%%NAME% %GREEN%ooo%MAP% {%ORANGE%rune 20}
 ItemDisplay[r21s OR r21]: %GREEN%ooo %ORANGE%%NAME% %GREEN%ooo%MAP% {%ORANGE%rune 21}
-ItemDisplay[r22s OR r22]: %GREEN%ooo %ORANGE%%NAME% %GREEN%ooo%MAP% {%ORANGE%rune 22}
+ItemDisplay[r22s OR r22]: %YELLOW%oooo %ORANGE%%NAME% %YELLOW%oooo%MAP% {%ORANGE%rune 22}
 ItemDisplay[r23s OR r23]: %YELLOW%oooo %ORANGE%%NAME% %YELLOW%oooo%MAP% {%ORANGE%rune 23}
 ItemDisplay[r24s OR r24]: %YELLOW%oooo %ORANGE%%NAME% %YELLOW%oooo%MAP% {%ORANGE%rune 24}
-ItemDisplay[r25s OR r25]: %YELLOW%oooo %ORANGE%%NAME% %YELLOW%oooo%MAP% {%ORANGE%rune 25}
+ItemDisplay[r25s OR r25]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 25}
 ItemDisplay[r26s OR r26]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 26}
-ItemDisplay[r27s OR r27]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 27}
-ItemDisplay[r28s OR r28]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 28}
-ItemDisplay[r29s OR r29]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%ORANGE%rune 29}
-ItemDisplay[r30s OR r30]: %PURPLE%oo%GOLD%oo%PURPLE%oo%GOLD%oo %ORANGE%%NAME% %GOLD%oo%PURPLE%oo%GOLD%oo%PURPLE%oo%MAP% {%ORANGE%rune 30}
+ItemDisplay[r27s OR r27]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%ORANGE%rune 27}
+ItemDisplay[r28s OR r28]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%ORANGE%rune 28}
+ItemDisplay[r29s OR r29]: %SAGE%ooo%CORAL%oo%SAGE%ooo %ORANGE%%NAME% %SAGE%ooo%CORAL%oo%SAGE%ooo%MAP% {%ORANGE%rune 29}
+ItemDisplay[r30s OR r30]: %PURPLE%oo%GOLD%oo%PURPLE%oo%GOLD%oo%PURPLE%oo %ORANGE%%NAME% %PURPLE%oo%GOLD%oo%PURPLE%oo%GOLD%oo%PURPLE%oo%MAP% {%ORANGE%rune 30}
 ItemDisplay[r31s OR r31]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%ORANGE%rune 31}
-ItemDisplay[r32s OR r32]: %RED%ooooo %ORANGE%%NAME% %RED%ooooo%MAP% {%ORANGE%rune 32}
-ItemDisplay[r33s OR r33]: %PURPLE%oo%RED%oo%PURPLE%oo %ORANGE%%NAME% %PURPLE%oo%RED%oo%PURPLE%oo%MAP% {%ORANGE%rune 33}
+ItemDisplay[r32s OR r32]: %SAGE%ooo%CORAL%oo%SAGE%ooo %ORANGE%%NAME% %SAGE%ooo%CORAL%oo%SAGE%ooo%MAP% {%ORANGE%rune 32}
+ItemDisplay[r33s OR r33]: %PURPLE%oo%RED%oo%PURPLE%oo%RED%oo%PURPLE%oo %ORANGE%%NAME% %PURPLE%oo%RED%oo%PURPLE%oo%RED%oo%PURPLE%oo%MAP% {%ORANGE%rune 33}
 ///GEMS
 ItemDisplay[GEM=3 CLVL<26]: %NAME%
 ItemDisplay[GEM=2 CLVL<21]: %NAME%
