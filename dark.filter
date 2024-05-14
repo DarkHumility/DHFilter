@@ -1186,24 +1186,24 @@ ItemDisplay[7m7 UNI !ID !ETH]: %RED%ooo Windhammer ooo%MAP%
 ItemDisplay[7m7 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Windhammer %RED%oo%MAP%
 ItemDisplay[scm UNI !ID !ETH]: %GOLD%o Blood Crescent o%MAP%
 ItemDisplay[scm UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blood Crescent o%MAP%
-ItemDisplay[sbr UNI !ID !ETH]: %GOLD%Skewer of Krintiz%MAP%
-ItemDisplay[sbr UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Skewer of Krintiz%MAP%
-ItemDisplay[flc UNI !ID !ETH]: %GOLD%Gleamscythe%MAP%
-ItemDisplay[flc UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Gleamscythe%MAP%
-ItemDisplay[bsd UNI !ID !ETH]: %GOLD%Griswold's Edge%MAP%
-ItemDisplay[bsd UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Griswold's Edge%MAP%
+ItemDisplay[sbr UNI !ID !ETH]: %GOLD%o Skewer of Krintiz o%MAP%
+ItemDisplay[sbr UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Skewer of Krintiz o%MAP%
+ItemDisplay[flc UNI !ID !ETH]: %GOLD%o Gleamscythe o%MAP%
+ItemDisplay[flc UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Gleamscythe o%MAP%
+ItemDisplay[bsd UNI !ID !ETH]: %GOLD%o Griswold's Edge o%MAP%
+ItemDisplay[bsd UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Griswold's Edge o%MAP%
 ItemDisplay[lsd UNI !ID !ETH]: %GOLD%o Hellplague o%MAP%
 ItemDisplay[lsd UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Hellplague o%MAP%
 ItemDisplay[wsd UNI !ID !ETH]: %GOLD%o Culwen's Point o%MAP%
 ItemDisplay[wsd UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Culwen's Point o%MAP%
-ItemDisplay[2hs UNI !ID !ETH]: %GOLD%Shadowfang%MAP%
-ItemDisplay[2hs UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Shadowfang%MAP%
-ItemDisplay[clm UNI !ID !ETH]: %GOLD%Soulflay%MAP%
-ItemDisplay[clm UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Soulflay%MAP%
-ItemDisplay[gis UNI !ID !ETH]: %GOLD%Kinemil's Awl%MAP%
-ItemDisplay[gis UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Kinemil's Awl%MAP%
-ItemDisplay[bsw UNI !ID !ETH]: %GOLD%Blacktongue%MAP%
-ItemDisplay[bsw UNI !ID ETH]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blacktongue%MAP%
+ItemDisplay[2hs UNI !ID !ETH]: %GOLD%o Shadowfang o%MAP%
+ItemDisplay[2hs UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Shadowfang o%MAP%
+ItemDisplay[clm UNI !ID !ETH]: %GOLD%o Soulflay o%MAP%
+ItemDisplay[clm UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Soulflay o%MAP%
+ItemDisplay[gis UNI !ID !ETH]: %GOLD%oo Kinemil's Awl oo%MAP%
+ItemDisplay[gis UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Kinemil's Awl oo%MAP%
+ItemDisplay[bsw UNI !ID !ETH]: %GOLD%o Blacktongue o%MAP%
+ItemDisplay[bsw UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Blacktongue o%MAP%
 ItemDisplay[flb UNI !ID !ETH]: %GOLD%o Ripsaw o%MAP%
 ItemDisplay[flb UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Ripsaw oo%MAP%
 ItemDisplay[gsd UNI !ID !ETH]: %GOLD%ooo The Patriarch ooo%MAP%
