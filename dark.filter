@@ -1381,7 +1381,7 @@ ItemDisplay[8cs UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Chromatic Ir
 ItemDisplay[8bs UNI !ID !ETH]: %RED%o Warpspear o%MAP%
 ItemDisplay[8bs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Warpspear o%MAP%
 ItemDisplay[6cs UNI !ID !ETH]: %RED%oo Ondal's Wisdom oo%MAP%
-ItemDisplay[6cs UNI !ID !ETH]: %RED%oo [%WHITE%eth%GRAY%] %RED%Ondal's Wisdom oo%MAP%
+ItemDisplay[6cs UNI !ID ETH]: %RED%oo [%WHITE%eth%GRAY%] %RED%Ondal's Wisdom oo%MAP%
 ItemDisplay[6ws UNI !ID !ETH]: %YELLOW%ooooo %PURPLE%Mang Song's Lesson %YELLOW%ooooo%MAP%
 ItemDisplay[6ws UNI !ID ETH]: %YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Mang Song's Lesson %YELLOW%ooooo%MAP%
 ItemDisplay[ywn UNI !ID !ETH]: %GOLD%oo Maelstrom oo%MAP%
