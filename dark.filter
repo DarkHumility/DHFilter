@@ -796,11 +796,24 @@ ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%] {%RED%B
 ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG CLVL<80]: %BLUE%o %NAME% o%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+//s10 PD2 Uniques
+ItemDisplay[ulg UNI !ID !ETH]: %RED%oo %PURPLE%Titan's Grip %RED%oo%MAP%
+ItemDisplay[ulg UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Titan's Grip ooo%MAP%
+ItemDisplay[ung UNI !ID !ETH]: %RED%oo %PURPLE%Wraithskin %RED%oo%MAP%
+ItemDisplay[ung UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Wraithskin %RED%oo%MAP%
+ItemDisplay[urg UNI !ID !ETH]: %RED%o %PURPLE%Twilight's Reflection %RED%o%MAP%
+ItemDisplay[urg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Twilight's Reflection %RED%o%MAP%
+ItemDisplay[drc UNI !ID !ETH]: %RED%ooo %PURPLE%Denmother %RED%ooo%MAP%
+ItemDisplay[drc UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Denmother %RED%ooo%MAP%
+ItemDisplay[amc UNI !ID !ETH]: %RED%ooo Ebonbane ooo%MAP%
+ItemDisplay[amc UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Ebonbane ooo%MAP%
+ItemDisplay[7di UNI !ID !ETH]: %RED%ooo Shatterblade ooo%MAP%
+ItemDisplay[7di UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Shatterblade ooo%MAP%
 //s8 PD2 Uniques
 ItemDisplay[7cm UNI !ID !ETH]: %RED%ooo Leoric's Mithril Bane ooo%MAP%
 ItemDisplay[7cm UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Leoric's Mithril Bane %RED%ooo%MAP%
-ItemDisplay[7st UNI !ID !ETH]: %RED%oo Uldyssian's Awakening oo%MAP%
-ItemDisplay[7st UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Uldyssian's Awakening %RED%ooo%MAP%
+ItemDisplay[7st UNI !ID !ETH]: %RED%ooo Uldyssian's Awakening ooo%MAP%
+ItemDisplay[7st UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Uldyssian's Awakening %RED%oooo%MAP%
 //s5 PD2 Uniques
 ItemDisplay[utg UNI !ID !ETH]: %RED%oooo %PURPLE%Occultist %RED%oooo%MAP%
 ItemDisplay[utg UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Occultist %RED%oooo%MAP%
