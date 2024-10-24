@@ -1485,9 +1485,9 @@ ItemDisplay[mxb UNI !ID]: %GOLD%o Ichorsting o%MAP%
 ItemDisplay[rxb UNI !ID]: %GOLD%oo Doomslinger oo%MAP%
 ItemDisplay[8lx UNI !ID]: %GOLD%oo Langer Briser oo%MAP%
 ItemDisplay[am7 UNI !ID]: %GOLD%ooo Lycander's Aim ooo%MAP%
-ItemDisplay[8hx UNI !ID]: %RED%o %PURPLE%Buriza-Do Kyanon %RED%o%MAP%
+ItemDisplay[8hx UNI !ID]: %RED%oo %PURPLE%Buriza-Do Kyanon %RED%oo%MAP%
 ItemDisplay[hxb UNI !ID]: %GOLD%o Hellcast o%MAP%
-ItemDisplay[6rx UNI !ID]: %RED%oo Gut Siphon oo%MAP%
+ItemDisplay[6rx UNI !ID]: %RED%ooo Gut Siphon ooo%MAP%
 ItemDisplay[8mx UNI !ID]: %RED%oo %PURPLE%Pus Spitter %RED%oo%MAP%
 ItemDisplay[6hx UNI !ID]: %RED%oo Hellrack oo%MAP%
 ItemDisplay[8rx UNI !ID]: %RED%ooo Demon Machine ooo%MAP%
