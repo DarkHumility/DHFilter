@@ -805,8 +805,7 @@ ItemDisplay[urg UNI !ID !ETH]: %RED%o %PURPLE%Twilight's Reflection %RED%o%MAP%
 ItemDisplay[urg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Twilight's Reflection %RED%o%MAP%
 ItemDisplay[drc UNI !ID !ETH]: %RED%ooo %PURPLE%Denmother %RED%ooo%MAP%
 ItemDisplay[drc UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Denmother %RED%ooo%MAP%
-ItemDisplay[amc UNI !ID !ETH]: %RED%ooo Ebonbane ooo%MAP%
-ItemDisplay[amc UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Ebonbane ooo%MAP%
+ItemDisplay[amc UNI !ID]: %RED%ooo Ebonbane ooo%MAP%
 ItemDisplay[7di UNI !ID !ETH]: %RED%ooo Shatterblade ooo%MAP%
 ItemDisplay[7di UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Shatterblade ooo%MAP%
 //s8 PD2 Uniques
