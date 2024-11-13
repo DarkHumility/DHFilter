@@ -996,7 +996,7 @@ ItemDisplay[xng UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Spirit Forge 
 ItemDisplay[xld UNI !ID !ETH]: %RED%ooo Toothrow ooo%MAP%
 ItemDisplay[xld UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Toothrow ooo%MAP%
 ItemDisplay[ltp UNI !ID !ETH]: %RED%oo Heavenly Garb oo%MAP%
-ItemDisplay[ltp UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] Heavenly Garb oo%MAP%
+ItemDisplay[ltp UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Heavenly Garb oo%MAP%
 ItemDisplay[utu UNI !ID !ETH]: %RED%ooo %PURPLE%The Gladiator's Bane %RED%ooo%MAP%
 ItemDisplay[utu UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Gladiator's Bane %RED%ooo%MAP%
 ItemDisplay[upl UNI !ID !ETH]: %RED%ooo %PURPLE%Arkaine's Valor %RED%ooo%MAP%
@@ -2243,7 +2243,7 @@ ItemDisplay[uit NMAG !ETH (ED>0 AND ED<15) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%%%
 ItemDisplay[(uit OR uow OR uts) NMAG ETH ED=15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(uit OR uow OR uts) NMAG ETH ED>0 ED<15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[(uit OR uow OR uts) NMAG ETH (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[(uit OR uow OR uts) NMAG !ETH SOCK=4]: %GRAY% %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[(uit OR uow OR uts) NMAG !ETH SOCK=4]: %GRAY% %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[uit (!INF AND !ETH) AND (NMAG OR RW) SOCK=0 CLVL<91]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[ush NMAG !ETH ED=15 SOCK=3]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[ush NMAG !ETH ED>0 ED<15 SOCK=3]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
