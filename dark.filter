@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S10 v10.02
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S10 v10.03
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -120,8 +120,8 @@ ItemDisplay[ubac]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[uba]: %RED%ooo %NAME%%RED% ooo%MAP%
 ItemDisplay[luca]: %RED%ooooo %NAME%%RED% ooooo%MAP%
 ItemDisplay[lucb]: %RED%ooo %NAME%%RED% ooo%MAP%
-ItemDisplay[lucc]: %RED%ooo %NAME%%RED% ooo%MAP%
-ItemDisplay[lucd]: %RED%ooo %NAME%%RED% ooo%MAP%
+ItemDisplay[lucc]: %RED%oo %NAME%%RED% oo%MAP%
+ItemDisplay[lucd]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[jewf]: %TAN%o %BLUE%%NAME% %TAN%o%MAP%
 ItemDisplay[rtp]: %GREEN%!!!!!!! %GOLD%%NAME% %GREEN%!!!!!!!%MAP%
 ItemDisplay[rid]: %GREEN%!!!!!!! %GOLD%%NAME% %GREEN%!!!!!!!%MAP%
