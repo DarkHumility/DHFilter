@@ -244,8 +244,8 @@ ItemDisplay[t52 UNI ID]: %RED%ooo %TAN%Warlord of Blood Map %RED%ooo%MAP%
 ItemDisplay[t53 UNI !ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo%MAP%
 ItemDisplay[t53 UNI ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo%MAP%
 ///tier4
-ItemDisplay[t41 OR t42 OR t43 OR t44 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs %GOLD%The Synthetic One %NL%%RED%Requires a Strong Party}
-ItemDisplay[t41 OR t42 OR t43 OR t44 RARE ID]: %NAME%%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs %GOLD%The Synthetic One %NL%%RED%Requires a Strong Party}
+ItemDisplay[t41 OR t42 OR t43 OR t44 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs Defilers %GOLD%Boss %NL%%RED%Requires a Strong Party}
+ItemDisplay[t41 OR t42 OR t43 OR t44 RARE ID]: %NAME%%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs Defilers %GOLD%Boss %NL%%RED%Requires a Strong Party}
 ///PvP
 ItemDisplay[t61 OR t62 (NMAG OR !RARE) ID]: %BLUE%o %WHITE%%NAME% %BLUE%o%MAP%
 //Misc
