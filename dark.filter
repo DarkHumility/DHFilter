@@ -102,7 +102,7 @@ ItemDisplay[imrn]: %WHITE%ooo%CORAL%ooooo %GOLD%%NAME% %WHITE%ooooo%CORAL%ooo%MA
 ItemDisplay[lmal]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[llmr]: %WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o %NAME% %RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%MAP%
 ItemDisplay[lsvl]: %WHITE%oo%RED%oo%WHITE%oo%RED%oo%WHITE%oo %NAME% %RED%oo%WHITE%oo%RED%oo%WHITE%oo%RED%oo%MAP%
-ItemDisplay[rkey]: %PURPLE%ooooooo %WHITE%Skeleton Key %PURPLE%ooooooo%MAP%
+ItemDisplay[rkey]: %PURPLE%!!!!!!! %WHITE%Skeleton Key %PURPLE%!!!!!!!%MAP%
 ItemDisplay[wss]: %GREEN%o %RED%%NAME% %GREEN%o%MAP%
 ItemDisplay[iwss]: %ORANGE%ooo %PURPLE%%NAME% %ORANGE%ooo%MAP%
 ItemDisplay[cwss]: %RED%ooooooo %PURPLE%%NAME% %RED%ooooooo%MAP%
