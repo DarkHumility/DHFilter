@@ -839,8 +839,8 @@ ItemDisplay[amc UNI !ID]: %RED%ooo Ebonbane ooo%MAP%
 ItemDisplay[7di UNI !ID !ETH]: %RED%ooo Shatterblade ooo%MAP%
 ItemDisplay[7di UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Shatterblade ooo%MAP%
 //s8 PD2 Uniques
-ItemDisplay[7cm UNI !ID !ETH]: %RED%ooo Leoric's Mithril Bane ooo%MAP%
-ItemDisplay[7cm UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Leoric's Mithril Bane %RED%ooo%MAP%
+ItemDisplay[7cm UNI !ID !ETH]: %RED%o %PURPLE%Leoric's Mithril Bane %RED%o%MAP%
+ItemDisplay[7cm UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Leoric's Mithril Bane %RED%oooo%MAP%
 ItemDisplay[7st UNI !ID !ETH]: %RED%ooo Uldyssian's Awakening ooo%MAP%
 ItemDisplay[7st UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Uldyssian's Awakening %RED%oooo%MAP%
 //s5 PD2 Uniques
