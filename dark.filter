@@ -199,6 +199,7 @@ ItemDisplay[t34 !RARE NMAG ID]: %ORANGE%oo %WHITE%%NAME% %ORANGE%oo {%BLUE%I%GRE
 ItemDisplay[t11 OR t13 OR t24 OR t27 OR t28 OR t31 OR t33 OR t34 MAG !ID]: %ORANGE%oo %BLUE%%NAME% %ORANGE%oo%MAP%
 ItemDisplay[t11 OR t13 OR t24 OR t27 OR t28 OR t31 OR t33 OR t34 RARE !ID]: %ORANGE%oo %YELLOW%%NAME% %ORANGE%oo%MAP%
 ItemDisplay[t11 OR t13 OR t24 OR t27 OR t28 OR t31 OR t33 OR t34 (NMAG OR !RARE) ID]: %ORANGE%oo %WHITE%%NAME% %ORANGE%oo%MAP%
+ItemDisplay[t53 UNI ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
 ItemDisplay[t53 UNI !ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo%MAP%
 ItemDisplay[t53 UNI ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo%MAP%
 ///tier3
@@ -240,7 +241,6 @@ ItemDisplay[t3a RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TA
 ItemDisplay[t3a NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
 ItemDisplay[t51 UNI ID]: %RED%ooo %TAN%Zhar's Sanctum Map %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
 ItemDisplay[t52 UNI ID]: %RED%ooo %TAN%Warlord of Blood Map %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t53 UNI ID]: %RED%ooo %TAN%The Fallen Gardens Map %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
 ItemDisplay[t14 OR t16 OR t21 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
 ItemDisplay[t14 OR t16 OR t21 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
 ItemDisplay[t14 OR t16 OR t21 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a (NMAG OR !RARE) ID]: %RED%ooo %WHITE%%NAME% %RED%ooo%MAP%
