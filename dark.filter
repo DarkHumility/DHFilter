@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.01
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.02
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -84,17 +84,17 @@ ItemDisplay[crfh]: %BLUE%<%WHITE%>%BLUE%<%WHITE%> %TAN%Hit Power Craft Infusion 
 ItemDisplay[crfv]: %GRAY%<%WHITE%>%GRAY%<%WHITE%> %TAN%Vampiric Craft Infusion %WHITE%<%GRAY%>%WHITE%<%GRAY%>%MAP%
 ItemDisplay[crfu]: %YELLOW%<%WHITE%>%YELLOW%<%WHITE%> %TAN%Bountiful Craft Infusion %WHITE%<%YELLOW%>%WHITE%<%YELLOW%>%MAP%
 ItemDisplay[crfp]: %BLACK%<%WHITE%>%BLACK%<%WHITE%> %TAN%Prismatic Craft Infusion %WHITE%<%BLACK%>%WHITE%<%BLACK%>%MAP%
-ItemDisplay[imma]: %YELLOW%o %NAME%%YELLOW% o%MAP% {%WHITE%+ %BLUE%Jewel %NL%%WHITE% Imbue White to %BLUE%Magic Map}
-ItemDisplay[irma]: %YELLOW%ooo %NAME%%YELLOW% ooo%MAP% {%WHITE% Imbue White to %BLUE%Magic Map}
-ItemDisplay[imra]: %RED%o %NAME%%RED% o%MAP% {%WHITE%+ %BLUE%Jewel %WHITE%+ %ORANGE%Rune%NL%%WHITE%White to %YELLOW%Rare Map}
-ItemDisplay[irra]: %RED%ooo %NAME%%RED% ooo%MAP% {%WHITE%White to %YELLOW%Rare Map}
-ItemDisplay[rera]: %ORANGE%o %NAME%%ORANGE% o%MAP% {%WHITE%+ PGem + %ORANGE%Rune%NL%%WHITE%Reroll %YELLOW%Rare Map}
-ItemDisplay[rrra]: %ORANGE%ooo %NAME%%ORANGE% ooo%MAP% {%WHITE%Reroll %YELLOW%Rare Map}
-ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP% {%WHITE%Return to White Map}
-ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP% {%WHITE%+ PSkull + %TAN%Thul>%NL%%WHITE%Upg %BLUE%Magic %WHITE%to %YELLOW%Rare Map}
-ItemDisplay[urma]: %BLUE%ooo %NAME%%BLUE% ooo%MAP% {%WHITE%Upg %BLUE%Magic %WHITE%to %YELLOW%Rare Map}
-ItemDisplay[upmp]: %GRAY%o %NAME%%GRAY% o%MAP% {%WHITE%+ Three %WHITE%M%BLUE%A%YELLOW%P%WHITE%s of Same Tier %NL%%WHITE%Upg Maps to Next Tier}
-ItemDisplay[fort]: %TAN%o %NAME%%TAN% o%MAP% {%RED%2x Monster HP %WHITE%* %RED%+20% Monster Dmg %WHITE%* %RED%-50% Density %NL%%WHITE%Map * %GREEN%2x Loot %WHITE%* %GREEN%2x EXP}
+ItemDisplay[imma]: %YELLOW%o %NAME%%YELLOW% o%MAP% 
+ItemDisplay[irma]: %YELLOW%ooo %NAME%%YELLOW% ooo%MAP% 
+ItemDisplay[imra]: %RED%o %NAME%%RED% o%MAP%
+ItemDisplay[irra]: %RED%ooo %NAME%%RED% ooo%MAP% 
+ItemDisplay[rera]: %ORANGE%o %NAME%%ORANGE% o%MAP% 
+ItemDisplay[rrra]: %ORANGE%ooo %NAME%%ORANGE% ooo%MAP% 
+ItemDisplay[scou]: %GREEN%o %NAME%%GREEN% o%MAP% 
+ItemDisplay[upma]: %BLUE%o %NAME%%BLUE% o%MAP% 
+ItemDisplay[urma]: %BLUE%ooo %NAME%%BLUE% ooo%MAP% 
+ItemDisplay[upmp]: %GRAY%o %NAME%%GRAY% o%MAP% 
+ItemDisplay[fort]: %TAN%o %NAME%%TAN% o%MAP% 
 ItemDisplay[scrb]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Tier 3 %RED%Map %NL%%WHITE%Turns %RED%Map%WHITE% into %PURPLE%Dungeon%PURPLE%}
 ItemDisplay[lbox]: %WHITE%ooooo %GOLD%%NAME% %WHITE%ooooo%MAP%
 ItemDisplay[lpp]: %WHITE%ooo %GOLD%%NAME% %WHITE%ooo%MAP%
