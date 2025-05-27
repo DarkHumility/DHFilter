@@ -1481,8 +1481,8 @@ ItemDisplay[pa9 UNI !ID !ETH]: %RED%oooo %PURPLE%Herald of Zakarum %RED%oooo%MAP
 ItemDisplay[pa9 UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Herald of Zakarum %RED%oooo%MAP%
 ItemDisplay[xml UNI !ID !ETH]: %GOLD%ooo Moser's Blessed Circle ooo%MAP%
 ItemDisplay[xml UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Moser's Blessed Circle ooo%MAP%
-ItemDisplay[upk UNI !ID !ETH]: %RED%oo Spike Thorn oo%MAP%
-ItemDisplay[upk UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Spike Thorn oo%MAP%
+ItemDisplay[upk UNI !ID !ETH]: %RED%ooo Spike Thorn ooo%MAP%
+ItemDisplay[upk UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Spike Thorn ooo%MAP%
 ItemDisplay[pae UNI !ID !ETH]: %RED%ooo %PURPLE%Dragonscale %RED%ooo%MAP%
 ItemDisplay[pae UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Dragonscale ooo%MAP%
 ItemDisplay[nea UNI !ID !ETH]: %RED%ooo Homunculus ooo%MAP%
