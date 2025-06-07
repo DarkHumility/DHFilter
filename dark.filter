@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.02
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.03
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
@@ -124,8 +124,8 @@ ItemDisplay[lucb]: %RED%ooo %NAME%%RED% ooo%MAP%
 ItemDisplay[lucc]: %RED%oo %NAME%%RED% oo%MAP%
 ItemDisplay[lucd]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[jewf]: %TAN%o %BLUE%%NAME% %TAN%o%MAP%
-ItemDisplay[rtp]: %GREEN%!!!!!!! %GOLD%%NAME% %GREEN%!!!!!!!%MAP%
-ItemDisplay[rid]: %GREEN%!!!!!!! %GOLD%%NAME% %GREEN%!!!!!!!%MAP%
+ItemDisplay[rtp]: %GREEN%!!!!!!!!! %GOLD%%NAME% %GREEN%!!!!!!!!!%MAP%
+ItemDisplay[rid]: %GREEN%!!!!!!!!! %GOLD%%NAME% %GREEN%!!!!!!!!!%MAP%
 //Maps
 ///tier1
 ItemDisplay[t12 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %BLUE%Cold %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
@@ -305,8 +305,8 @@ ItemDisplay[r27s OR r27]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%OR
 ItemDisplay[r28s OR r28]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%ORANGE%rune 28}
 ItemDisplay[r29s OR r29]: %SAGE%ooo%CORAL%oo%SAGE%ooo %ORANGE%%NAME% %SAGE%ooo%CORAL%oo%SAGE%ooo%MAP% {%ORANGE%rune 29}
 ItemDisplay[r30s OR r30]: %PURPLE%oo%GOLD%oo%PURPLE%oo%GOLD%oo%PURPLE%oo %ORANGE%%NAME% %PURPLE%oo%GOLD%oo%PURPLE%oo%GOLD%oo%PURPLE%oo%MAP% {%ORANGE%rune 30}
-ItemDisplay[r31s OR r31]: %PURPLE%oooooo %ORANGE%%NAME% %PURPLE%oooooo%MAP% {%ORANGE%rune 31}
-ItemDisplay[r32s OR r32]: %SAGE%ooo%CORAL%oo%SAGE%ooo %ORANGE%%NAME% %SAGE%ooo%CORAL%oo%SAGE%ooo%MAP% {%ORANGE%rune 32}
+ItemDisplay[r31s OR r31]: %SAGE%ooo%CORAL%oo%SAGE%ooo %ORANGE%%NAME% %SAGE%ooo%CORAL%oo%SAGE%ooo%MAP% {%ORANGE%rune 31}
+ItemDisplay[r32s OR r32]: %TEAL%ooo%RED%ooo%TEAL%ooo %ORANGE%%NAME% %TEAL%ooo%RED%ooo%TEAL%ooo%MAP% {%ORANGE%rune 32}
 ItemDisplay[r33s OR r33]: %PURPLE%oo%RED%oo%PURPLE%oo%RED%oo%PURPLE%oo %ORANGE%%NAME% %PURPLE%oo%RED%oo%PURPLE%oo%RED%oo%PURPLE%oo%MAP% {%ORANGE%rune 33}
 ///GEMS
 ItemDisplay[GEM=3 CLVL<26]: %NAME%
