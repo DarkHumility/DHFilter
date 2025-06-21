@@ -780,7 +780,7 @@ ItemDisplay[cm3 UNI !ID]: %PURPLE%ooo %GOLD%Gheed's Fortune %PURPLE%ooo%MAP%
 //Grand
 ItemDisplay[cm3 MAG ID ILVL>90]: %BLUE%%NAME% {%RED%LVL 91+ REROLL}
 ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%+++ %BLUE%%NAME% %RED%+++%MAP%
-ItemDisplay[cm3 MAG !ID ILVL<91 ILVL>49]: %ORANGE%++ %NAME% %ORANGE%++%MAP%
+ItemDisplay[cm3 MAG !ID ILVL<91 ILVL>49]: %ORANGE%++ %BLUE%%NAME% %ORANGE%++%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<50]: %GREEN%+ %BLUE%%NAME% %GREEN%+%MAP%
 //Large
 ItemDisplay[cm2 MAG !ID]: %BLUE%+ %NAME% %BLUE%+%MAP%
