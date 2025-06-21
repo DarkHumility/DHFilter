@@ -6,7 +6,7 @@ ItemDisplayFilterName[]: Standard - Trash Hidden Based on CLVL
 ItemDisplayFilterName[]: Removes Magic Item Bases
 ItemDisplayFilterName[]: Removes Most Potions
 //Filter Level Parameters
-ItemDisplay[MAG (WEAPON OR ARMOR OR RIN OR AMU) AND (ETH OR !ETH) !NMAG !UNI !RARE !ID FILTLVL>1]:
+ItemDisplay[MAG (WEAPON OR ARMOR OR RIN OR AMU) AND (ETH OR !ETH) !NMAG !SET !RW !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[mp5 OR hp5 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps FILTLVL>2]: 
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
@@ -1793,7 +1793,7 @@ ItemDisplay[CL6 MAG !ETH IVL>60 !ID]: %BLUE%%NAME%
 ItemDisplay[CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 MAG !ETH !ID]: %BLUE%%NAME%
 ItemDisplay[CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[CL5 OR CL7 MAG !ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-///Crafting Blue Weaps
+///Crafting Blue Weps
 //Axes
 ItemDisplay[(9ax OR 7ax OR 72a OR 7mp OR 9wa OR 7wa OR 9la OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR wax OR btx OR 9bt OR 9ga OR gax OR 9gi OR gix) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Mauls
