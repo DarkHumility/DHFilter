@@ -4,9 +4,9 @@
 //Filter Levels
 ItemDisplayFilterName[]: Standard - Trash Hidden Based on CLVL
 ItemDisplayFilterName[]: Removes Magic Item Bases
-ItemDisplayFilterName[]: Additionally Removes Most Potions
+ItemDisplayFilterName[]: Removes Most Potions
 //Filter Level Parameters
-ItemDisplay[MAG (WEAPON OR ARMOR OR RIN OR AMU) !RARE !ID FILTLVL>1]:
+ItemDisplay[MAG (WEAPON OR ARMOR OR RIN OR AMU) AND (ETH OR !ETH) !NMAG !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[mp5 OR hp5 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps FILTLVL>2]: 
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
@@ -327,13 +327,13 @@ ItemDisplay[(GEM=4 AND GEMTYPE=5) OR glb OR glbs]: %ORANGE%Sapphire%MAP%
 ItemDisplay[(GEM=4 AND GEMTYPE=6) OR gly OR glys]: %ORANGE%Topaz%MAP%
 ItemDisplay[(GEM=4 AND GEMTYPE=7) OR skl OR skls]: %ORANGE%Skull%MAP%
 //Perfect
-ItemDisplay[GEM=5 AND GEMTYPE=1 OR gpv OR gpvs]: %ORANGE%+Amethyst+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=2 OR gpw OR gpws]: %ORANGE%+Diamond+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=3 OR gpg OR gpgs]: %ORANGE%+Emerald+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=4 OR gpr OR gprs]: %ORANGE%+Ruby+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=5 OR gpb OR gpbs]: %ORANGE%+Sapphire+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=6 OR gpy OR gpys]: %ORANGE%+Topaz+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=7 OR skz OR skzs]: %ORANGE%+Skull+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=1 OR gpv OR gpvs]: %ORANGE%+ Amethyst +%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=2 OR gpw OR gpws]: %ORANGE%+ Diamond +%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=3 OR gpg OR gpgs]: %ORANGE%+ Emerald +%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=4 OR gpr OR gprs]: %ORANGE%+ Ruby +%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=5 OR gpb OR gpbs]: %ORANGE%+ Sapphire +%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=6 OR gpy OR gpys]: %ORANGE%+ Topaz +%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=7 OR skz OR skzs]: %ORANGE%+ Skull +%MAP%
 ItemDisplay[GEM=3 CLVL>25]:
 ItemDisplay[GEM=2 CLVL>20]:
 ItemDisplay[GEM=1 CLVL>15]:
@@ -785,7 +785,9 @@ ItemDisplay[cm3 MAG !ID ILVL<50]: %GREEN%+ %BLUE%%NAME% %GREEN%+%MAP%
 //Large
 ItemDisplay[cm2 MAG !ID]: %BLUE%+ %NAME% %BLUE%+%MAP%
 //Small
-ItemDisplay[cm1 MAG !ID]: %BLUE%+ %NAME% %BLUE%+%MAP%
+ItemDisplay[cm1 MAG ID ILVL>90]: %BLUE%%NAME% {%RED%LVL 91+ REROLL}
+ItemDisplay[cm1 MAG !ID ILVL>90]: %BLUE%++ %NAME% %BLUE%++%MAP%
+ItemDisplay[cm1 MAG !ID ILVL<91]: %BLUE%+ %NAME% %BLUE%+%MAP%
 //Catch-all
 ItemDisplay[cm1 OR cm2 OR cm3 ID]: %NAME%
 //Amulets
