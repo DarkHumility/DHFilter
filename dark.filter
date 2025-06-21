@@ -1,6 +1,12 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.04
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.05
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
+//Filter Levels
+ItemDisplayFilterName[]: Standard - Trash Hidden Based on CLVL
+ItemDisplayFilterName[]: Removes Most Magic/Rare Items
+ItemDisplayFilterName[]: Removes Most Potions
+//Filter Level Parameters
+ItemDisplay[mp5 AND hp5 AND rvs AND tpcl AND tpfl AND tpgl AND tpll AND wms AND yps FILTLVL=3]: 
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
 //Gold
