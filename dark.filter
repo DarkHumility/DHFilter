@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.05
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.06
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -1795,61 +1795,61 @@ ItemDisplay[CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 MAG ETH !ID]: %GRAY%[%
 ItemDisplay[CL5 OR CL7 MAG !ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ///Crafting Blue Weps
 //Axes
-ItemDisplay[(9ax OR 7ax OR 72a OR 7mp OR 9wa OR 7wa OR 9la OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR wax OR btx OR 9bt OR 9ga OR gax OR 9gi OR gix) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(9ax OR 7ax OR 72a OR 7mp OR 9wa OR 7wa OR 9la OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR wax OR btx OR 9bt OR 9ga OR gax OR 9gi OR gix) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Mauls
-ItemDisplay[(9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm OR whm OR gma) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm OR whm OR gma) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Swords
-ItemDisplay[(9cr OR 9ls OR 7ls OR 7gs OR 9gs OR 7b7 OR 9b9 OR 7fb OR 9fb OR 7gd OR 9gd OR gsd OR flb OR crs OR 9ls OR 9wd OR bsw OR gis OR lsd) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(9cr OR 9ls OR 7ls OR 7gs OR 9gs OR 7b7 OR 9b9 OR 7fb OR 9fb OR 7gd OR 9gd OR gsd OR flb OR crs OR 9ls OR 9wd OR bsw OR gis OR lsd) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Fanged knife
-ItemDisplay[(7kr OR 9kr OR kri) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7kr OR 9kr OR kri) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //throw + jav
-ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 7ts OR 7gl OR 9ts OR 9gl OR 9b8 OR glv OR tsp OR bal) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 7ts OR 7gl OR 9ts OR 9gl OR 9b8 OR glv OR tsp OR bal) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Ghost Spear + Warpike
-ItemDisplay[(7st OR 7p7 OR 9p9 OR pik) MAG ETH ILVL>70 !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7st OR 7p7 OR 9p9 OR pik) MAG ETH ILVL>70 !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Polearms
-ItemDisplay[(7pa OR 9pa OR 7wc OR 9wc OR 7h7 OR 9h9 OR 7s8 OR 9s8 OR scy OR pax OR wsc OR hal) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7pa OR 9pa OR 7wc OR 9wc OR 7h7 OR 9h9 OR 7s8 OR 9s8 OR scy OR pax OR wsc OR hal) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Archon Staff, Shillelagh, Stalagmite
-ItemDisplay[(6ws OR 6cs OR 6ls) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(6ws OR 6cs OR 6ls) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Caddy
-ItemDisplay[(7ws OR 9ws OR wsp) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7ws OR 9ws OR wsp) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Claws
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(clw OR btl OR skr OR 9ar OR 9lw OR 9tw OR 9qr OR 7ar OR 7wb OR 7lw OR 7tw OR 7qr OR 9wb OR 9xf OR 7xf OR 9cs OR 7cs) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ///Armour
 //Helm (merc)
-ItemDisplay[(EQ1 ELT) OR (xrn OR xrn OR xhm OR crn OR xh9 OR hlm OR ghm) (!CL2 AND !CL1) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(EQ1 ELT) OR (xrn OR xrn OR xhm OR crn OR xh9 OR hlm OR ghm) (!CL2 AND !CL1) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Chest
-ItemDisplay[CHEST ELT MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[CHEST AND (ELT OR EXC) OR (xar OR xth OR aar OR gth OR xtp OR ltp) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[CHEST ELT MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[CHEST AND (ELT OR EXC) OR (xar OR xth OR aar OR gth OR xtp OR ltp) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Shield
-ItemDisplay[uit MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(uit OR xit OR xow OR uow OR xts OR uts OR kit OR tow OR gts OR xsh OR bsh) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-ItemDisplay[CL3 MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[uit MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(uit OR xit OR xow OR uow OR xts OR uts OR kit OR tow OR gts OR xsh OR bsh) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[CL3 MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Gloves
-ItemDisplay[(EQ4 ELT) OR (xtg OR xhg OR xmg) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(EQ4 ELT) OR (xtg OR xhg OR xmg) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Belts
-ItemDisplay[(EQ6 ELT) OR (zmb OR ztb) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(EQ6 ELT) OR (zmb OR ztb) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Boots
-ItemDisplay[(EQ5 ELT) OR (xtb OR xhb OR xhn) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(EQ5 ELT) OR (xtb OR xhb OR xhn) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Bows & X-Bows
-ItemDisplay[(WP9 OR WP10) (ELT) MAG !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[(WP9 OR WP10) (ELT) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
 ///Other Class Specific
-ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-ItemDisplay[(baa OR baf OR ba9 OR bae OR ba4 OR ba5) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(baa OR baf OR ba9 OR bae OR ba4 OR ba5) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-ItemDisplay[DIN (EXC OR ELT) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(ob5 OR obf OR oba) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(ob5 OR obf OR oba) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 9gw OR 9bw OR 9yw) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 9gw OR 9bw OR 9yw) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-ItemDisplay[(ne8 OR ne9 OR nea OR ned OR nee OR nef) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(amc OR amb OR 6rx OR 8rx OR 6lb OR 6lw OR 8lw OR 8lb) MAG !ETH !ID]: %BLUE%%NAME%
+ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(drb OR drd OR drf OR dra OR dr8 OR dr6) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(baa OR baf OR ba9 OR bae OR ba4 OR ba5) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(baa OR baf OR ba9 OR bae OR ba4 OR ba5) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[DIN (EXC OR ELT) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(ob5 OR obf OR oba) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(ob5 OR obf OR oba) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 9gw OR 9bw OR 9yw) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(7wn OR 7yw OR 7bw OR 7gw OR 9gw OR 9bw OR 9yw) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(ne8 OR ne9 OR nea OR ned OR nee OR nef) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(amc OR amb OR 6rx OR 8rx OR 6lb OR 6lw OR 8lw OR 8lb) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
 ///Season Start catch-all
 ItemDisplay[(ARMOR OR WEAPON) (SET OR UNI) ID !ETH]: %NAME%
-ItemDisplay[WEP (EXC OR ELT) MAG !ETH !ID ILVL>56]: %BLUE%%NAME%
-ItemDisplay[ARMOR (EXC OR ELT) MAG !ETH !ID]: %BLUE%%NAME%
-ItemDisplay[(ARMOR OR WEAPON) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[WEP (EXC OR ELT) MAG !ETH !ID ILVL>56 FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[ARMOR (EXC OR ELT) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(ARMOR OR WEAPON) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) RARE !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[(ARMOR CRAFT ELT !ETH ID]: %ORANGE%%NAME%
