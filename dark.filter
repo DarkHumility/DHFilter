@@ -3,9 +3,10 @@
 //twitch.tv/DarkHumility
 //Filter Levels
 ItemDisplayFilterName[]: Standard - Trash Hidden Based on CLVL
-ItemDisplayFilterName[]: Removes Most Magic/Rare Items
+ItemDisplayFilterName[]: Removes Most Magic/Rare Item Bases
 ItemDisplayFilterName[]: Removes Most Potions
 //Filter Level Parameters
+ItemDisplay[(MAG OR RARE)  FILTLVL>1]: 
 ItemDisplay[mp5 OR hp5 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps FILTLVL>2]: 
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
@@ -837,8 +838,8 @@ ItemDisplay[ulg UNI !ID !ETH]: %RED%oo %PURPLE%Titan's Grip %RED%oo%MAP%
 ItemDisplay[ulg UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Titan's Grip ooo%MAP%
 ItemDisplay[ung UNI !ID !ETH]: %RED%oo %PURPLE%Wraithskin %RED%oo%MAP%
 ItemDisplay[ung UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Wraithskin %RED%oo%MAP%
-ItemDisplay[urg UNI !ID !ETH]: %RED%o %PURPLE%Twilight's Reflection %RED%o%MAP%
-ItemDisplay[urg UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Twilight's Reflection %RED%o%MAP%
+ItemDisplay[urg UNI !ID !ETH]: %RED%oo %PURPLE%Twilight's Reflection %RED%oo%MAP%
+ItemDisplay[urg UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Twilight's Reflection %RED%oo%MAP%
 ItemDisplay[drc UNI !ID !ETH]: %RED%oo %PURPLE%Denmother %RED%oo%MAP%
 ItemDisplay[drc UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Denmother %RED%oo%MAP%
 ItemDisplay[amc UNI !ID]: %RED%ooo Ebonbane ooo%MAP%
@@ -1051,8 +1052,8 @@ ItemDisplay[uml UNI !ID !ETH]: %RED%ooo Blackoak Shield ooo%MAP%
 ItemDisplay[uml UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Blackoak Shield ooo%MAP%
 ItemDisplay[uow UNI !ID !ETH]: %RED%ooo %PURPLE%Medusa's Gaze %RED%ooo%MAP%
 ItemDisplay[uow UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Medusa's Gaze %RED%ooo%MAP%
-ItemDisplay[ush UNI !ID !ETH]: %RED%oo Head Hunter's Glory oo%MAP%
-ItemDisplay[ush UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Head Hunter's Glory oo%MAP%
+ItemDisplay[ush UNI !ID !ETH]: %RED%ooo Head Hunter's Glory ooo%MAP%
+ItemDisplay[ush UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Head Hunter's Glory ooo%MAP%
 ItemDisplay[uts UNI !ID !ETH]: %RED%ooo %PURPLE%Spirit Ward %RED%ooo%MAP%
 ItemDisplay[uts UNI !ID !ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Spirit Ward %RED%ooo%MAP%
 ItemDisplay[sml UNI !ID !ETH]: %GOLD%o Umbral Disk o%MAP%
