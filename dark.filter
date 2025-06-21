@@ -320,13 +320,13 @@ ItemDisplay[(GEM=4 AND GEMTYPE=5) OR glb OR glbs]: %ORANGE%Sapphire%MAP%
 ItemDisplay[(GEM=4 AND GEMTYPE=6) OR gly OR glys]: %ORANGE%Topaz%MAP%
 ItemDisplay[(GEM=4 AND GEMTYPE=7) OR skl OR skls]: %ORANGE%Skull%MAP%
 //Perfect
-ItemDisplay[GEM=5 AND GEMTYPE=1 OR gpv OR gpvs]: %ORANGE%Amethyst+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=2 OR gpw OR gpws]: %ORANGE%Diamond+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=3 OR gpg OR gpgs]: %ORANGE%Emerald+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=4 OR gpr OR gprs]: %ORANGE%Ruby+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=5 OR gpb OR gpbs]: %ORANGE%Sapphire+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=6 OR gpy OR gpys]: %ORANGE%Topaz+%MAP%
-ItemDisplay[GEM=5 AND GEMTYPE=7 OR skz OR skzs]: %ORANGE%Skull+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=1 OR gpv OR gpvs]: %ORANGE%+Amethyst+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=2 OR gpw OR gpws]: %ORANGE%+Diamond+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=3 OR gpg OR gpgs]: %ORANGE%+Emerald+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=4 OR gpr OR gprs]: %ORANGE%+Ruby+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=5 OR gpb OR gpbs]: %ORANGE%+Sapphire+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=6 OR gpy OR gpys]: %ORANGE%+Topaz+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=7 OR skz OR skzs]: %ORANGE%+Skull+%MAP%
 ItemDisplay[GEM=3 CLVL>25]:
 ItemDisplay[GEM=2 CLVL>20]:
 ItemDisplay[GEM=1 CLVL>15]:
@@ -771,7 +771,7 @@ ItemDisplay[cm1 UNI !ID]: %PURPLE%ooooooo %GOLD%Annihilus %PURPLE%ooooooo%MAP%
 ItemDisplay[cm2 UNI !ID]: %PURPLE%ooooo %GOLD%Hellfire Torch %PURPLE%ooooo%MAP%
 ItemDisplay[cm3 UNI !ID]: %PURPLE%ooo %GOLD%Gheed's Fortune %PURPLE%ooo%MAP%
 //Grand
-ItemDisplay[cm3 MAG ID ILVL>90]: %BLUE%%NAME% {%WHITE%Lvl 91+}
+ItemDisplay[cm3 MAG ID ILVL>90]: %BLUE%%NAME% {%RED%LVL 91+ REROLL}
 ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%+++ %BLUE%%NAME% %RED%+++%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<91 ILVL>49]: %ORANGE%++ %NAME% %ORANGE%++%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<50]: %GREEN%+ %BLUE%%NAME% %GREEN%+%MAP%
