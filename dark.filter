@@ -1,11 +1,10 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.03
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.04
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
 //Gold
-ItemDisplay[GOLD<1000 CLVL<65]:
-ItemDisplay[GOLD<5000 CLVL>64]:
+ItemDisplay[GOLD]:
 //HP & MPs
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
@@ -313,21 +312,21 @@ ItemDisplay[GEM=3 CLVL<26]: %NAME%
 ItemDisplay[GEM=2 CLVL<21]: %NAME%
 ItemDisplay[GEM=1 CLVL<16]: %NAME%
 //Flawless
-ItemDisplay[(GEM=4 AND GEMTYPE=1) OR gzv OR gzvs]: %ORANGE%Amethyst
-ItemDisplay[(GEM=4 AND GEMTYPE=2) OR glw OR glws]: %ORANGE%Diamond
-ItemDisplay[(GEM=4 AND GEMTYPE=3) OR glg OR glgs]: %ORANGE%Emerald
-ItemDisplay[(GEM=4 AND GEMTYPE=4) OR glr OR glrs]: %ORANGE%Ruby
-ItemDisplay[(GEM=4 AND GEMTYPE=5) OR glb OR glbs]: %ORANGE%Sapphire
-ItemDisplay[(GEM=4 AND GEMTYPE=6) OR gly OR glys]: %ORANGE%Topaz
-ItemDisplay[(GEM=4 AND GEMTYPE=7) OR skl OR skls]: %ORANGE%Skull
+ItemDisplay[(GEM=4 AND GEMTYPE=1) OR gzv OR gzvs]: %ORANGE%Amethyst%MAP%
+ItemDisplay[(GEM=4 AND GEMTYPE=2) OR glw OR glws]: %ORANGE%Diamond%MAP%
+ItemDisplay[(GEM=4 AND GEMTYPE=3) OR glg OR glgs]: %ORANGE%Emerald%MAP%
+ItemDisplay[(GEM=4 AND GEMTYPE=4) OR glr OR glrs]: %ORANGE%Ruby%MAP%
+ItemDisplay[(GEM=4 AND GEMTYPE=5) OR glb OR glbs]: %ORANGE%Sapphire%MAP%
+ItemDisplay[(GEM=4 AND GEMTYPE=6) OR gly OR glys]: %ORANGE%Topaz%MAP%
+ItemDisplay[(GEM=4 AND GEMTYPE=7) OR skl OR skls]: %ORANGE%Skull%MAP%
 //Perfect
-ItemDisplay[GEM=5 AND GEMTYPE=1 OR gpv OR gpvs]: %ORANGE%Amethyst+
-ItemDisplay[GEM=5 AND GEMTYPE=2 OR gpw OR gpws]: %ORANGE%Diamond+
-ItemDisplay[GEM=5 AND GEMTYPE=3 OR gpg OR gpgs]: %ORANGE%Emerald+
-ItemDisplay[GEM=5 AND GEMTYPE=4 OR gpr OR gprs]: %ORANGE%Ruby+
-ItemDisplay[GEM=5 AND GEMTYPE=5 OR gpb OR gpbs]: %ORANGE%Sapphire+
-ItemDisplay[GEM=5 AND GEMTYPE=6 OR gpy OR gpys]: %ORANGE%Topaz+
-ItemDisplay[GEM=5 AND GEMTYPE=7 OR skz OR skzs]: %ORANGE%Skull+
+ItemDisplay[GEM=5 AND GEMTYPE=1 OR gpv OR gpvs]: %ORANGE%Amethyst+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=2 OR gpw OR gpws]: %ORANGE%Diamond+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=3 OR gpg OR gpgs]: %ORANGE%Emerald+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=4 OR gpr OR gprs]: %ORANGE%Ruby+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=5 OR gpb OR gpbs]: %ORANGE%Sapphire+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=6 OR gpy OR gpys]: %ORANGE%Topaz+%MAP%
+ItemDisplay[GEM=5 AND GEMTYPE=7 OR skz OR skzs]: %ORANGE%Skull+%MAP%
 ItemDisplay[GEM=3 CLVL>25]:
 ItemDisplay[GEM=2 CLVL>20]:
 ItemDisplay[GEM=1 CLVL>15]:
@@ -772,8 +771,9 @@ ItemDisplay[cm1 UNI !ID]: %PURPLE%ooooooo %GOLD%Annihilus %PURPLE%ooooooo%MAP%
 ItemDisplay[cm2 UNI !ID]: %PURPLE%ooooo %GOLD%Hellfire Torch %PURPLE%ooooo%MAP%
 ItemDisplay[cm3 UNI !ID]: %PURPLE%ooo %GOLD%Gheed's Fortune %PURPLE%ooo%MAP%
 //Grand
-ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%o %BLUE%%NAME% %RED%o%MAP%
-ItemDisplay[cm3 MAG !ID ILVL<91 ILVL>49]: %BLUE%o %NAME% %BLUE%o%MAP%
+ItemDisplay[cm3 MAG ID ILVL>90]: %BLUE%%NAME% {%WHITE%Lvl 91+}
+ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
+ItemDisplay[cm3 MAG !ID ILVL<91 ILVL>49]: %ORANGE%oo %NAME% %ORANGE%oo%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<50]: %GREEN%o %BLUE%%NAME% %GREEN%o%MAP%
 //Large
 ItemDisplay[cm2 MAG !ID]: %BLUE%o %NAME% %BLUE%o%MAP%
