@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.07
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.08
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -6,8 +6,8 @@ ItemDisplayFilterName[]: Standard - Trash Hidden Based on CLVL
 ItemDisplayFilterName[]: Removes Magic Item Bases
 ItemDisplayFilterName[]: Removes Most Potions
 //Filter Level Parameters
-ItemDisplay[MAG (WEAPON OR ARMOR OR RIN OR AMU) AND (ETH OR !ETH) !NMAG !SET !RW !UNI !RARE !ID FILTLVL>1]:
-ItemDisplay[mp5 OR hp5 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps FILTLVL>2]: 
+ItemDisplay[MAG (WEAPON OR ARMOR OR rin OR amu aqv OR cqv) AND (ETH OR !ETH) !NMAG !SET !RW !UNI !RARE !ID FILTLVL>1]:
+ItemDisplay[mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps FILTLVL>2]: 
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
 //Gold
@@ -61,7 +61,7 @@ ItemDisplay[tplm CLVL>29]:
 ItemDisplay[tpll]: %WHITE%!%YELLOW%Sh
 //Quivers & Bolts
 ItemDisplay[(aqv OR cqv) RARE]: %NAME%
-ItemDisplay[(aqv OR cqv) MAG]: %NAME%
+ItemDisplay[(aqv OR cqv) MAG FILTLVL<2]: %NAME%
 ItemDisplay[(aqv OR cqv) NMAG CLVL>12]:
 ItemDisplay[(aqv OR cqv) MAG CLVL>90]:
 //Quest items
@@ -2864,4 +2864,4 @@ ItemDisplay[(ARMOR OR WEAPON) !ELT SOCK=1 NMAG CLVL>60]:
 ItemDisplay[(ARMOR OR WEAPON) (!EXC OR !ELT) SOCK=1 NMAG CLVL>40]:
 ItemDisplay[(ARMOR OR WEAPON) (!EXC OR !ELT) NMAG CLVL>40]:
 ItemDisplay[(ARMOR OR WEAPON) INF]:
-ItemDisplay[(ARMOR OR WEAPON) CLVL>20]:
+ItemDisplay[(ARMOR OR WEAPON OR rin OR amu) CLVL>20]:
