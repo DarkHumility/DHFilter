@@ -6,7 +6,7 @@ ItemDisplayFilterName[]: Standard - Trash Hidden Based on CLVL
 ItemDisplayFilterName[]: Removes Magic Item Bases
 ItemDisplayFilterName[]: Removes Most Potions
 //Filter Level Parameters
-ItemDisplay[MAG (WEAPON OR ARMOR OR rin OR amu aqv OR cqv) AND (ETH OR !ETH) !NMAG !SET !RW !UNI !RARE !ID FILTLVL>1]:
+ItemDisplay[MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv) AND (ETH OR !ETH) !NMAG !SET !RW !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps FILTLVL>2]: 
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
