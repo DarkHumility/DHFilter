@@ -821,8 +821,8 @@ ItemDisplay[rin MAG CLVL<80 FILTLVL<2]: %BLUE%o %NAME% o%WHITE% {%RED%Blood %WHI
 //s11 PD2 Uniques
 ItemDisplay[ob7 UNI !ID !ETH]: %RED%o Skorn o%MAP%
 ItemDisplay[ob7 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Skorn o%MAP%
-ItemDisplay[7xf UNI !ID !ETH]: %RED%oo %PURPLE%Whispering Mirage %RED%oo%MAP%
-ItemDisplay[7xf UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Whispering Mirage %RED%oo%MAP%
+ItemDisplay[7xf UNI !ID !ETH]: %RED%ooo %PURPLE%Whispering Mirage %RED%ooo%MAP%
+ItemDisplay[7xf UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Whispering Mirage %RED%oooo%MAP%
 ItemDisplay[paf UNI !ID !ETH]: %RED%ooo %PURPLE%Skywarden %RED%ooo%MAP%
 ItemDisplay[paf UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Skywarden %RED%ooo%MAP%
 ItemDisplay[dr6 UNI !ID !ETH]: %RED%ooo Fenris ooo%MAP%
