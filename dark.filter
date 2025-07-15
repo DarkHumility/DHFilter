@@ -2595,7 +2595,7 @@ ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7 OR 7tr OR 7br OR 7st OR 7p7 OR amd OR ame)
 ItemDisplay[(7wc OR 7pa OR 7s8 OR 7h7 OR 7br OR 7st OR amd OR ame) (!ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0 CLVL<91]: %NAME% %TAN%[%SOCKETS%]
 //Grief/Beast/Passion
 ItemDisplay[7cr (!ETH AND NMAG OR RW) (SOCK>3 AND SOCK<7)]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7cr (!ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%%NAME% %TAN%[%SOCKETS%] {SPECIAL WEAPON: IMBUE!}
+ItemDisplay[7cr (!ETH AND !INF AND !SUP) AND (NMAG OR RW) SOCK=0]: %GRAY%%NAME% %TAN%[%SOCKETS%] {%RED%SECRET WEAPON: IMBUE!}
 //Famine/Beast
 ItemDisplay[(7wa OR 7fl OR 7wh) (!ETH AND NMAG OR RW) (SOCK=4 OR SOCK=5)]: %NAME% %TAN%[%SOCKETS%]
 //Death/Oath/maces
