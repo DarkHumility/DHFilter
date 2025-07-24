@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.11
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.12
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -210,7 +210,7 @@ ItemDisplay[t53 UNI !ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo%MAP%
 ItemDisplay[t53 UNI ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo%MAP%
 ///tier3
 ItemDisplay[t14 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Gloams Archers Death Lords}%MAP%
-ItemDisplay[t16 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %RED%Fire %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Vipers}%MAP%
+ItemDisplay[t16 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Archers Gorebellys Vipers}%MAP%
 ItemDisplay[t21 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
 ItemDisplay[t32 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Archers Lancers}%MAP%
 ItemDisplay[t35 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* Got Milk?}%MAP%
@@ -221,9 +221,9 @@ ItemDisplay[t3a NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%
 ItemDisplay[t14 MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Gloams Archers Death Lords}%MAP%
 ItemDisplay[t14 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Gloams Archers Death Lords}%MAP%
 ItemDisplay[t14 !RARE NMAG ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Gloams Archers Death Lords}%MAP%
-ItemDisplay[t16 MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %RED%Fire %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Vipers}%MAP%
-ItemDisplay[t16 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %RED%Fire %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Vipers}%MAP%
-ItemDisplay[t16 !RARE NMAG ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %RED%Fire %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Vipers}%MAP%
+ItemDisplay[t16 MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Archers Gorebellys Vipers}%MAP%
+ItemDisplay[t16 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Archers Gorebellys Vipers}%MAP%
+ItemDisplay[t16 !RARE NMAG ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Archers Gorebellys Vipers}%MAP%
 ItemDisplay[t21 MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
 ItemDisplay[t21 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
 ItemDisplay[t21 !RARE NMAG ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
