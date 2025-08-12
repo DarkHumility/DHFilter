@@ -1851,7 +1851,7 @@ ItemDisplay[(ne8 OR ne9 OR nea OR ned OR nee OR nef) MAG !ETH !ID FILTLVL<2]: %B
 ItemDisplay[(amc OR amb OR 6rx OR 8rx OR 6lb OR 6lw OR 8lw OR 8lb) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
 ///Season Start catch-all
 ItemDisplay[(ARMOR OR WEAPON) (SET OR UNI) ID !ETH]: %NAME%
-ItemDisplay[WEP (EXC OR ELT) MAG !ETH !ID ILVL>56 FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[WEP (EXC OR ELT) MAG !ETH !ID ILVL>40 FILTLVL<2]: %BLUE%%NAME%
 ItemDisplay[ARMOR (EXC OR ELT) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[(ARMOR OR WEAPON) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
