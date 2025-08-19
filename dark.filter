@@ -2401,7 +2401,7 @@ ItemDisplay[7gd NMAG ETH ED>0 ED<15 !SOCK=1 !SOCK=2]: %GRAY%[%WHITE%eth%GRAY%] %
 ItemDisplay[7gd NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ///Daggers
 ItemDisplay[(7kr OR kri OR 9kr) NMAG !ETH !INF (SOCK=0 OR SOCK=3) SK280>2]: %GRAY%[%WHITE%3phs%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(7kr OR kri OR 9kr) NMAG !ETH !INF (SOCK=0 OR SOCK=3) SK274>2]: %GRAY%[%WHITE%3boi%GRAY%] %NAME% %TAN%[%SOCKETS%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(7kr OR kri OR 9kr) NMAG !ETH !INF (SOCK=0 OR SOCK=3) SK274>2]: %GRAY%[%WHITE%3boi%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7kr OR kri OR 9kr) NMAG !ETH !INF (SOCK=0 OR SOCK=3) SK269>2]: %GRAY%[%WHITE%3cot%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7kr OR kri OR 9kr) NMAG !ETH !INF (SOCK=0 OR SOCK=3) SK265>2]: %GRAY%[%WHITE%3cob%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7kr OR kri OR 9kr) NMAG !ETH !INF (SOCK=0 OR SOCK=3) SK259>2]: %GRAY%[%WHITE%3fof%GRAY%] %NAME% %TAN%[%SOCKETS%]
