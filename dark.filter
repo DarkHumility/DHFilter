@@ -8,7 +8,7 @@ ItemDisplayFilterName[]: Removes Most Potions
 ItemDisplayFilterName[]: Removes Large Charms & Low-Tier Socket Bases
 ItemDisplayFilterName[]: Removes Most Rare Item Bases
 //Filter Level Parameters
-ItemDisplay[MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv) AND (ETH OR !ETH) !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
+ItemDisplay[MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH) !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps FILTLVL>2]: 
 ItemDisplay[(MAG AND cm2) OR (NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND !EDEF) !RW !UNI !SET !ID FILTLVL>3]: 
 ItemDisplay[RARE (WEAPON OR ARMOR) AND (ETH OR !ETH) !EQ7 !rin !amu !jew !aqv !cqv !NMAG !SET !RW !UNI !ID FILTLVL>4]:
@@ -2322,7 +2322,7 @@ ItemDisplay[WP5 ELT NMAG ETH (SOCK=2 OR SOCK=3) ED>0 ED<15]: %GRAY%[%WHITE%eth%G
 ItemDisplay[WP5 ELT NMAG ETH (SOCK=2 OR SOCK=3) ED=15]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%15%%GRAY% %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[WP5 NMAG ETH SOCK=1 CLVL<61]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP5 NMAG !ETH SOCK=1 CLVL<61 FILTLVL<4]: %NAME% %TAN%[%SOCKETS%]
-//Shields
+//Shields+Quivers
 ItemDisplay[uit NMAG !ETH ED=15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[uit NMAG !ETH (ED>0 AND ED<15) (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(uit OR uow OR uts) NMAG ETH ED=15 (SOCK=0 OR SOCK=4)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
@@ -2342,6 +2342,13 @@ ItemDisplay[CL3 ELT (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>2) RES>24]:
 ItemDisplay[CL3 ELT (!INF AND ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK=4) RES>24]: %GRAY%[%WHITE%eth%GRAY%][%WHITE%res%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[CL3 (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>1) RES>24]: %GRAY%[%WHITE%res%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL3 (!INF AND !ETH) AND (NMAG OR RW) (SOCK=0 OR SOCK>1) (RES>14 AND RES<25) CLVL<81]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(aqv3 OR cqv3) (SOCK=0 OR SOCK=2) NMAG CLVL<91 FILTLVL<4]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(aqv3 OR cqv3) SOCK=1 NMAG CLVL<80 FILTLVL<4]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(aqv2 OR cqv2) (SOCK=0 OR SOCK=2) NMAG CLVL<71 FILTLVL<4]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(aqv2 OR cqv2) SOCK=1 NMAG CLVL<51 FILTLVL<4]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(aqv OR cqv) (SOCK=0 OR SOCK=2) NMAG CLVL<30 FILTLVL<4]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(aqv OR cqv) SOCK=1 NMAG CLVL<12 FILTLVL<4]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) NMAG]: 
 ///Axes
 //Small Crescent
 ItemDisplay[7ax NMAG ETH ED=15 (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%][%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
