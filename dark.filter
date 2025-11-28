@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S11 v11.15
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.01
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -63,11 +63,6 @@ ItemDisplay[tpls CLVL>15]:
 ItemDisplay[tplm CLVL<30]: %WHITE%!%YELLOW%St
 ItemDisplay[tplm CLVL>29]:
 ItemDisplay[tpll]: %WHITE%!%YELLOW%Sh
-//Quivers & Bolts
-ItemDisplay[(aqv OR cqv) RARE]: %NAME%
-ItemDisplay[(aqv OR cqv) MAG FILTLVL<2]: %NAME%
-ItemDisplay[(aqv OR cqv) NMAG CLVL>12]:
-ItemDisplay[(aqv OR cqv) MAG CLVL>90]:
 //Quest items
 ItemDisplay[bbb]: %GOLD%%NAME%%MAP%
 ItemDisplay[ass]: %GOLD%%NAME%%MAP%
@@ -822,6 +817,14 @@ ItemDisplay[rin MAG ILVL=94 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE
 ItemDisplay[rin MAG ILVL>94 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL<86 FILTLVL<2]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG CLVL<80 FILTLVL<2]: %BLUE%o %NAME% o%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+//s12 PD2 Uniques
+ItemDisplay[6hb UNI !ID !ETH]: %RED%oo Crackleshot oo%MAP%
+ItemDisplay[aqv UNI !ID !ETH]: %RED%o Balefire o%MAP%
+ItemDisplay[aqv2 UNI !ID !ETH]: %RED%oo Swiftwind Needle or Tombsong oo%MAP%
+ItemDisplay[aqv3 UNI !ID !ETH]: %RED%ooo %PURPLE%Aetherwing or Basilisk's Quill or Doom's Finger %RED%ooo%MAP%
+ItemDisplay[cqv UNI !ID !ETH]: %RED%o Ramfodder o%MAP%
+ItemDisplay[cqv2 UNI !ID !ETH]: %RED%ooo Anvilguard Strap or Shatterhead ooo%MAP%
+ItemDisplay[cqv3 UNI !ID !ETH]: %RED%oooo %PURPLE%Abyssal Ward or Bannerlord's Call or Frozen Sorrow %RED%oooo%MAP%
 //s11 PD2 Uniques
 ItemDisplay[ob7 UNI !ID !ETH]: %RED%o Skorn o%MAP%
 ItemDisplay[ob7 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Skorn o%MAP%
@@ -829,7 +832,7 @@ ItemDisplay[7xf UNI !ID !ETH]: %RED%ooo %PURPLE%Whispering Mirage %RED%ooo%MAP%
 ItemDisplay[7xf UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Whispering Mirage %RED%oooo%MAP%
 ItemDisplay[paf UNI !ID !ETH]: %RED%ooo %PURPLE%Skywarden %RED%ooo%MAP%
 ItemDisplay[paf UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Skywarden %RED%ooo%MAP%
-ItemDisplay[dr6 UNI !ID !ETH]: %RED%ooo Fenris ooo%MAP%
+ItemDisplay[dr6 UNI !ID !ETH]: %RED%o %PURPLE%Fenris %RED%o%MAP%
 ItemDisplay[dr6 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Fenris %RED%ooo%MAP%
 ItemDisplay[ba7 UNI !ID !ETH]: %RED%oo Wildspeaker oo%MAP%
 ItemDisplay[ba7 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Wildspeaker %RED%oo%MAP%
