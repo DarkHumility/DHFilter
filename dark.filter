@@ -32,16 +32,6 @@ ItemDisplay[mp2 CLVL<19]: %BLUE%!%WHITE%Light
 ItemDisplay[mp3 CLVL<25]: %BLUE%!%WHITE%Mana
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL>0]:
 ItemDisplay[(mp1 OR mp2 OR mp3 OR mp4) CLVL>0]:
-//Utilites
-ItemDisplay[tsc CLVL<16]: %GREEN%!%WHITE%TP
-ItemDisplay[isc CLVL<16]: %GREEN%!%WHITE%ID
-ItemDisplay[(tsc OR isc) CLVL>15]:
-ItemDisplay[vps CLVL<26]: %GRAY%!%WHITE%stam
-ItemDisplay[vps CLVL>25]:
-ItemDisplay[wms]: %YELLOW%!%WHITE%t
-ItemDisplay[yps]: %GREEN%!%WHITE%a
-ItemDisplay[key CLVL<25]: %GRAY%Key
-ItemDisplay[key CLVL>24]:
 //S8 Throwing Potions
 ItemDisplay[tpfs CLVL<16]: %WHITE%!%ORANGE%F
 ItemDisplay[tpfs CLVL>15]:
@@ -63,6 +53,16 @@ ItemDisplay[tpls CLVL>15]:
 ItemDisplay[tplm CLVL<30]: %WHITE%!%YELLOW%St
 ItemDisplay[tplm CLVL>29]:
 ItemDisplay[tpll]: %WHITE%!%YELLOW%Sh
+//Utilites
+ItemDisplay[tsc CLVL<16]: %GREEN%!%WHITE%TP
+ItemDisplay[isc CLVL<16]: %GREEN%!%WHITE%ID
+ItemDisplay[(tsc OR isc) CLVL>15]:
+ItemDisplay[vps CLVL<26]: %GRAY%!%WHITE%stam
+ItemDisplay[vps CLVL>25]:
+ItemDisplay[wms]: %YELLOW%!%WHITE%t
+ItemDisplay[yps]: %GREEN%!%WHITE%a
+ItemDisplay[key CLVL<25]: %GRAY%Key
+ItemDisplay[key CLVL>24]:
 //Quest items
 ItemDisplay[bbb]: %GOLD%%NAME%%MAP%
 ItemDisplay[ass]: %GOLD%%NAME%%MAP%
