@@ -1790,8 +1790,7 @@ ItemDisplay[CL2 RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
 ItemDisplay[(am5 OR ama OR amf OR CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ETH RARE !ID FILTLVL<5]: %YELLOW%%NAME%
 ItemDisplay[(am5 OR ama OR amf OR CL6 OR CL7) ETH RARE !ID FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[CL6 RARE !ETH IVL>60 !ID FILTLVL<5]: %YELLOW%%NAME%
-ItemDisplay[(aqv OR cqv) RARE]: %YELLOW%%NAME%
-ItemDisplay[(aqv OR cqv) MAG CLVL<66 FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
 //Magic
 ItemDisplay[SIN QLVL>40 MAG !ID FILTLVL<2]: %BLUE%%NAME%
 ItemDisplay[SIN ETH QLVL>40 MAG !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
@@ -1799,7 +1798,8 @@ ItemDisplay[CL2 MAG !ETH IVL>60 !ID FILTLVL<2]: %BLUE%%NAME%
 ItemDisplay[CL6 MAG !ETH IVL>60 !ID FILTLVL<2]: %BLUE%%NAME%
 ItemDisplay[CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
 ItemDisplay[CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7 MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-ItemDisplay[CL5 OR CL7 MAG !ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[CL5 OR CL7 MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
 ///Crafting Blue Weps
 //Axes
 ItemDisplay[(9ax OR 7ax OR 72a OR 7mp OR 9wa OR 7wa OR 9la OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR wax OR btx OR 9bt OR 9ga OR gax OR 9gi OR gix) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
@@ -1872,6 +1872,9 @@ ItemDisplay[(WEAPON CRAFT ELT ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME%
 ItemDisplay[(WEAPON CRAFT EXC ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Fal %WHITE%+ %ORANGE%Um %WHITE%+ %BLUE%Sapphire}
 ItemDisplay[(WEAPON CRAFT ETH ID]: %GRAY%[%WHITE%eth%GRAY%] %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ort %WHITE%+ %ORANGE%Amn %WHITE%+ %BLUE%Sapphire}
 ItemDisplay[(amu OR rin) CRAFT ID]: %ORANGE%%NAME%
+ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) CRAFT !ETH ID]: %ORANGE%%NAME%
+ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) RARE !ETH ID]: %YELLOW%%NAME%
+ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) MAG !ETH ID]: %BLUE%%NAME%
 ItemDisplay[(ARMOR RARE ELT !ETH ID]: %YELLOW%%NAME%
 ItemDisplay[(ARMOR RARE EXC !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Amethyst}
 ItemDisplay[(ARMOR RARE !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Amethyst}
