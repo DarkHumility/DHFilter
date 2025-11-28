@@ -393,6 +393,11 @@ ItemDisplay[cm3 !UNI (MANA>39 AND FHR>0)]: %BLUE%Mana %ORANGE%FHR %BLUE%Grand Ch
 ItemDisplay[cm3 !UNI (MANA>39 AND DEX>0)]: %BLUE%Mana %GREEN%dex %BLUE%Grand Charm
 ItemDisplay[cm3 !UNI (MANA>39 AND STR>0)]: %BLUE%Mana %DARK_GREEN%str %BLUE%Grand Charm
 ItemDisplay[cm3 !UNI MANA>49]: %BLUE%Mana %BLUE%Grand Charm
+ItemDisplay[cm2 (IAS>5 AND FHR>0)]: %SAGE%IAS %ORANGE%FHR %BLUE%Large Charm
+ItemDisplay[cm2 (IAS>5 AND FRW>0)]: %SAGE%IAS %ORANGE%frw %BLUE%Large Charm
+ItemDisplay[cm2 (IAS>5 AND LIFE>0)]: %SAGE%IAS %RED%Life %BLUE%Large Charm
+ItemDisplay[cm2 (FCR>4 AND FHR>0)]: %TEAL%FCR %ORANGE%FHR %BLUE%Large Charm
+ItemDisplay[cm2 (FCR>4 AND LIFE>0)]: %TEAL%FCR %RED%Life %BLUE%Large Charm
 ItemDisplay[cm2 (MAXDMG>3 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Large Charm
 ItemDisplay[cm2 (MAXDMG>3 AND DEX>0)]: %TAN%Max Dmg %GREEN%dex %BLUE%Large Charm
 ItemDisplay[cm2 (MAXDMG>3 AND STR>0)]: %TAN%Max Dmg %DARK_GREEN%str %BLUE%Large Charm
