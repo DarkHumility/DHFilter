@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.01
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.03
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -826,10 +826,10 @@ ItemDisplay[rin MAG CLVL<80 FILTLVL<2]: %BLUE%o %NAME% o%WHITE% {%RED%Blood %WHI
 ItemDisplay[6hb UNI !ID !ETH]: %RED%oo Crackleshot oo%MAP%
 ItemDisplay[aqv UNI !ID !ETH]: %RED%o Balefire o%MAP%
 ItemDisplay[aqv2 UNI !ID !ETH]: %RED%oo Swiftwind Needle or Tombsong oo%MAP%
-ItemDisplay[aqv3 UNI !ID !ETH]: %RED%ooo %PURPLE%Aetherwing or Basilisk's Quill or Doom's Finger %RED%ooo%MAP%
+ItemDisplay[aqv3 UNI !ID !ETH]: %RED%ooo %PURPLE%Aetherwing or Basilisk's or Doom's Finger %RED%ooo%MAP%
 ItemDisplay[cqv UNI !ID !ETH]: %RED%o Ramfodder o%MAP%
 ItemDisplay[cqv2 UNI !ID !ETH]: %RED%ooo Anvilguard Strap or Shatterhead ooo%MAP%
-ItemDisplay[cqv3 UNI !ID !ETH]: %RED%oooo %PURPLE%Abyssal Ward or Bannerlord's Call or Frozen Sorrow %RED%oooo%MAP%
+ItemDisplay[cqv3 UNI !ID !ETH]: %RED%oooo %PURPLE%Abyssal or Bannerlord's or Frozen Sorrow %RED%oooo%MAP%
 //s11 PD2 Uniques
 ItemDisplay[ob7 UNI !ID !ETH]: %RED%o Skorn o%MAP%
 ItemDisplay[ob7 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Skorn o%MAP%
@@ -1436,8 +1436,8 @@ ItemDisplay[9yw UNI !ID !ETH]: %GOLD%ooo Carin Shard ooo%MAP%
 ItemDisplay[9yw UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Carin Shard ooo%MAP%
 ItemDisplay[lst UNI !ID !ETH]: %GOLD%o Serpent Lord o%MAP%
 ItemDisplay[lst UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Serpent Lord o%MAP%
-ItemDisplay[cst UNI !ID !ETH]: %GOLD%ooo Spire of Lazarus ooo%MAP%
-ItemDisplay[cst UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spire of Lazarus ooo%MAP%
+ItemDisplay[cst UNI !ID !ETH]: %RED%oo Spire of Lazarus oo%MAP%
+ItemDisplay[cst UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Spire of Lazarus oo%MAP%
 ItemDisplay[bst UNI !ID !ETH]: %GOLD%o The Salamander o%MAP%
 ItemDisplay[bst UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Salamander o%MAP%
 ItemDisplay[wst UNI !ID !ETH]: %GOLD%ooo The Iron Jang Bong ooo%MAP%
