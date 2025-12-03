@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.03
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.04
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -396,6 +396,8 @@ ItemDisplay[cm3 !UNI MANA>49]: %BLUE%Mana %BLUE%Grand Charm
 ItemDisplay[cm2 (IAS>5 AND FHR>0)]: %SAGE%IAS %ORANGE%FHR %BLUE%Large Charm
 ItemDisplay[cm2 (IAS>5 AND FRW>0)]: %SAGE%IAS %ORANGE%frw %BLUE%Large Charm
 ItemDisplay[cm2 (IAS>5 AND LIFE>0)]: %SAGE%IAS %RED%Life %BLUE%Large Charm
+ItemDisplay[cm2 IAS>5]: %SAGE%IAS %BLUE%Large Charm
+ItemDisplay[cm2 FCR>4]: %TEAL%FCR %BLUE%Large Charm
 ItemDisplay[cm2 (FCR>4 AND FHR>0)]: %TEAL%FCR %ORANGE%FHR %BLUE%Large Charm
 ItemDisplay[cm2 (FCR>4 AND LIFE>0)]: %TEAL%FCR %RED%Life %BLUE%Large Charm
 ItemDisplay[cm2 (MAXDMG>3 AND LIFE>0)]: %TAN%Max Dmg %RED%Life %BLUE%Large Charm
