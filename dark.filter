@@ -1898,9 +1898,9 @@ ItemDisplay[(amu OR rin) CRAFT ID]: %ORANGE%%NAME%
 ItemDisplay[(aqv3 OR cqv3) CRAFT !ETH ID]: %ORANGE%%NAME% 
 ItemDisplay[(aqv2 OR cqv2) CRAFT !ETH ID]: %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Amethyst}
 ItemDisplay[(aqv OR cqv) CRAFT !ETH ID]: %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Amethyst}
-ItemDisplay[(aqv3 OR cqv3) RARE !ETH ID]: %RARE%%NAME% 
-ItemDisplay[(aqv2 OR cqv2) RARE !ETH ID]: %ORANGE%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Amethyst}
-ItemDisplay[(aqv OR cqv) RARE !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %ORANGE%Craft %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Amethyst}
+ItemDisplay[(aqv3 OR cqv3) RARE !ETH ID]: %YELLOW%%NAME% 
+ItemDisplay[(aqv2 OR cqv2) RARE !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %YELLOW%RARE %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Amethyst}
+ItemDisplay[(aqv OR cqv) RARE !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %YELLOW%RARE %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Amethyst}
 ItemDisplay[(ARMOR RARE ELT !ETH ID]: %YELLOW%%NAME%
 ItemDisplay[(ARMOR RARE EXC !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Ko %WHITE%+ %ORANGE%Pul %WHITE%+ %PURPLE%Amethyst}
 ItemDisplay[(ARMOR RARE !ETH ID]: %YELLOW%%NAME% {%WHITE%Upg %YELLOW%Rare %WHITE%+ %ORANGE%Ral %WHITE%+ %ORANGE%Thul %WHITE%+ %PURPLE%Amethyst}
