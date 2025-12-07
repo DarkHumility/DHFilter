@@ -19,10 +19,10 @@ ItemDisplay[GOLD]:
 //HP & MPs
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
-ItemDisplay[hp5]: %RED%!%WHITE%HP%RED%!%WHITE%
+ItemDisplay[hp5 FILTLVL<3]: %RED%!%WHITE%HP%RED%!%WHITE%
 ItemDisplay[mp4 CLVL<80]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
 ItemDisplay[mp4 CLVL>79]:
-ItemDisplay[mp5]: %BLUE%!%WHITE%Mana%BLUE%!%WHITE%
+ItemDisplay[mp5 FILTLVL<3]: %BLUE%!%WHITE%Mana%BLUE%!%WHITE%
 ItemDisplay[hp1 CLVL<16]: %RED%!%WHITE%Minor
 ItemDisplay[hp2 CLVL<19]: %RED%!%WHITE%Light
 ItemDisplay[hp3 CLVL<25]: %RED%!%WHITE%Heal
@@ -37,22 +37,22 @@ ItemDisplay[tpfs CLVL<16]: %WHITE%!%ORANGE%F
 ItemDisplay[tpfs CLVL>15]:
 ItemDisplay[tpfm CLVL<30]: %WHITE%!%ORANGE%E
 ItemDisplay[tpfm CLVL>29]:
-ItemDisplay[tpfl]: %WHITE%!%ORANGE%O
+ItemDisplay[tpfl (CLVL<91 AND FILTLVL<3)]: %WHITE%!%ORANGE%O
 ItemDisplay[tpgs CLVL<16]: %WHITE%!%GREEN%S
 ItemDisplay[tpgs CLVL>15]:
 ItemDisplay[tpgm CLVL<30]: %WHITE%!%GREEN%C
 ItemDisplay[tpgm CLVL>29]:
-ItemDisplay[tpgl]: %WHITE%!%GREEN%R
+ItemDisplay[tpgl (CLVL<91 AND FILTLVL<3)]: %WHITE%!%GREEN%R
 ItemDisplay[tpcs CLVL<16]: %WHITE%!%BLUE%C
 ItemDisplay[tpcs CLVL>15]:
 ItemDisplay[tpcm CLVL<30]: %WHITE%!%BLUE%Fro
 ItemDisplay[tpcm CLVL>29]:
-ItemDisplay[tpcl]: %WHITE%!%BLUE%Fre
+ItemDisplay[tpcl (CLVL<91 AND FILTLVL<3)]: %WHITE%!%BLUE%Fre
 ItemDisplay[tpls CLVL<16]: %WHITE%!%YELLOW%C
 ItemDisplay[tpls CLVL>15]:
 ItemDisplay[tplm CLVL<30]: %WHITE%!%YELLOW%St
 ItemDisplay[tplm CLVL>29]:
-ItemDisplay[tpll]: %WHITE%!%YELLOW%Sh
+ItemDisplay[tpll (CLVL<91 AND FILTLVL<3)]: %WHITE%!%YELLOW%Sh
 //Utilites
 ItemDisplay[tsc CLVL<16]: %GREEN%!%WHITE%TP
 ItemDisplay[isc CLVL<16]: %GREEN%!%WHITE%ID
@@ -2422,31 +2422,31 @@ ItemDisplay[7bs NMAG !ETH SOCK>1 (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS
 ItemDisplay[7ls NMAG ETH ED=15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7ls NMAG ETH ED>0 ED<15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7ls NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7ls NMAG !ETH !SOCK=1) (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7ls NMAG !ETH !SOCK=1 (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[72h NMAG ETH ED=15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[72h NMAG ETH ED>0 ED<15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[72h NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[72h NMAG !ETH !SOCK=1) (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[72h NMAG !ETH !SOCK=1 (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wd NMAG ETH ED=15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7wd NMAG ETH ED>0 ED<15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wd NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7wd NMAG !ETH !SOCK=1) (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7wd NMAG !ETH !SOCK=1 (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7cm NMAG ETH ED=15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7cm NMAG ETH ED>0 ED<15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7cm NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7cm NMAG !ETH !SOCK=1) (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7cm NMAG !ETH !SOCK=1 (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7gs NMAG ETH ED=15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7gs NMAG ETH ED>0 ED<15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7gs NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7gs NMAG !ETH !SOCK=1) (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7gs NMAG !ETH !SOCK=1 (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7b7 NMAG ETH ED=15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7b7 NMAG ETH ED>0 ED<15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7b7 NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7b7 NMAG !ETH !SOCK=1) (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7b7 NMAG !ETH !SOCK=1 (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7fb NMAG ETH ED=15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7fb NMAG ETH ED>0 ED<15 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7fb NMAG ETH !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7fb NMAG !ETH !SOCK=1) (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7fb NMAG !ETH !SOCK=1 (CLVL<91 AND FILTLVL<4)]: %NAME% %TAN%[%SOCKETS%]
 ///Daggers
 ItemDisplay[WP4 ELT (NMAG AND !ETH AND !INF) (SOCK=0 OR SOCK=3) SK280>2]: %GRAY%[%WHITE%3ps%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP4 ELT (NMAG AND !ETH AND !INF) (SOCK=0 OR SOCK=3) SK274>2]: %GRAY%[%WHITE%3boi%GRAY%] %NAME% %TAN%[%SOCKETS%]
@@ -2675,9 +2675,9 @@ ItemDisplay[6hx OR 6rx (NMAG OR RW) (SUP AND ED=15) SOCK=5]: %GRAY%[%WHITE%%15%G
 ItemDisplay[6hx OR 6rx (NMAG OR RW) (SUP AND ED>9) SOCK=5]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[6hx OR 6rx (NMAG OR RW) SOCK=5]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Asylum+Botd
-ItemDisplay[8hx OR 6lw (NMAG OR RW) (SUP AND ED=15) SOCK=6]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[8hx OR 6lw (NMAG OR RW) (SUP AND ED>9) SOCK=6]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[8hx OR 6lw (NMAG OR RW) SOCK=6]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6hx OR 6lw (NMAG OR RW) (SUP AND ED=15) SOCK=6]: %GRAY%[%WHITE%%15%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[6hx OR 6lw (NMAG OR RW) (SUP AND ED>9) SOCK=6]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6hx OR 6lw (NMAG OR RW) SOCK=6]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Faith+Ice
 ItemDisplay[amc OR amb (NMAG OR RW) TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[amc OR amb (NMAG OR RW) TABSK0>2 SOCK=0 (!INF AND !SUP) FILTLVL<4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
