@@ -786,16 +786,18 @@ ItemDisplay[cm1 UNI !ID]: %PURPLE%ooooooo %GOLD%Annihilus %PURPLE%ooooooo%MAP%
 ItemDisplay[cm2 UNI !ID]: %PURPLE%ooooo %GOLD%Hellfire Torch %PURPLE%ooooo%MAP%
 ItemDisplay[cm3 UNI !ID]: %PURPLE%ooo %GOLD%Gheed's Fortune %PURPLE%ooo%MAP%
 //Grand
-ItemDisplay[cm3 MAG ID ILVL>90]: %BLUE%%NAME% {%RED%LVL 91+ REROLL}
-ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%+++ %BLUE%%NAME% %RED%+++%MAP%
-ItemDisplay[cm3 MAG !ID ILVL<91 ILVL>49]: %ORANGE%++ %BLUE%%NAME% %ORANGE%++%MAP%
+ItemDisplay[cm3 MAG ID ILVL>90]: %BLUE%%NAME% {%RED%LVL 91+ REROLL %NL%%RED%41-45Life Possible}
+ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%++++ %BLUE%%NAME% %RED%++++%MAP%
+ItemDisplay[cm3 MAG ID ILVL=90]: %BLUE%%NAME% {%RED%LVL 90+ REROLL}
+ItemDisplay[cm3 MAG !ID ILVL=90]: %ORANGE%+++ %BLUE%%NAME% %ORANGE%+++%MAP%
+ItemDisplay[cm3 MAG !ID ILVL<90 ILVL>49]: %YELLOW%++ %BLUE%%NAME% %YELLOW%++%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<50]: %GREEN%+ %BLUE%%NAME% %GREEN%+%MAP%
 //Large
 ItemDisplay[cm2 MAG !ID FILTLVL<4]: %BLUE%+ %NAME% %BLUE%+%MAP%
 //Small
-ItemDisplay[cm1 MAG ID ILVL>90]: %BLUE%%NAME% {%RED%LVL 91+ REROLL}
-ItemDisplay[cm1 MAG !ID ILVL>90]: %BLUE%++ %NAME% %BLUE%++%MAP%
-ItemDisplay[cm1 MAG !ID ILVL<91]: %BLUE%+ %NAME% %BLUE%+%MAP%
+ItemDisplay[cm1 MAG ID ILVL>89]: %BLUE%%NAME% {%RED%LVL 90+ REROLL}
+ItemDisplay[cm1 MAG !ID ILVL>89]: %RED%++ %BLUE%%NAME% %RED%++%MAP%
+ItemDisplay[cm1 MAG !ID ILVL<90]: %BLUE%+ %NAME% %BLUE%+%MAP%
 //Catch-all
 ItemDisplay[cm1 OR cm2 OR cm3 ID]: %NAME%
 //Amulets
