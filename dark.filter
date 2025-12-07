@@ -1205,8 +1205,8 @@ ItemDisplay[9gi UNI !ID !ETH]: %GOLD%ooo The Minotaur ooo%MAP%
 ItemDisplay[9gi UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%The Minotaur oo%MAP%
 ItemDisplay[7ha UNI !ID !ETH]: %GOLD%ooo Razor's Edge ooo%MAP%
 ItemDisplay[7ha UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Razor's Edge ooo%MAP%
-ItemDisplay[7mp UNI !ID !ETH]: %GOLD%oo Cranebeak oo%MAP%
-ItemDisplay[7mp UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Cranebeak ooo%MAP%
+ItemDisplay[7mp UNI !ID !ETH]: %RED%oo %PURPLE%Cranebeak %RED%oo%MAP%
+ItemDisplay[7mp UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Cranebeak %RED%oo%MAP%
 ItemDisplay[7ba UNI !ID ETH]: %GOLD%ooo Ethereal Edge ooo%MAP%
 ItemDisplay[spc UNI !ID !ETH]: %GOLD%o Stoutnail o%MAP%
 ItemDisplay[spc UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stoutnail o%MAP%
