@@ -15,10 +15,11 @@ ItemDisplay[RARE (WEAPON OR ARMOR) AND (ETH OR !ETH) !EQ7 !rin !amu !jew !aqv !c
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
 //HORADRIC CUBE MESSAGE
-ItemDisplay[box]: {%RED%Circles = Sub Tiers %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%WHITE%DH's Personal Filter}
+ItemDisplay[box]: {%RED%More Circles = Higher Sub-Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%WHITE%DH's Personal Filter:}
 //Gold
 ItemDisplay[GOLD<5000 CLVL>90]:
 ItemDisplay[GOLD<1000 CLVL>70]:
+ItemDisplay[GOLD]:
 //HP & MPs
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
