@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.07
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.08
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -14,8 +14,11 @@ ItemDisplay[(MAG AND cm2) OR (NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND
 ItemDisplay[RARE (WEAPON OR ARMOR) AND (ETH OR !ETH) !EQ7 !rin !amu !jew !aqv !cqv !NMAG !SET !RW !UNI !ID FILTLVL>4]:
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
+//HORADRIC CUBE MESSAGE
+ItemDisplay[box]: {%RED%Circles = Sub Tiers %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%WHITE%DH's Personal Filter}
 //Gold
-ItemDisplay[GOLD]:
+ItemDisplay[GOLD<5000 CLVL>90]:
+ItemDisplay[GOLD<1000 CLVL>70]:
 //HP & MPs
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
@@ -786,7 +789,7 @@ ItemDisplay[cm1 UNI !ID]: %PURPLE%ooooooo %GOLD%Annihilus %PURPLE%ooooooo%MAP%
 ItemDisplay[cm2 UNI !ID]: %PURPLE%ooooo %GOLD%Hellfire Torch %PURPLE%ooooo%MAP%
 ItemDisplay[cm3 UNI !ID]: %PURPLE%ooo %GOLD%Gheed's Fortune %PURPLE%ooo%MAP%
 //Grand
-ItemDisplay[cm3 MAG ID ILVL>90]: %BLUE%%NAME% {%RED%LVL 91+ REROLL %NL%%RED%41-45Life Possible}
+ItemDisplay[cm3 MAG ID ILVL>90]: %BLUE%%NAME% {%CORAL%41-45 LIFE POSSIBLE %NL%%RED%LVL 91+ REROLL}
 ItemDisplay[cm3 MAG !ID ILVL>90]: %RED%++++ %BLUE%%NAME% %RED%++++%MAP%
 ItemDisplay[cm3 MAG ID ILVL=90]: %BLUE%%NAME% {%RED%LVL 90+ REROLL}
 ItemDisplay[cm3 MAG !ID ILVL=90]: %ORANGE%+++ %BLUE%%NAME% %ORANGE%+++%MAP%
