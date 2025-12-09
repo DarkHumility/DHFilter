@@ -271,10 +271,10 @@ ItemDisplay[t61 OR t62 (NMAG OR !RARE) ID]: %BLUE%o %WHITE%%NAME% %BLUE%o%MAP%
 ItemDisplay[leg]: %NAME%%MAP%
 ItemDisplay[ear]: %ORANGE%%NAME%%MAP%
 //Essences
-ItemDisplay[tes]: %GOLD%Suffering [%BLUE%Andy OR Duriel%GOLD%]%MAP%
-ItemDisplay[ceh]: %GOLD%Hatred [%YELLOW%Mephisto%GOLD%]%MAP%
-ItemDisplay[bet]: %GOLD%Terror [%RED%Diablo%GOLD%]%MAP%
-ItemDisplay[fed]: %GOLD%Destruction [%GREEN%Baal%GOLD%]%MAP%
+ItemDisplay[tes]: %GOLD%Suffering [%BLUE%NM OR Hell Andy OR Duriel%GOLD%]%MAP%
+ItemDisplay[ceh]: %GOLD%Hatred [%YELLOW%NM OR Hell Mephisto%GOLD%]%MAP%
+ItemDisplay[bet]: %GOLD%Terror [%RED%NM OR Hell Diablo%GOLD%]%MAP%
+ItemDisplay[fed]: %GOLD%Destruction [%GREEN%NM OR Hell Baal%GOLD%]%MAP%
 ItemDisplay[toa]: %GOLD%Token of Absolution%MAP%
 //Uber Keys
 ItemDisplay[pk1]: %PURPLE%o %GOLD%Key of Terror %PURPLE%o%MAP% {%PURPLE%Bloodraven %GOLD%* %PURPLE%The Countess}
