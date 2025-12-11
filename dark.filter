@@ -24,12 +24,12 @@ ItemDisplay[GOLD]:
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs FILTLVL<4]: %PURPLE%r %WHITE%35%
 ItemDisplay[hp5 FILTLVL<4]: %RED%!%WHITE%HP%RED%!%WHITE%
-ItemDisplay[mp4 CLVL<81]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
+ItemDisplay[mp4 (CLVL<81 AND FILTLVL<4)]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
 ItemDisplay[mp5 FILTLVL<4]: %BLUE%!%WHITE%Mana%BLUE%!%WHITE%
 ItemDisplay[hp1 CLVL<16]: %RED%!%WHITE%Minor
 ItemDisplay[hp2 CLVL<19]: %RED%!%WHITE%Light
 ItemDisplay[hp3 CLVL<25]: %RED%!%WHITE%Heal
-ItemDisplay[hp4 CLVL<81]: %RED%!%WHITE%HP
+ItemDisplay[hp4 (CLVL<81 AND FILTLVL<4)]: %RED%!%WHITE%HP
 ItemDisplay[mp1 CLVL<16]: %BLUE%!%WHITE%Minor
 ItemDisplay[mp2 CLVL<19]: %BLUE%!%WHITE%Light
 ItemDisplay[mp3 CLVL<25]: %BLUE%!%WHITE%Mana
