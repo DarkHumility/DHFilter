@@ -8,9 +8,9 @@ ItemDisplayFilterName[]: Removes Low-Tier Socket Bases
 ItemDisplayFilterName[]: Removes Most Potions
 ItemDisplayFilterName[]: Removes Large Charms & Most Rare Item Bases
 //Filter Level Parameters
-ItemDisplay[MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH) !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
+ItemDisplay[(MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH)) !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[(NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND !EDEF) !RW !UNI !SET !ID FILTLVL>2]:
-ItemDisplay[mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps FILTLVL>3]:
+ItemDisplay[(mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps OR rvs) FILTLVL>3]:
 ItemDisplay[(MAG AND cm2) OR (RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !EQ7 !rin !amu !jew !aqv !cqv !NMAG !SET !RW !UNI !ID FILTLVL>4]:
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF !RARE NMAG !UNI !SET !RW CLVL>69]:
@@ -22,15 +22,14 @@ ItemDisplay[GOLD<1000 CLVL>70]:
 ItemDisplay[GOLD]:
 //HP & MPs
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
-ItemDisplay[rvs]: %PURPLE%r %WHITE%35%
+ItemDisplay[rvs FILTLVL<4]: %PURPLE%r %WHITE%35%
 ItemDisplay[hp5 FILTLVL<4]: %RED%!%WHITE%HP%RED%!%WHITE%
-ItemDisplay[mp4 CLVL<80]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
-ItemDisplay[mp4 CLVL>79]:
+ItemDisplay[mp4 CLVL<81]: %BLUE%!%WHITE%MP%BLUE%!%WHITE%
 ItemDisplay[mp5 FILTLVL<4]: %BLUE%!%WHITE%Mana%BLUE%!%WHITE%
 ItemDisplay[hp1 CLVL<16]: %RED%!%WHITE%Minor
 ItemDisplay[hp2 CLVL<19]: %RED%!%WHITE%Light
 ItemDisplay[hp3 CLVL<25]: %RED%!%WHITE%Heal
-ItemDisplay[hp4 CLVL<66]: %RED%!%WHITE%HP
+ItemDisplay[hp4 CLVL<81]: %RED%!%WHITE%HP
 ItemDisplay[mp1 CLVL<16]: %BLUE%!%WHITE%Minor
 ItemDisplay[mp2 CLVL<19]: %BLUE%!%WHITE%Light
 ItemDisplay[mp3 CLVL<25]: %BLUE%!%WHITE%Mana
