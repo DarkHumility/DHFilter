@@ -189,9 +189,11 @@ ItemDisplay[NMAG !ID SHOP (cqv OR cqv2 OR cqv3) MAPID>132]: %NAME%%PURPLE%Frozen
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF NMAG !RARE !UNI !SET !RW CLVL>70]:
 //Gold
-ItemDisplay[GOLD<5000 CLVL>90]:
+ItemDisplay[GOLD<100 CLVL>10]:
+ItemDisplay[GOLD<500 CLVL>30]:
 ItemDisplay[GOLD<1000 CLVL>70]:
-ItemDisplay[GOLD]:
+ItemDisplay[GOLD<2500 CLVL>80]:
+ItemDisplay[GOLD<5000 CLVL>90]:
 //HP & MPs
 ItemDisplay[rvl]: %PURPLE%R %WHITE%65%
 ItemDisplay[rvs FILTLVL<4]: %PURPLE%r %WHITE%35%
