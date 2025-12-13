@@ -15,80 +15,80 @@ ItemDisplay[(MAG AND cm2) OR (RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !EQ7 !ri
 //HORADRIC CUBE MESSAGE
 ItemDisplay[box]: %GOLD%%NAME% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%5 Strictness Levels Available! %NL%%WHITE%DH's Personal Filter:}
 //Gheed Map Event
-ItemDisplay[NMAG !ID SHOP amu MAPID>132]: %NAME%%RED%Saracen's Chance, Seraph's Hymn, Rising Sun%NL%Mara's Kaleidoscope, Metalgrid, Nokozan Relic, %NL%Eye of Etlich, Highlord's Wrath, Mahim-Oak Curio,%NL%Atma's Scarab, Cat's Eye, Crescent Moon,%CONTINUE%
-ItemDisplay[NMAG !ID SHOP rin MAPID>132]: %NAME%%RED%Kadala's Heirloom (Gheed Only Item)%NL%Raven Frost, Stone of Jordan, Wisp Projector%NL%Dwarf Star, Manald Heal, Nagelring, Nature's Peace,%NL%Bul-Kathos' Wedding Band, Carrion Wind, Constricting Loop,%CONTINUE%
-ItemDisplay[NMAG !ID SHOP jew MAPID>132]: %NAME%%RED%Rainbow Facet%CONTINUE%
-ItemDisplay[NMAG !ID SHOP cm3 MAPID>132]: %NAME%%RED%Gheed's Fortune%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ci0 MAPID>132]: %NAME%%RED%Griffon's Eye%NL%%ORANGE%Kira's Guardian%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ci1 MAPID>132]: %NAME%%RED%Griffon's Eye%NL%%ORANGE%Kira's Guardian%CONTINUE%
-ItemDisplay[NMAG !ID SHOP am1 MAPID>132]: %NAME%%RED%Blood Raven's Charge%CONTINUE%
-ItemDisplay[NMAG !ID SHOP am2 MAPID>132]: %NAME%%RED%Ebonbane%NL%%ORANGE%Lycander's Aim%CONTINUE%
-ItemDisplay[NMAG !ID SHOP am5 MAPID>132]: %NAME%%RED%Thunderstroke%NL%%ORANGE%Titan's Revenge%NL%%GREEN%True Silver%CONTINUE%
+ItemDisplay[NMAG !ID SHOP amu MAPID>132]: %NAME%%PURPLE%Saracen's Chance, Seraph's Hymn, Rising Sun%NL%%PURPLE%Mara's Kaleidoscope, Metalgrid, Nokozan Relic, %NL%%PURPLE%Eye of Etlich, Highlord's Wrath, Mahim-Oak Curio,%NL%%PURPLE%Atma's Scarab, Cat's Eye, Crescent Moon,%CONTINUE%
+ItemDisplay[NMAG !ID SHOP rin MAPID>132]: %NAME%%PURPLE%Kadala's Heirloom (Gheed Only Item)%NL%%PURPLE%Raven Frost, Stone of Jordan, Wisp Projector%NL%%PURPLE%Dwarf Star, Manald Heal, Nagelring, Nature's Peace,%NL%%PURPLE%Bul-Kathos' Wedding Band, Carrion Wind, Constricting Loop,%CONTINUE%
+ItemDisplay[NMAG !ID SHOP jew MAPID>132]: %NAME%%PURPLE%Rainbow Facet%CONTINUE%
+ItemDisplay[NMAG !ID SHOP cm3 MAPID>132]: %NAME%%PURPLE%Gheed's Fortune%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ci0 MAPID>132]: %NAME%%PURPLE%Griffon's Eye%NL%%PURPLE%Kira's Guardian%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ci1 MAPID>132]: %NAME%%PURPLE%Griffon's Eye%NL%%PURPLE%Kira's Guardian%CONTINUE%
+ItemDisplay[NMAG !ID SHOP am1 MAPID>132]: %NAME%%PURPLE%Blood Raven's Charge%CONTINUE%
+ItemDisplay[NMAG !ID SHOP am2 MAPID>132]: %NAME%%RED%Ebonbane%NL%Lycander's Aim%CONTINUE%
+ItemDisplay[NMAG !ID SHOP am5 MAPID>132]: %NAME%%PURPLE%Thunderstroke%NL%%RED%Titan's Revenge%NL%True Silver%CONTINUE%
 ItemDisplay[NMAG !ID SHOP am3 MAPID>132]: %NAME%%RED%Stoneraven%CONTINUE%
-ItemDisplay[NMAG !ID SHOP am4 MAPID>132]: %NAME%%RED%Zerae's Resolve%NL%%ORANGE%Stoneraven%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ktr MAPID>132]: %NAME%%ORANGE%Mage Slayer%CONTINUE%
+ItemDisplay[NMAG !ID SHOP am4 MAPID>132]: %NAME%%RED%Zerae's Resolve%NL%%RED%Stoneraven%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ktr MAPID>132]: %NAME%%GOLD%Mage Slayer%CONTINUE%
 ItemDisplay[NMAG !ID SHOP wrb MAPID>132]: %NAME%%RED%Jade Talon%CONTINUE%
-ItemDisplay[NMAG !ID SHOP axf MAPID>132]: %NAME%%RED%Whispering Mirage%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ces MAPID>132]: %NAME%%RED%Shadow Killer%CONTINUE%
-ItemDisplay[NMAG !ID SHOP clw MAPID>132]: %NAME%%RED%Firelizard's Talons%CONTINUE%
-ItemDisplay[NMAG !ID SHOP btl MAPID>132]: %NAME%%RED%Stalker's Cull%NL%%ORANGE%Bartuc's Cut-Throat%CONTINUE%
+ItemDisplay[NMAG !ID SHOP axf MAPID>132]: %NAME%%PURPLE%Whispering Mirage%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ces MAPID>132]: %NAME%%PURPLE%Shadow Killer%CONTINUE%
+ItemDisplay[NMAG !ID SHOP clw MAPID>132]: %NAME%%PURPLE%Firelizard's Talons%CONTINUE%
+ItemDisplay[NMAG !ID SHOP btl MAPID>132]: %NAME%%PURPLE%Stalker's Cull%NL%%PURPLE%Bartuc's Cut-Throat%CONTINUE%
 //ItemDisplay[NMAG !ID SHOP skr MAPID>132]: %NAME%
-ItemDisplay[NMAG !ID SHOP ba1 MAPID>132]: %NAME%%ORANGE%Cyclopean Roar%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ba2 MAPID>132]: %NAME%%RED%Wolfhowl%NL%%GREEN%Wildspeaker%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ba1 MAPID>132]: %NAME%%RED%Cyclopean Roar%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ba2 MAPID>132]: %NAME%%RED%Wolfhowl%NL%%RED%Wildspeaker%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ba3 MAPID>132]: %NAME%%RED%Demonhorn's Edge%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ba4 MAPID>132]: %NAME%%RED%Halaberd's Reign%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ba5 MAPID>132]: %NAME%%RED%Raekor's Virtue%NL%%ORANGE%Arreat's Face%CONTINUE%
-ItemDisplay[NMAG !ID SHOP dr1 MAPID>132]: %NAME%%RED%Cerebus' Bite%NL%%ORANGE%Fenris%CONTINUE%
-ItemDisplay[NMAG !ID SHOP dr2 MAPID>132]: %NAME%%RED%Denmother%NL%%GREEN%Quetzalcoatl%CONTINUE%
-ItemDisplay[NMAG !ID SHOP dr3 MAPID>132]: %NAME%%RED%Spirit Keeper%CONTINUE%
-ItemDisplay[NMAG !ID SHOP dr4 MAPID>132]: %NAME%%RED%Ravenlore%CONTINUE%
-ItemDisplay[NMAG !ID SHOP dr5 MAPID>132]: %NAME%%RED%Ursa's Nightmare%NL%%ORANGE%Jalal's Mane%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ne1 MAPID>132]: %NAME%%ORANGE%Kalan's Legacy%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ba4 MAPID>132]: %NAME%%PURPLE%Halaberd's Reign%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ba5 MAPID>132]: %NAME%%PURPLE%Raekor's Virtue%NL%%PURPLE%Arreat's Face%CONTINUE%
+ItemDisplay[NMAG !ID SHOP dr1 MAPID>132]: %NAME%%PURPLE%Cerebus' Bite%NL%%PURPLE%Fenris%CONTINUE%
+ItemDisplay[NMAG !ID SHOP dr2 MAPID>132]: %NAME%%PURPLE%Denmother%NL%%RED%Quetzalcoatl%CONTINUE%
+ItemDisplay[NMAG !ID SHOP dr3 MAPID>132]: %NAME%%PURPLE%Spirit Keeper%CONTINUE%
+ItemDisplay[NMAG !ID SHOP dr4 MAPID>132]: %NAME%%PURPLE%Ravenlore%CONTINUE%
+ItemDisplay[NMAG !ID SHOP dr5 MAPID>132]: %NAME%%PURPLE%Ursa's Nightmare%NL%%PURPLE%Jalal's Mane%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ne1 MAPID>132]: %NAME%%RED%Kalan's Legacy%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ne2 MAPID>132]: %NAME%%RED%Sacred Totem%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ne3 MAPID>132]: %NAME%%RED%Martyrdom%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ne4 MAPID>132]: %NAME%%RED%Boneflame%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ne5 MAPID>132]: %NAME%%RED%Darkforce Spawn%NL%%ORANGE%Homunculus%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ne3 MAPID>132]: %NAME%%PURPLE%Martyrdom%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ne4 MAPID>132]: %NAME%%PURPLE%Boneflame%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ne5 MAPID>132]: %NAME%%PURPLE%Darkforce Spawn%NL%%RED%Homunculus%CONTINUE%
 // ItemDisplay[NMAG !ID SHOP pa1 MAPID>132]: %NAME%
-ItemDisplay[NMAG !ID SHOP pa2 MAPID>132]: %NAME%%RED%Alma Negra%CONTINUE%
-ItemDisplay[NMAG !ID SHOP pa3 MAPID>132]: %NAME%%GREEN%Sankekur's Fall%CONTINUE%
-ItemDisplay[NMAG !ID SHOP pa4 MAPID>132]: %NAME%%RED%Dragonscale%NL%%ORANGE%Herald of Zakarum%CONTINUE%
-ItemDisplay[NMAG !ID SHOP pa5 MAPID>132]: %NAME%%RED%Skywarden%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ob1 MAPID>132]: %NAME%%ORANGE%Tempest%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ob2 MAPID>132]: %NAME%%RED%Eschuta's Temper%NL%%ORANGE%Skorn%CONTINUE%
+ItemDisplay[NMAG !ID SHOP pa2 MAPID>132]: %NAME%%PURPLE%Alma Negra%CONTINUE%
+ItemDisplay[NMAG !ID SHOP pa3 MAPID>132]: %NAME%%GOLD%Sankekur's Fall%CONTINUE%
+ItemDisplay[NMAG !ID SHOP pa4 MAPID>132]: %NAME%%PURPLE%Dragonscale%NL%%PURPLEHerald of Zakarum%CONTINUE%
+ItemDisplay[NMAG !ID SHOP pa5 MAPID>132]: %NAME%%PURPLE%Skywarden%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ob1 MAPID>132]: %NAME%%RED%Tempest%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ob2 MAPID>132]: %NAME%%PURPLE%Eschuta's Temper%NL%%GOLD%Skorn%CONTINUE%
 // ItemDisplay[NMAG !ID SHOP ob3 MAPID>132]: %NAME%
 // ItemDisplay[NMAG !ID SHOP ob4 MAPID>132]: %NAME%
-ItemDisplay[NMAG !ID SHOP ob5 MAPID>132]: %NAME%%RED%Death's Fathom%NL%%ORANGE%The Oculus%CONTINUE%
-ItemDisplay[NMAG !ID SHOP qui MAPID>132]: %NAME%%RED%Ormus' Robes%NL%%ORANGE%The Spirit Shroud%NL%%GREEN%Greyform%CONTINUE%
-ItemDisplay[NMAG !ID SHOP lea MAPID>132]: %NAME%%ORANGE%Skin of the Vipermagi%NL%%GREEN%Blinkbat's Form%CONTINUE%
-ItemDisplay[NMAG !ID SHOP hla MAPID>132]: %NAME%%ORANGE%Skin of the Flayed One%NL%%GREEN%The Centurion%CONTINUE%
-ItemDisplay[NMAG !ID SHOP stu MAPID>132]: %NAME%%RED%The Gladiator's Bane%NL%%ORANGE%Iron Pelt%NL%%GREEN%Twitchthroe%CONTINUE%
-ItemDisplay[NMAG !ID SHOP rng MAPID>132]: %NAME%%RED%Wraithskin%NL%%ORANGE%Spirit Forge%NL%%GREEN%Darkglow%CONTINUE%
-ItemDisplay[NMAG !ID SHOP scl MAPID>132]: %NAME%%ORANGE%Crow Caw%NL%%GREEN%Hawkmail%CONTINUE%
-ItemDisplay[NMAG !ID SHOP brs MAPID>132]: %NAME%%ORANGE%Duriel's Shell%NL%%GREEN%Venom Ward%CONTINUE%
-ItemDisplay[NMAG !ID SHOP chn MAPID>132]: %NAME%%ORANGE%Shaftstop%NL%%GREEN%Sparking Mail%CONTINUE%
-ItemDisplay[NMAG !ID SHOP spl MAPID>132]: %NAME%%RED%Arkaine's Valor%NL%%ORANGE%Skullder's Ire%NL%%GREEN%Iceblink%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ltp MAPID>132]: %NAME%%RED%Purgatory%NL%%ORANGE%Que-Hegan's Wisdom%NL%%GREEN%Heavenly Garb%CONTINUE%
-ItemDisplay[NMAG !ID SHOP fld MAPID>132]: %NAME%%RED%Leviathan%NL%%ORANGE%Toothrow%NL%%GREEN%Rockfleece%CONTINUE%
-ItemDisplay[NMAG !ID SHOP plt MAPID>132]: %NAME%%ORANGE%Guardian Angel%NL%%GREEN%Boneflesh%CONTINUE%
-ItemDisplay[NMAG !ID SHOP gth MAPID>132]: %NAME%%ORANGE%Atma's Wail%NL%%GREEN%Rattlecage%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ful MAPID>132]: %NAME%%RED%Steel Carapace%NL%%ORANGE%Black Hades%NL%%GREEN%Goldskin%CONTINUE%
-ItemDisplay[NMAG !ID SHOP aar MAPID>132]: %NAME%%RED%Tyrael's Might%NL%%RED%Templar's Might%NL%%ORANGE%Corpsemourn%NL%%GREEN%Silks of the Victor}%CONTINUE%
-ItemDisplay[NMAG !ID SHOP lbl MAPID>132]: %NAME%%RED%Arachnid's Mesh%NL%%ORANGE%String of Ears%NL%%GREEN%Lenymo}%CONTINUE%
-ItemDisplay[NMAG !ID SHOP vbl MAPID>132]: %NAME%%RED%Nosferatu's Coil%NL%%ORANGE%Razortail%NL%%GREEN%Snakecord}%CONTINUE%
-ItemDisplay[NMAG !ID SHOP mbl MAPID>132]: %NAME%%RED%Verdungo's Hearty Cord%NL%%ORANGE%Gloom's Trap%NL%%GREEN%Nightsmoke}%CONTINUE%
-ItemDisplay[NMAG !ID SHOP tbl MAPID>132]: %NAME%%ORANGE%Snowclash%NL%%GREEN%Goldwrap%CONTINUE%
-ItemDisplay[NMAG !ID SHOP hbl MAPID>132]: %NAME%%RED%Siggard's Staunch%NL%%ORANGE%Thundergod's Vigor%NL%%GREEN%Bladebuckle%CONTINUE%
-ItemDisplay[NMAG !ID SHOP lbt MAPID>132]: %NAME%%RED%Merman's Sprocket%NL%%ORANGE%Infernostride%NL%%GREEN%Hotspur%CONTINUE%
-ItemDisplay[NMAG !ID SHOP vbt MAPID>132]: %NAME%%RED%Sandstorm Trek%NL%%ORANGE%Waterwalk%NL%%GREEN%Gorefoot%CONTINUE%
-ItemDisplay[NMAG !ID SHOP mbt MAPID>132]: %NAME%%RED%Marrowwalk%NL%%ORANGE%Silkweave%NL%%GREEN%Treads of Cthon%CONTINUE%
-ItemDisplay[NMAG !ID SHOP tbt MAPID>132]: %NAME%%ORANGE%War Traveler%NL%%GREEN%Goblin Toe%CONTINUE%
-ItemDisplay[NMAG !ID SHOP hbt MAPID>132]: %NAME%%RED%Shadow Dancer%NL%%ORANGE%Gore Rider%NL%%GREEN%Tearhaunch%CONTINUE%
-ItemDisplay[NMAG !ID SHOP lgl MAPID>132]: %NAME%%RED%Titan's Grip%NL%%ORANGE%Venom Grip%NL%%GREEN%The Hand of Broc%CONTINUE%
-ItemDisplay[NMAG !ID SHOP vgl MAPID>132]: %NAME%%RED%Dracul's Grasp%NL%%ORANGE%Gravepalm%NL%%GREEN%Bloodfist%CONTINUE%
-ItemDisplay[NMAG !ID SHOP mgl MAPID>132]: %NAME%%RED%Soul Drainer%NL%%ORANGE%Ghoulhide%NL%%GREEN%Chance Guards%CONTINUE%
-ItemDisplay[NMAG !ID SHOP tgl MAPID>132]: %NAME%%RED%Occultist%NL%%ORANGE%Lava Gout%NL%%GREEN%Magefist%CONTINUE%
-ItemDisplay[NMAG !ID SHOP hgl MAPID>132]: %NAME%%RED%Steelrend%NL%%ORANGE%Hellmouth%NL%%GREEN%Frostburn%CONTINUE%
-ItemDisplay[NMAG !ID SHOP cap MAPID>132]: %NAME%%RED%Harlequin Crest%NL%%ORANGE%Peasant Crown%NL%%GREEN%Biggin's Bonnet%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ob5 MAPID>132]: %NAME%%PURPLE%Death's Fathom%NL%%PURPLE%The Oculus%CONTINUE%
+ItemDisplay[NMAG !ID SHOP qui MAPID>132]: %NAME%%PURPLE%Ormus' Robes%NL%%PURPLE%The Spirit Shroud%NL%%GOLD%Greyform%CONTINUE%
+ItemDisplay[NMAG !ID SHOP lea MAPID>132]: %NAME%%PURPLE%Skin of the Vipermagi%NL%%GOLD%Blinkbat's Form%CONTINUE%
+ItemDisplay[NMAG !ID SHOP hla MAPID>132]: %NAME%%GOLD%Skin of the Flayed One%NL%%GOLD%The Centurion%CONTINUE%
+ItemDisplay[NMAG !ID SHOP stu MAPID>132]: %NAME%%PURPLE%The Gladiator's Bane%NL%%GOLD%Iron Pelt%NL%%GOLD%Twitchthroe%CONTINUE%
+ItemDisplay[NMAG !ID SHOP rng MAPID>132]: %NAME%%PURPLE%Wraithskin%NL%%GOLD%Spirit Forge%NL%%RED%Darkglow%CONTINUE%
+ItemDisplay[NMAG !ID SHOP scl MAPID>132]: %NAME%%GOLD%Crow Caw%NL%%GOLD%Hawkmail%CONTINUE%
+ItemDisplay[NMAG !ID SHOP brs MAPID>132]: %NAME%%RED%Duriel's Shell%NL%%RED%Venom Ward%CONTINUE%
+ItemDisplay[NMAG !ID SHOP chn MAPID>132]: %NAME%%PURPLE%Shaftstop%NL%%GOLD%Sparking Mail%CONTINUE%
+ItemDisplay[NMAG !ID SHOP spl MAPID>132]: %NAME%%PURPLE%Arkaine's Valor%NL%%PURPLE%Skullder's Ire%NL%%RED%Iceblink%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ltp MAPID>132]: %NAME%%RED%Purgatory%NL%%PURPLE%Que-Hegan's Wisdom%NL%%RED%Heavenly Garb%CONTINUE%
+ItemDisplay[NMAG !ID SHOP fld MAPID>132]: %NAME%%PURPLE%Leviathan%NL%%RED%Toothrow%NL%%GOLD%Rockfleece%CONTINUE%
+ItemDisplay[NMAG !ID SHOP plt MAPID>132]: %NAME%%PURPLE%Guardian Angel%NL%%GOLD%Boneflesh%CONTINUE%
+ItemDisplay[NMAG !ID SHOP gth MAPID>132]: %NAME%%PURPLE%Atma's Wail%NL%%GOLD%Rattlecage%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ful MAPID>132]: %NAME%%PURPLE%Steel Carapace%NL%%RED%Black Hades%NL%%GOLD%Goldskin%CONTINUE%
+ItemDisplay[NMAG !ID SHOP aar MAPID>132]: %NAME%%PURPLE%Tyrael's Might%NL%%PURPLE%Templar's Might%NL%%RED%Corpsemourn%NL%%GOLD%Silks of the Victor%CONTINUE%
+ItemDisplay[NMAG !ID SHOP lbl MAPID>132]: %NAME%%PURPLE%Arachnid's Mesh%NL%%ORANGE%String of Ears%NL%%GREEN%Lenymo%CONTINUE%
+ItemDisplay[NMAG !ID SHOP vbl MAPID>132]: %NAME%%PURPLE%Nosferatu's Coil%NL%%RED%Razortail%NL%%GOLD%Snakecord%CONTINUE%
+ItemDisplay[NMAG !ID SHOP mbl MAPID>132]: %NAME%%PURPLE%Verdungo's Hearty Cord%NL%%RED%Gloom's Trap%NL%%GOLD%Nightsmoke%CONTINUE%
+ItemDisplay[NMAG !ID SHOP tbl MAPID>132]: %NAME%%PURPLE%Snowclash%NL%%RED%Goldwrap%CONTINUE%
+ItemDisplay[NMAG !ID SHOP hbl MAPID>132]: %NAME%%PURPLE%Siggard's Staunch%NL%%PURPLE%Thundergod's Vigor%NL%%GOLD%Bladebuckle%CONTINUE%
+ItemDisplay[NMAG !ID SHOP lbt MAPID>132]: %NAME%%PURPLE%Merman's Sprocket%NL%%RED%Infernostride%NL%%RED%Hotspur%CONTINUE%
+ItemDisplay[NMAG !ID SHOP vbt MAPID>132]: %NAME%%RED%Sandstorm Trek%NL%%PURPLE%Waterwalk%NL%%RED%Gorefoot%CONTINUE%
+ItemDisplay[NMAG !ID SHOP mbt MAPID>132]: %NAME%%RED%Marrowwalk%NL%%RED%Silkweave%NL%%RED%Treads of Cthon%CONTINUE%
+ItemDisplay[NMAG !ID SHOP tbt MAPID>132]: %NAME%%PURPLE%War Traveler%NL%%RED%Goblin Toe%CONTINUE%
+ItemDisplay[NMAG !ID SHOP hbt MAPID>132]: %NAME%%PURPLE%Shadow Dancer%NL%%PURPLE%Gore Rider%NL%%GOLD%Tearhaunch%CONTINUE%
+ItemDisplay[NMAG !ID SHOP lgl MAPID>132]: %NAME%%PURPLE%Titan's Grip%NL%%RED%Venom Grip%NL%%GOLD%The Hand of Broc%CONTINUE%
+ItemDisplay[NMAG !ID SHOP vgl MAPID>132]: %NAME%%PURPLE%Dracul's Grasp%NL%%PURPLE%Gravepalm%NL%%RED%Bloodfist%CONTINUE%
+ItemDisplay[NMAG !ID SHOP mgl MAPID>132]: %NAME%%PURPLE%Soul Drainer%NL%%RED%Ghoulhide%NL%%RED%Chance Guards%CONTINUE%
+ItemDisplay[NMAG !ID SHOP tgl MAPID>132]: %NAME%%PURPLE%Occultist%NL%%RED%Lava Gout%NL%%RED%Magefist%CONTINUE%
+ItemDisplay[NMAG !ID SHOP hgl MAPID>132]: %NAME%%PURPLE%Steelrend%NL%%RED%Hellmouth%NL%%RED%Frostburn%CONTINUE%
+ItemDisplay[NMAG !ID SHOP cap MAPID>132]: %NAME%%PURPLE%Shako%NL%%GOLD%Peasant Crown%NL%%GOLD%Biggin's Bonnet%CONTINUE%
 ItemDisplay[NMAG !ID SHOP skp MAPID>132]: %NAME%%ORANGE%Rockstopper%NL%%GREEN%Tarnhelm%CONTINUE%
 ItemDisplay[NMAG !ID SHOP hlm MAPID>132]: %NAME%%RED%Steel Shade%NL%%ORANGE%Stealskull%NL%%GREEN%Coif of Glory%CONTINUE%
 ItemDisplay[NMAG !ID SHOP fhl MAPID>132]: %NAME%%ORANGE%Darksight Helm%NL%%GREEN%Duskdeep%CONTINUE%
@@ -171,21 +171,21 @@ ItemDisplay[NMAG !ID SHOP bsd MAPID>132]: %NAME%%ORANGE%Headstriker%NL%%GREEN%Gr
 ItemDisplay[NMAG !ID SHOP lsd MAPID>132]: %NAME%%RED%Frostwind%NL%%ORANGE%Plague Bearer%NL%%GREEN%Hellplague%CONTINUE%
 ItemDisplay[NMAG !ID SHOP wsd MAPID>132]: %NAME%%ORANGE%The Atlantean%NL%%GREEN%Culwen's Point%CONTINUE%
 ItemDisplay[NMAG !ID SHOP 2hs MAPID>132]: %NAME%%ORANGE%Crainte Vomir%NL%%GREEN%Shadowfang%CONTINUE%
-ItemDisplay[NMAG !ID SHOP clm MAPID>132]: %NAME%%RED%Leoric's Mithril Bane%NL%%ORANGE%Bing Sz Wang%NL%%GREEN%Soulflay%CONTINUE%
-ItemDisplay[NMAG !ID SHOP gis MAPID>132]: %NAME%%RED%Flamebellow%NL%%ORANGE%The Vile Husk%NL%%GREEN%Kinemil's Awl%CONTINUE%
-ItemDisplay[NMAG !ID SHOP bsw MAPID>132]: %NAME%%RED%Doombringer%NL%%ORANGE%Cloudcrack%NL%%GREEN%Blacktongue%CONTINUE%
-ItemDisplay[NMAG !ID SHOP flb MAPID>132]: %NAME%%RED%Odium%NL%%ORANGE%Todesfaelle Flamme%NL%%GREEN%Ripsaw%CONTINUE%
-ItemDisplay[NMAG !ID SHOP gsd MAPID>132]: %NAME%%RED%The Grandfather%NL%%ORANGE%Swordguard%NL%%GREEN%The Patriarch%CONTINUE%
-ItemDisplay[NMAG !ID SHOP tkf MAPID>132]: %NAME%%ORANGE%Deathbit%CONTINUE%
+ItemDisplay[NMAG !ID SHOP clm MAPID>132]: %NAME%%PURPLE%Leoric's Mithril Bane%NL%%GOLD%Bing Sz Wang%NL%%GOLD%Soulflay%CONTINUE%
+ItemDisplay[NMAG !ID SHOP gis MAPID>132]: %NAME%%PURPLE%Flamebellow%NL%%RED%The Vile Husk%NL%%GOLD%Kinemil's Awl%CONTINUE%
+ItemDisplay[NMAG !ID SHOP bsw MAPID>132]: %NAME%%PURPLE%Doombringer%NL%%RED%Cloudcrack%NL%%GOLD%Blacktongue%CONTINUE%
+ItemDisplay[NMAG !ID SHOP flb MAPID>132]: %NAME%%RED%Odium%NL%%GOLD%Todesfaelle Flamme%NL%%GOLD%Ripsaw%CONTINUE%
+ItemDisplay[NMAG !ID SHOP gsd MAPID>132]: %NAME%%PURPLE%The Grandfather%NL%%GOLD%Swordguard%NL%%GOLD%The Patriarch%CONTINUE%
+ItemDisplay[NMAG !ID SHOP tkf MAPID>132]: %NAME%%GOLD%Deathbit%CONTINUE%
 ItemDisplay[NMAG !ID SHOP bkf MAPID>132]: %NAME%%RED%Warshrike%CONTINUE%
-ItemDisplay[NMAG !ID SHOP tax MAPID>132]: %NAME%%RED%Gimmershred%NL%%ORANGE%The Scalper%CONTINUE%
-ItemDisplay[NMAG !ID SHOP bal MAPID>132]: %NAME%%RED%Lacerator%NL%%ORANGE%Achilles Strike%CONTINUE%
-ItemDisplay[NMAG !ID SHOP wnd MAPID>132]: %NAME%%ORANGE%Suicide Branch%NL%%GREEN%Torch of Iro%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ywn MAPID>132]: %NAME%%ORANGE%Carin Shard%NL%%GREEN%Maelstrom%CONTINUE%
-ItemDisplay[NMAG !ID SHOP bwn MAPID>132]: %NAME%%RED%Boneshade%NL%%ORANGE%Arm of King Leoric%NL%%GREEN%Gravenspine%CONTINUE%
-ItemDisplay[NMAG !ID SHOP gwn MAPID>132]: %NAME%%RED%Death's Web%NL%%ORANGE%Blackhand Key%NL%%GREEN%Ume's Lament%CONTINUE%
-ItemDisplay[NMAG !ID SHOP (aqv OR aqv2 OR aqv3) MAPID>132]: %NAME%%PURPLE%Doom's Finger%NL%Basilisk's Quill%NL%Aetherwing%NL%%RED%Tombsong%NL%Swiftwind Needle%NL%%RED%Balefire%CONTINUE%
-ItemDisplay[NMAG !ID SHOP (cqv OR cqv2 OR cqv3) MAPID>132]: %NAME%%PURPLE%Frozen Sorrow%NL%Bannerlord's Call%NL%Abyssal Ward%NL%%RED%Shatterhead%NL%Anvilguard Strap%NL%%RED%Ramfodder%CONTINUE%
+ItemDisplay[NMAG !ID SHOP tax MAPID>132]: %NAME%%RED%Gimmershred%NL%%GOLD%The Scalper%CONTINUE%
+ItemDisplay[NMAG !ID SHOP bal MAPID>132]: %NAME%%PURPLE%Lacerator%NL%%GOLD%Achilles Strike%CONTINUE%
+ItemDisplay[NMAG !ID SHOP wnd MAPID>132]: %NAME%%RED%Suicide Branch%NL%%GOLD%Torch of Iro%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ywn MAPID>132]: %NAME%%RED%Carin Shard%NL%%GOLD%Maelstrom%CONTINUE%
+ItemDisplay[NMAG !ID SHOP bwn MAPID>132]: %NAME%%PURPLE%Boneshade%NL%%PURPLE%Arm of King Leoric%NL%%GOLD%Gravenspine%CONTINUE%
+ItemDisplay[NMAG !ID SHOP gwn MAPID>132]: %NAME%%PURPLE%Death's Web%NL%%PURPLE%Blackhand Key%NL%%GOLD%Ume's Lament%CONTINUE%
+ItemDisplay[NMAG !ID SHOP (aqv OR aqv2 OR aqv3) MAPID>132]: %NAME%%PURPLE%Doom's Finger%NL%%PURPLE%Basilisk's Quill%NL%%PURPLE%Aetherwing%NL%%RED%Tombsong%NL%%RED%Swiftwind Needle%NL%%RED%Balefire%CONTINUE%
+ItemDisplay[NMAG !ID SHOP (cqv OR cqv2 OR cqv3) MAPID>132]: %NAME%%PURPLE%Frozen Sorrow%NL%%PURPLE%Bannerlord's Call%NL%%PURPLE%Abyssal Ward%NL%%RED%Shatterhead%NL%%RED%Anvilguard Strap%NL%%GOLD%Ramfodder%CONTINUE%
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF NMAG !RARE !UNI !SET !RW CLVL>70]:
 //Gold
@@ -1009,12 +1009,12 @@ ItemDisplay[6hb UNI !ID !ETH]: %RED%oo Crackleshot oo%MAP%
 ItemDisplay[aqv UNI !ID !ETH]: %RED%o Balefire o%MAP%
 ItemDisplay[aqv2 UNI !ID !ETH]: %RED%oo Swiftwind Needle or Tombsong oo%MAP%
 ItemDisplay[aqv3 UNI !ID !ETH]: %RED%ooo %PURPLE%Aetherwing or Basilisk's or Doom's Finger %RED%ooo%MAP%
-ItemDisplay[cqv UNI !ID !ETH]: %RED%o Ramfodder o%MAP%
+ItemDisplay[cqv UNI !ID !ETH]: %GOLD%oo Ramfodder oo%MAP%
 ItemDisplay[cqv2 UNI !ID !ETH]: %RED%ooo Anvilguard Strap or Shatterhead ooo%MAP%
 ItemDisplay[cqv3 UNI !ID !ETH]: %RED%oooo %PURPLE%Abyssal or Bannerlord's or Frozen Sorrow %RED%oooo%MAP%
 //s11 PD2 Uniques
-ItemDisplay[ob7 UNI !ID !ETH]: %RED%o Skorn o%MAP%
-ItemDisplay[ob7 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Skorn o%MAP%
+ItemDisplay[ob7 UNI !ID !ETH]: %GOLD%oo Skorn oo%MAP%
+ItemDisplay[ob7 UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Skorn oo%MAP%
 ItemDisplay[7xf UNI !ID !ETH]: %RED%ooo %PURPLE%Whispering Mirage %RED%ooo%MAP%
 ItemDisplay[7xf UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Whispering Mirage %RED%oooo%MAP%
 ItemDisplay[paf UNI !ID !ETH]: %RED%ooo %PURPLE%Skywarden %RED%ooo%MAP%
@@ -1023,8 +1023,8 @@ ItemDisplay[dr6 UNI !ID !ETH]: %RED%o %PURPLE%Fenris %RED%o%MAP%
 ItemDisplay[dr6 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Fenris %RED%ooo%MAP%
 ItemDisplay[ba7 UNI !ID !ETH]: %RED%oo Wildspeaker oo%MAP%
 ItemDisplay[ba7 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Wildspeaker %RED%oo%MAP%
-ItemDisplay[9b8 UNI !ID !ETH]: %RED%oo Achilles Strike oo%MAP%
-ItemDisplay[9b8 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Achilles Strike %RED%o%MAP%
+ItemDisplay[9b8 UNI !ID !ETH]: %GOLD%ooo Achilles Strike ooo%MAP%
+ItemDisplay[9b8 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Achilles Strike ooo%MAP%
 ItemDisplay[uhc UNI !ID !ETH]: %RED%oooo %PURPLE%Siggard's Staunch %RED%oooo%MAP%
 ItemDisplay[uhc UNI !ID ETH]: %SOUNDID-4723%%YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Siggard's Staunch %YELLOW%ooooo%MAP%
 ItemDisplay[neg UNI !ID !ETH]: %RED%ooo Sacred Totem ooo%MAP%
@@ -1053,8 +1053,8 @@ ItemDisplay[7fb UNI !ID !ETH]: %RED%ooo Odium ooo%MAP%
 ItemDisplay[7fb UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Odium %RED%ooo%MAP%
 ItemDisplay[ame UNI !ID !ETH]: %RED%ooo Zerae's Resolve ooo%MAP%
 ItemDisplay[ame UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Zerae's Resolve %RED%oooo%MAP%
-ItemDisplay[ulb UNI !ID !ETH]: %RED%ooo Merman's Sprocket ooo%MAP%
-ItemDisplay[ulb UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Merman's Sprocket ooo%MAP%
+ItemDisplay[ulb UNI !ID !ETH]: %RED%o %PURPLE%Merman's Sprocket %RED%o%MAP%
+ItemDisplay[ulb UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Merman's Sprocket %RED%o%MAP%
 ItemDisplay[ned UNI !ID !ETH]: %RED%ooo %PURPLE%Martyrdom %RED%ooo%MAP%
 ItemDisplay[ned UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Martyrdom %RED%ooo%MAP%
 ItemDisplay[6bs UNI !ID !ETH]: %RED%oooo %PURPLE%Brimstone Rain %RED%oooo%MAP%
@@ -1084,8 +1084,8 @@ ItemDisplay[ba6 UNI !ID !ETH]: %RED%ooo Cyclopean Roar ooo%MAP%
 ItemDisplay[ba6 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Cyclopean Roar ooo%MAP%
 ItemDisplay[dr2 UNI !ID !ETH]: %RED%oo Quetzalcoatl oo%MAP%
 ItemDisplay[dr2 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Quetzalcoatl %RED%oo%MAP%
-ItemDisplay[ob6 UNI !ID !ETH]: %RED%oo Tempest oo%MAP%
-ItemDisplay[ob6 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Tempest %RED%oo%MAP%
+ItemDisplay[ob6 UNI !ID !ETH]: %RED%ooo Tempest ooo%MAP%
+ItemDisplay[ob6 UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Tempest %RED%ooo%MAP%
 ItemDisplay[pa3 UNI !ID !ETH]: %GOLD%ooo Sankekur's Fall ooo%MAP%
 ItemDisplay[pa3 UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Sankekur's Fall ooo%MAP%
 ItemDisplay[9ar UNI !ID !ETH]: %GOLD%ooo Mage Slayer ooo%MAP%
@@ -1184,8 +1184,8 @@ ItemDisplay[chn UNI !ID !ETH]: %GOLD%o Sparking Mail o%MAP%
 ItemDisplay[chn UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Sparking Mail o%MAP%
 ItemDisplay[spl UNI !ID !ETH]: %RED%o Iceblink o%MAP%
 ItemDisplay[spl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Iceblink o%MAP%
-ItemDisplay[plt UNI !ID !ETH]: %RED%o Boneflesh o%MAP%
-ItemDisplay[plt UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Boneflesh o%MAP%
+ItemDisplay[plt UNI !ID !ETH]: %GOLD%oo Boneflesh oo%MAP%
+ItemDisplay[plt UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Boneflesh oo%MAP%
 ItemDisplay[gth UNI !ID !ETH]: %GOLD%oo Rattlecage oo%MAP%
 ItemDisplay[gth UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Rattlecage oo%MAP%
 ItemDisplay[ful UNI !ID !ETH]: %GOLD%oo Goldskin oo%MAP%
@@ -1196,12 +1196,12 @@ ItemDisplay[xtu UNI !ID !ETH]: %GOLD%ooo Iron Pelt ooo%MAP%
 ItemDisplay[xtu UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Iron Pelt ooo%MAP%
 ItemDisplay[xcl UNI !ID !ETH]: %GOLD%ooo Crow Caw ooo%MAP%
 ItemDisplay[xcl UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Crow Caw ooo%MAP%
-ItemDisplay[xui UNI !ID !ETH]: %RED%ooo The Spirit Shroud ooo%MAP%
+ItemDisplay[xui UNI !ID !ETH]: %RED%o %PURPLE%The Spirit Shroud %RED%o%MAP%
 ItemDisplay[xui UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%The Spirit Shroud o%MAP%
 ItemDisplay[xea UNI !ID !ETH]: %RED%ooo %PURPLE%Skin of the Vipermagi %RED%ooo%MAP%
 ItemDisplay[xea UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Skin of the Vipermagi ooo%MAP%
-ItemDisplay[xla UNI !ID !ETH]: %GOLD%oo Skin of the Flayed One oo%MAP%
-ItemDisplay[xla UNI !ID ETH]: %GOLD%oo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Skin of the Flayed One oo%MAP%
+ItemDisplay[xla UNI !ID !ETH]: %GOLD%ooo Skin of the Flayed One ooo%MAP%
+ItemDisplay[xla UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Skin of the Flayed One ooo%MAP%
 ItemDisplay[xrs UNI !ID !ETH]: %RED%o Duriel's Shell o%MAP%
 ItemDisplay[xrs UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Duriel's Shell o%MAP%
 ItemDisplay[xhn UNI !ID !ETH]: %RED%oooo %PURPLE%Shaftstop %RED%oooo%MAP%
@@ -1220,8 +1220,8 @@ ItemDisplay[xar UNI !ID !ETH]: %RED%ooo Corpsemourn ooo%MAP%
 ItemDisplay[xar UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Corpsemourn ooo%MAP%
 ItemDisplay[uui UNI !ID !ETH]: %RED%oooo %PURPLE%Ormus' Robes %RED%oooo%MAP%
 ItemDisplay[uui UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Ormus' Robes ooo%MAP%
-ItemDisplay[xng UNI !ID !ETH]: %RED%o Spirit Forge o%MAP%
-ItemDisplay[xng UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Spirit Forge o%MAP%
+ItemDisplay[xng UNI !ID !ETH]: %GOLD%ooo Spirit Forge ooo%MAP%
+ItemDisplay[xng UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spirit Forge ooo%MAP%
 ItemDisplay[xld UNI !ID !ETH]: %RED%ooo Toothrow ooo%MAP%
 ItemDisplay[xld UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Toothrow ooo%MAP%
 ItemDisplay[ltp UNI !ID !ETH]: %RED%oo Heavenly Garb oo%MAP%
@@ -1296,7 +1296,7 @@ ItemDisplay[umg UNI !ID !ETH]: %RED%ooo %PURPLE%Soul Drainer %RED%ooo%MAP%
 ItemDisplay[umg UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Soul Drainer %RED%ooo%MAP%
 ItemDisplay[uhg UNI !ID !ETH]: %RED%ooo %PURPLE%Steelrend %RED%ooo%MAP%
 ItemDisplay[uhg UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Steelrend %RED%ooo%MAP%
-ItemDisplay[vbt UNI !ID !ETH]: %GOLD%ooo Gorefoot ooo%MAP%
+ItemDisplay[vbt UNI !ID !ETH]: %RED%o Gorefoot o%MAP%
 ItemDisplay[vbt UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Gorefoot ooo%MAP%
 ItemDisplay[mbt UNI !ID !ETH]: %RED%o Treads of Cthon o%MAP%
 ItemDisplay[mbt UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Treads of Cthon o%MAP%
@@ -1470,8 +1470,8 @@ ItemDisplay[92h UNI !ID !ETH]: %GOLD%ooo Crainte Vomir ooo%MAP%
 ItemDisplay[92h UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Crainte Vomir oo%MAP%
 ItemDisplay[9cm UNI !ID !ETH]: %GOLD%ooo Bing Sz Wang ooo%MAP%
 ItemDisplay[9cm UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Bing Sz Wang oo%MAP%
-ItemDisplay[9b9 UNI !ID !ETH]: %GOLD%ooo Cloudcrack ooo%MAP%
-ItemDisplay[9b9 UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Cloudcrack o%MAP%
+ItemDisplay[9b9 UNI !ID !ETH]: %RED%o Cloudcrack o%MAP%
+ItemDisplay[9b9 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Cloudcrack oo%MAP%
 ItemDisplay[9fb UNI !ID !ETH]: %GOLD%ooo Todesfaelle Flamme ooo%MAP%
 ItemDisplay[9fb UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Todesfaelle Flamme oo%MAP%
 ItemDisplay[9gd UNI !ID !ETH]: %GOLD%ooo Swordguard ooo%MAP%
@@ -1530,9 +1530,9 @@ ItemDisplay[9ta UNI !ID !ETH]: %GOLD%oo The Scalper oo%MAP%
 ItemDisplay[9ta UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Scalper ooo%MAP%
 ItemDisplay[7bk UNI !ID !ETH]: %RED%o Warshrike o%MAP%
 ItemDisplay[7bk UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Warshrike %RED%oo%MAP%
-ItemDisplay[7ta UNI !ID !ETH]: %RED%o Gimmershred o%MAP%
+ItemDisplay[7ta UNI !ID !ETH]: %RED%oo Gimmershred oo%MAP%
 ItemDisplay[7ta UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Gimmershred ooo%MAP%
-ItemDisplay[7b8 UNI !ID !ETH]: %RED%oo %PURPLE%Lacerator %RED%oo%MAP%
+ItemDisplay[7b8 UNI !ID !ETH]: %RED%o %PURPLE%Lacerator %RED%o%MAP%
 ItemDisplay[7b8 UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Lacerator %RED%oooo%MAP%
 ItemDisplay[7s7 UNI !ID !ETH]: %RED%oo Demon's Arch %RED%oo%MAP%
 ItemDisplay[7s7 UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Demon's Arch %RED%oo%MAP%
@@ -1614,8 +1614,8 @@ ItemDisplay[8ws UNI !ID !ETH]: %RED%ooo %PURPLE%Skull Collector %RED%ooo%MAP%
 ItemDisplay[8ws UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Skull Collector %RED%ooo%MAP%
 ItemDisplay[9wn UNI !ID !ETH]: %RED%o Suicide Branch o%MAP%
 ItemDisplay[9wn UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Suicide Branch o%MAP%
-ItemDisplay[9yw UNI !ID !ETH]: %GOLD%ooo Carin Shard ooo%MAP%
-ItemDisplay[9yw UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Carin Shard ooo%MAP%
+ItemDisplay[9yw UNI !ID !ETH]: %RED%o Carin Shard o%MAP%
+ItemDisplay[9yw UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Carin Shard o%MAP%
 ItemDisplay[lst UNI !ID !ETH]: %GOLD%o Serpent Lord o%MAP%
 ItemDisplay[lst UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Serpent Lord o%MAP%
 ItemDisplay[cst UNI !ID !ETH]: %RED%oo Spire of Lazarus oo%MAP%
@@ -1694,10 +1694,10 @@ ItemDisplay[nef UNI !ID !ETH]: %RED%ooo %PURPLE%Darkforce Spawn %RED%ooo%MAP%
 ItemDisplay[nef UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Darkforce Spawn %RED%ooo%MAP%
 ItemDisplay[nee UNI !ID !ETH]: %RED%oooo %PURPLE%Boneflame %RED%oooo%MAP%
 ItemDisplay[nee UNI !ID ETH]:  %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Boneflame %RED%oooo%MAP%
-ItemDisplay[9tw UNI !ID !ETH]: %RED%ooo Bartuc's Cut-Throat ooo%MAP%
+ItemDisplay[9tw UNI !ID !ETH]: %RED%o %PURPLE%Bartuc's Cut-Throat %RED%o%MAP%
 ItemDisplay[9tw UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Bartuc's Cut-Throat %RED%ooo%MAP%
 ItemDisplay[7cs UNI !ID ETH]: %RED%o %PURPLE%Shadow Killer %RED%o%MAP%
-ItemDisplay[7lw UNI !ID !ETH]: %RED%ooo Firelizard's Talons ooo%MAP%
+ItemDisplay[7lw UNI !ID !ETH]: %RED%oo %PURPLE%Firelizard's Talons %RED%oo%MAP%
 ItemDisplay[7lw UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Firelizard's Talons %RED%ooo%MAP%
 ItemDisplay[7wb UNI !ID !ETH]: %RED%oo Jade Talon oo%MAP%
 ItemDisplay[7wb UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Jade Talon %RED%ooo%MAP%
