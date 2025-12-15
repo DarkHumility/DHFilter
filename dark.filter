@@ -105,8 +105,8 @@ ItemDisplay[urma]: %BLUE%ooo %NAME%%BLUE% ooo%MAP%
 ItemDisplay[upmp]: %GRAY%o %NAME%%GRAY% o%MAP% 
 ItemDisplay[fort]: %TAN%o %NAME%%TAN% o%MAP% 
 ItemDisplay[scrb]: %PURPLE%o %NAME%%PURPLE% o%MAP% {%WHITE%+ Tier 3 %RED%Map %NL%%WHITE%Turns %RED%Map%WHITE% into %PURPLE%Dungeon%PURPLE%}
-ItemDisplay[lbox]: %WHITE%ooooo %GOLD%%NAME% %WHITE%ooooo%MAP%
-ItemDisplay[lpp]: %WHITE%ooo %GOLD%%NAME% %WHITE%ooo%MAP%
+ItemDisplay[lbox]: %SOUNDID-4719%%WHITE%ooooo %GOLD%%NAME% %WHITE%ooooo%MAP%
+ItemDisplay[lpp]: %SOUNDID-4717%%WHITE%ooo %GOLD%%NAME% %WHITE%ooo%MAP%
 ItemDisplay[imrn]: %WHITE%ooo%CORAL%ooooo %GOLD%%NAME% %WHITE%ooooo%CORAL%ooo%MAP%
 ItemDisplay[lmal]: %WHITE%o %GOLD%%NAME% %WHITE%o%MAP%
 ItemDisplay[llmr]: %SOUNDID-4719%%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o %NAME% %RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%RED%o%WHITE%o%MAP%
