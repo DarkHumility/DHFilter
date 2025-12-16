@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.12
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.13
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -13,7 +13,7 @@ ItemDisplay[(NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND !EDEF) !RW !UNI 
 ItemDisplay[(mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps OR rvs) FILTLVL>3]:
 ItemDisplay[(MAG AND cm2) OR (RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !EQ7 !rin !amu !jew !aqv !cqv !NMAG !SET !RW !UNI !ID FILTLVL>4]:
 //HORADRIC CUBE MESSAGE
-ItemDisplay[box]: %GOLD%%NAME% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%5 Strictness Levels Available! %NL%%WHITE%DH's Personal Filter:}
+ItemDisplay[box]: %GOLD%%NAME%%MAP% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%5 Strictness Levels Available! %NL%%WHITE%DH's Personal Filter:}
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF NMAG !RARE !UNI !SET !RW CLVL>70]:
 //Gold
@@ -80,11 +80,17 @@ ItemDisplay[qbr]: %GOLD%%NAME%%MAP%
 ItemDisplay[g33]: %GOLD%%NAME%%MAP%
 ItemDisplay[qey]: %GOLD%%NAME%%MAP%
 ItemDisplay[qhr]: %GOLD%%NAME%%MAP%
-ItemDisplay[tr1]: %GOLD%%NAME%%MAP%
+ItemDisplay[tr1]:
 ItemDisplay[tr2]: %GOLD%%NAME%%MAP%
 ItemDisplay[xyz]: %GOLD%%NAME%%MAP%
 ItemDisplay[ice]: %GOLD%%NAME%%MAP%
-ItemDisplay[std]: %RED%%NAME%%MAP%
+ItemDisplay[hdm]: %GOLD%%NAME%%MAP%
+ItemDisplay[msf]: %GOLD%%NAME%%MAP%
+ItemDisplay[vip]: %GOLD%%NAME%%MAP%
+ItemDisplay[hst]: %GOLD%%NAME%%MAP%
+ItemDisplay[qf1]: %GOLD%%NAME%%MAP%
+ItemDisplay[qf2]: %GOLD%%NAME%%MAP%
+ItemDisplay[hfh]: %GOLD%%NAME%%MAP%
 //PD2 Items
 ItemDisplay[crfb]: %RED%<%WHITE%>%RED%<%WHITE%> %TAN%Blood Craft Infusion %WHITE%<%RED%>%WHITE%<%RED%>%MAP%
 ItemDisplay[crfc]: %PURPLE%<%WHITE%>%PURPLE%<%WHITE%> %TAN%Caster Craft Infusion %WHITE%<%PURPLE%>%WHITE%<%PURPLE%>%MAP%
@@ -133,6 +139,7 @@ ItemDisplay[lucb]: %RED%ooo %NAME%%RED% ooo%MAP%
 ItemDisplay[lucc]: %RED%oo %NAME%%RED% oo%MAP%
 ItemDisplay[lucd]: %RED%o %NAME%%RED% o%MAP%
 ItemDisplay[jewf]: %TAN%o %BLUE%%NAME% %TAN%o%MAP%
+ItemDisplay[std]: %RED%<<%GREEN%> %GOLD%%NAME% %GREEN%<%RED%>> %MAP%
 ItemDisplay[rtp]: %SOUNDID-16%%GREEN%!!!!!!!!! %GOLD%%NAME% %GREEN%!!!!!!!!!%MAP%
 ItemDisplay[rid]: %SOUNDID-16%%GREEN%!!!!!!!!! %GOLD%%NAME% %GREEN%!!!!!!!!!%MAP%
 //Maps
@@ -276,7 +283,7 @@ ItemDisplay[tes]: %GOLD%Suffering [%BLUE%NM OR Hell Andy OR Duriel%GOLD%]%MAP%
 ItemDisplay[ceh]: %GOLD%Hatred [%YELLOW%NM OR Hell Mephisto%GOLD%]%MAP%
 ItemDisplay[bet]: %GOLD%Terror [%RED%NM OR Hell Diablo%GOLD%]%MAP%
 ItemDisplay[fed]: %GOLD%Destruction [%GREEN%NM OR Hell Baal%GOLD%]%MAP%
-ItemDisplay[toa]: %GOLD%Token of Absolution%MAP%
+ItemDisplay[toa]: %GOLD%Token of Absolution%MAP% {%PURPLE%Respecs Char}
 //Uber Keys
 ItemDisplay[pk1]: %PURPLE%o %GOLD%Key of Terror %PURPLE%o%MAP% {%PURPLE%Bloodraven %GOLD%* %PURPLE%The Countess}
 ItemDisplay[pk2]: %RED%o %GOLD%Key of Hate %RED%o%MAP% {%RED%Bloodwitch the Wild %GOLD%* %RED%The Summoner}
