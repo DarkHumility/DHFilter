@@ -188,13 +188,12 @@ ItemDisplay[NMAG !ID SHOP gwn MAPID>132]: %NAME%%PURPLE%Death's Web%NL%%PURPLE%B
 ItemDisplay[NMAG !ID SHOP (aqv OR aqv2 OR aqv3) MAPID>132]: %NAME%%PURPLE%Doom's Finger%NL%%PURPLE%Basilisk's Quill%NL%%PURPLE%Aetherwing%NL%%RED%Tombsong%NL%%RED%Swiftwind Needle%NL%%RED%Balefire
 ItemDisplay[NMAG !ID SHOP (cqv OR cqv2 OR cqv3) MAPID>132]: %NAME%%PURPLE%Frozen Sorrow%NL%%PURPLE%Bannerlord's Call%NL%%PURPLE%Abyssal Ward%NL%%RED%Shatterhead%NL%%RED%Anvilguard Strap%NL%%GOLD%Ramfodder
 ItemDisplay[NMAG !ID SHOP MAPID>132]: %NAME%%NL%%NL%%TAN%Note%WHITE%: Possible Uniques:
-//Gold
+//Hides the piles o' koinz
 ItemDisplay[GOLD<100 CLVL>10]:
 ItemDisplay[GOLD<500 CLVL>30]:
 ItemDisplay[GOLD<1000 CLVL>60]:
 ItemDisplay[GOLD<2500 CLVL>70]:
 ItemDisplay[GOLD<5000 CLVL>80]:
-
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF NMAG !RARE !UNI !SET !RW CLVL>71]:
 //HP & MPs
