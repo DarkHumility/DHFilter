@@ -16,8 +16,8 @@ ItemDisplay[(MAG AND cm2) OR (RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !EQ7 !ri
 ItemDisplay[box]: %GOLD%%NAME%%MAP% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%5 Strictness Levels Available! %NL%%WHITE%DH's Personal Filter:}
 //Gheed Map Event
 ItemDisplay[NMAG !ID SHOP MAPID>132]: %WHITE%Are Greater Than %RED%the Odds of Getting an Item %WHITE%Lower Down%NL%%RED%Odds of Getting %WHITE%an Item Higher Up %RED%in this List%NL%%NL%
-ItemDisplay[NMAG !ID SHOP amu MAPID>132]: %NAME%%PURPLE%Mara's Kaleidoscope, Metalgrid, Seraph's Hymn%NL%%PURPLE%Highlord's Wrath, Atma's Scarab, Rising Sun,%NL%%PURPLE%Saracen's Chance, Cat's Eye, Crescent Moon,%NL%%PURPLE%Mahim-Oak Curio, Nokozan Relic, Eye of Etlich,%CONTINUE%
-ItemDisplay[NMAG !ID SHOP rin MAPID>132]: %NAME%%PURPLE%Kadala's Heirloom %RED%- Gheed Event Exclusive!%NL%%PURPLE%Bul-Kathos' Wedding Band, Constricting Loop, Stone of Jordan, Wisp Projector,%NL%%PURPLE%Raven Frost, Nature's Peace, Carrion Wind,%NL%%PURPLE%Dwarf Star, Manald Heal, Nagelring,%CONTINUE% 
+ItemDisplay[NMAG !ID SHOP amu MAPID>132]: %NAME%%PURPLE%Mara's, Metalgrid, Seraph's Hymn%NL%%PURPLE%Highlord's, Atma's Scarab, Rising Sun,%NL%%PURPLE%Saracen's, Cat's Eye, Crescent Moon,%NL%%PURPLE%Mahim-Oak Curio, Nokozan, Eye of Etlich,%CONTINUE%
+ItemDisplay[NMAG !ID SHOP rin MAPID>132]: %NAME%%PURPLE%Kadala's Heirloom %RED%%NL%%PURPLE%Bul-Kathos', Constricting Loop, SOJ, Wisp,%NL%%PURPLE%Raven Frost, Nature's Peace, Carrion Wind,%NL%%PURPLE%Dwarf Star, Manald Heal, Nagelring,%CONTINUE% 
 ItemDisplay[NMAG !ID SHOP jew MAPID>132]: %NAME%%PURPLE%Rainbow Facet%CONTINUE%
 ItemDisplay[NMAG !ID SHOP cm3 MAPID>132]: %NAME%%PURPLE%Gheed's Fortune%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ci0 MAPID>132]: %NAME%%PURPLE%Griffon's Eye%NL%%PURPLE%Kira's Guardian%CONTINUE%
@@ -185,8 +185,8 @@ ItemDisplay[NMAG !ID SHOP wnd MAPID>132]: %NAME%%RED%Suicide Branch%NL%%GOLD%Tor
 ItemDisplay[NMAG !ID SHOP ywn MAPID>132]: %NAME%%RED%Carin Shard%NL%%GOLD%Maelstrom%CONTINUE%
 ItemDisplay[NMAG !ID SHOP bwn MAPID>132]: %NAME%%PURPLE%Boneshade%NL%%PURPLE%Arm of King Leoric%NL%%GOLD%Gravenspine%CONTINUE%
 ItemDisplay[NMAG !ID SHOP gwn MAPID>132]: %NAME%%PURPLE%Death's Web%NL%%PURPLE%Blackhand Key%NL%%GOLD%Ume's Lament%CONTINUE%
-ItemDisplay[NMAG !ID SHOP (aqv OR aqv2 OR aqv3) MAPID>132]: %NAME%%PURPLE%Doom's Finger%NL%%PURPLE%Basilisk's Quill%NL%%PURPLE%Aetherwing%NL%%RED%Tombsong%NL%%RED%Swiftwind Needle%NL%%RED%Balefire%CONTINUE%
-ItemDisplay[NMAG !ID SHOP (cqv OR cqv2 OR cqv3) MAPID>132]: %NAME%%PURPLE%Frozen Sorrow%NL%%PURPLE%Bannerlord's Call%NL%%PURPLE%Abyssal Ward%NL%%RED%Shatterhead%NL%%RED%Anvilguard Strap%NL%%GOLD%Ramfodder%CONTINUE%
+ItemDisplay[NMAG !ID SHOP (aqv OR aqv2 OR aqv3) MAPID>132]: %NAME%%PURPLE%Doom's Finger%NL%%PURPLE%Basilisk's%NL%%PURPLE%Aetherwing%NL%%RED%Tombsong%NL%%RED%Swiftwind Needle%NL%%RED%Balefire%CONTINUE%
+ItemDisplay[NMAG !ID SHOP (cqv OR cqv2 OR cqv3) MAPID>132]: %NAME%%PURPLE%Frozen Sorrow%NL%%PURPLE%Bannerlord's%NL%%PURPLE%Abyssal Ward%NL%%RED%Shatterhead%NL%%RED%Anvilguard Strap%NL%%GOLD%Ramfodder%CONTINUE%
 ItemDisplay[NMAG !ID SHOP MAPID>132]: %NAME%%NL%%NL%%TAN%Note%WHITE%: Possible Uniques:
 //Hides Koin Pilez
 ItemDisplay[GOLD<100 CLVL>10]:
