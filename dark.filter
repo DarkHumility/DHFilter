@@ -82,7 +82,7 @@ ItemDisplay[NMAG !ID SHOP ful MAPID>132]: %NAME%%GOLD%Steel Carapace%NL%%WHITE%E
 ItemDisplay[NMAG !ID SHOP aar MAPID>132]: %NAME%%GOLD%Tyrael's Might%NL%Templar's Might%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%%GOLD%Corpsemourn%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%%GOLD%Silks of the Victor%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP lbl MAPID>132]: %NAME%%GOLD%Arachnid Mesh%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%String of Ears%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Lenymo%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP vbl MAPID>132]: %NAME%%GOLD%Nosferatu's Coil%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Razortail%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Snakecord%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP mbl MAPID>132]: %NAME%%GOLD%Verdungo's Hearty Cord%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Gloom's Trap%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Nightsmoke%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP mbl MAPID>132]: %NAME%%PURPLE%Verdungo's Hearty Cord%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Gloom's Trap%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Nightsmoke%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP tbl MAPID>132]: %NAME%%GOLD%Snowclash%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Goldwrap%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP hbl MAPID>132]: %NAME%%GOLD%Siggard's Staunch%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Thundergod's Vigor%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Bladebuckle%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP lbt MAPID>132]: %NAME%%GOLD%Merman's Sprocket%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Infernostride%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Hotspur%NL%%WHITE%Normal Tier:%CONTINUE%
