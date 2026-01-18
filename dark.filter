@@ -20,6 +20,7 @@ ItemDisplay[GOLD<500 CLVL>30]:
 ItemDisplay[GOLD<1000 CLVL>60]:
 ItemDisplay[GOLD<2500 CLVL>70]:
 ItemDisplay[GOLD<5000 CLVL>80]:
+ItemDisplay[GOLD<7500 CLVL>90]:
 ///Gheed Map Event
 // Fallback / General header for any qualifying base
 ItemDisplay[NMAG !ID SHOP MAPID>132]: %TAN%%NAME% {%WHITE%Lower Odds Uniques: Listed %RED%Lower%WHITE% in Tooltip%NL%%WHITE%Higher Odds Uniques: Listed %PURPLE%Higher%WHITE% in Tooltip%NL%%TAN%Gheed Map Event}%CONTINUE%
