@@ -21,7 +21,7 @@ ItemDisplay[GOLD<1000 CLVL>60]:
 ItemDisplay[GOLD<2500 CLVL>70]:
 ItemDisplay[GOLD<5000 CLVL>80]:
 ///Gheed Gambling Event
-ItemDisplay[NMAG !ID SHOP MAPID>132]: %RED%Higher %WHITE%odds for uniques listed %RED%higher%WHITE% in tooltip%NL%%TAN%Note: %RED%Lower %WHITE%odds for uniques listed %RED%lower%WHITE% down%NL%%GREEN%Gheed Map Event%NL%%NL%%CONTINUE%
+ItemDisplay[NMAG !ID SHOP MAPID>132]: %RED%Worse %WHITE%odds for uniques listed %RED%lower%WHITE% down%NL%%TAN%Note: %RED%Better %WHITE%odds for uniques listed %RED%higher%WHITE% in tooltip%NL%%GREEN%Gheed Map Event%NL%%NL%%CONTINUE%
 ItemDisplay[NMAG !ID SHOP amu MAPID>132]: %NAME%%GOLD%Rising Sun, Saracen's Chance, Seraph's Hymn%NL%Mara's Kaleidoscope, Metalgrid, Nokozan Relic, %NL%Eye of Etlich, Highlord's Wrath, Mahim-Oak Curio,%NL%Atma's Scarab, Cat's Eye, Crescent Moon,%NL%%WHITE%List of Amulets:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP rin MAPID>132]: %NAME%%GOLD%Kadala's Heirloom%NL%%WHITE%Gheed's Event Exclisive:%NL%%NL%%GOLD%Raven Frost, Stone of Jordan, Wisp Projector%NL%Dwarf Star, Manald Heal, Nagelring, Nature's Peace,%NL%Bul-Kathos' Wedding Band, Carrion Wind, Constricting Loop,%NL%%WHITE%List of Rings:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP jew MAPID>132]: %NAME%%GOLD%Rainbow Facet%NL%%WHITE%List of Jewels:%CONTINUE%
