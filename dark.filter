@@ -21,7 +21,7 @@ ItemDisplay[GOLD<1000 CLVL>60]:
 ItemDisplay[GOLD<2500 CLVL>70]:
 ItemDisplay[GOLD<5000 CLVL>80]:
 ///Gheed Gambling Event
-ItemDisplay[NMAG !ID SHOP MAPID>132]: %WHITE%Higher odds for uniques listed %RED%higher%WHITE% in tooltip%NL%%TAN%Note: %WHITE%Lower odds for uniques listed %RED%lower%WHITE% down%NL%%PURPLE%Gheed Map Event%NL%%NL%%CONTINUE%
+ItemDisplay[NMAG !ID SHOP MAPID>132]: %RED%Higher %WHITE%odds for uniques listed %RED%higher%WHITE% in tooltip%NL%%TAN%Note: %RED%Lower %WHITE%odds for uniques listed %RED%lower%WHITE% down%NL%%TEAL%Gheed Map Event%NL%%NL%%CONTINUE%
 ItemDisplay[NMAG !ID SHOP amu MAPID>132]: %NAME%%GOLD%Rising Sun, Saracen's Chance, Seraph's Hymn%NL%Mara's Kaleidoscope, Metalgrid, Nokozan Relic, %NL%Eye of Etlich, Highlord's Wrath, Mahim-Oak Curio,%NL%Atma's Scarab, Cat's Eye, Crescent Moon,%NL%%WHITE%List of Amulets:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP rin MAPID>132]: %NAME%%GOLD%Kadala's Heirloom%NL%%WHITE%Gheed's Event Exclisive:%NL%%NL%%GOLD%Raven Frost, Stone of Jordan, Wisp Projector%NL%Dwarf Star, Manald Heal, Nagelring, Nature's Peace,%NL%Bul-Kathos' Wedding Band, Carrion Wind, Constricting Loop,%NL%%WHITE%List of Rings:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP jew MAPID>132]: %NAME%%GOLD%Rainbow Facet%NL%%WHITE%List of Jewels:%CONTINUE%
@@ -193,7 +193,7 @@ ItemDisplay[NMAG !ID SHOP bwn MAPID>132]: %NAME%%GOLD%Boneshade%NL%%WHITE%Elite 
 ItemDisplay[NMAG !ID SHOP gwn MAPID>132]: %NAME%%GOLD%Death's Web%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Blackhand Key%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Ume's Lament%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP (aqv OR aqv2 OR aqv3) MAPID>132]: %NAME%%GOLD%Doom's Finger%NL%Basilisk's Quill%NL%Aetherwing%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Tombsong%NL%Swiftwind Needle%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Balefire%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP (cqv OR cqv2 OR cqv3) MAPID>132]: %NAME%%GOLD%Frozen Sorrow%NL%Bannerlord's Call%NL%Abyssal Ward%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Shatterhead%NL%Anvilguard Strap%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Ramfodder%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP MAPID>132]: %NAME%%NL%%NL%%GOLD%Possible Uniques:
+ItemDisplay[NMAG !ID SHOP MAPID>132]: %NAME%%NL%%NL%%CORAL%Possible Uniques:
 //INF
 ItemDisplay[(ARMOR OR WEAPON) INF NMAG !RARE !UNI !SET !RW !SHOP CLVL>71]:
 //HP & MPs
