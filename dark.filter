@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.18
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.20
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -22,23 +22,23 @@ ItemDisplay[GOLD<2500 CLVL>70]:
 ItemDisplay[GOLD<5000 CLVL>80]:
 ///Gheed Gambling Event
 ItemDisplay[NMAG !ID SHOP MAPID>132]: %RED%Worse %WHITE%odds for uniques listed %RED%lower%WHITE% down%NL%%TAN%Note: %RED%Better %WHITE%odds for uniques listed %RED%higher%WHITE% in tooltip%NL%%GREEN%Gheed Map Event%NL%%NL%%CONTINUE%
-ItemDisplay[NMAG !ID SHOP amu MAPID>132]: %NAME%%GOLD%Rising Sun, Saracen's Chance, Seraph's Hymn%NL%Mara's Kaleidoscope, Metalgrid, Nokozan Relic, %NL%Eye of Etlich, Highlord's Wrath, Mahim-Oak Curio,%NL%Atma's Scarab, Cat's Eye, Crescent Moon,%NL%%WHITE%List of Amulets:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP rin MAPID>132]: %NAME%%GOLD%Kadala's Heirloom%NL%%WHITE%Gheed's Event Exclisive:%NL%%NL%%GOLD%Raven Frost, Stone of Jordan, Wisp Projector%NL%Dwarf Star, Manald Heal, Nagelring, Nature's Peace,%NL%Bul-Kathos' Wedding Band, Carrion Wind, Constricting Loop,%NL%%WHITE%List of Rings:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP jew MAPID>132]: %NAME%%GOLD%Rainbow Facet%NL%%WHITE%List of Jewels:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP cm3 MAPID>132]: %NAME%%GOLD%Gheed's Fortune%NL%%WHITE%List of Charms:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ci0 MAPID>132]: %NAME%%GOLD%Griffon's Eye%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Kira's Guardian%NL%%WHITE%Exceptional Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ci1 MAPID>132]: %NAME%%GOLD%Griffon's Eye%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Kira's Guardian%NL%%WHITE%Exceptional Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP am1 MAPID>132]: %NAME%%GOLD%Blood Raven's Charge%NL%%WHITE%Elite Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP am2 MAPID>132]: %NAME%%GOLD%Ebonbane%NL%%WHITE%Elite Tier:%NL%%NL%Lycander's Aim%NL%%WHITE%Exceptional Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP am5 MAPID>132]: %NAME%%GOLD%Thunderstroke%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Titan's Revenge%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%True Silver%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP am3 MAPID>132]: %NAME%%GOLD%Stoneraven%NL%%WHITE%Elite Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP am4 MAPID>132]: %NAME%%GOLD%Zerae's Resolve%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Lycander's Flank%NL%%WHITE%Exceptional Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP amu MAPID>132]: %NAME%%GOLD%Nokozan Relic, Mahim-Oak Curio, Eye of Etlich%NL%%PURPLE%Rising Sun, Saracen's Chance, Cat's Eye,%NL%Atma's Scarab, Crescent Moon, Highlord's Wrath,%NL%Metalgrid, Mara's Kaleidoscope, Seraph's Hymn,%NL%%WHITE%List of Amulets:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP rin MAPID>132]: %NAME%%PURPLE%Kadala's Heirloom%NL%%WHITE%Gheed Event ONLY:%NL%%NL%%RED%Manald Heal, Nagelring, Dwarf Star%NL%%PURPLE%Raven Frost, Nature's Peace, Carrion Wind,%NL%%PURPLE%Stone of Jordan, Wisp Projector, Bul-Kathos' Wedding Band, Constricting Loop,%NL%%WHITE%List of Rings:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP jew MAPID>132]: %NAME%%PURPLE%Rainbow Facet%NL%%WHITE%List of Jewels:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP cm3 MAPID>132]: %NAME%%PURPLE%Gheed's Fortune%NL%%WHITE%List of Charms:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ci0 MAPID>132]: %NAME%%PURPLE%Griffon's Eye%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Kira's Guardian%NL%%WHITE%Exceptional Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ci1 MAPID>132]: %NAME%%PURPLE%Griffon's Eye%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Kira's Guardian%NL%%WHITE%Exceptional Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP am1 MAPID>132]: %NAME%%PURPLE%Blood Raven's Charge%NL%%WHITE%Elite Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP am2 MAPID>132]: %NAME%%RED%Ebonbane%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Lycander's Aim%NL%%WHITE%Exceptional Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP am5 MAPID>132]: %NAME%%PURPLE%Thunderstroke%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Titan's Revenge%NL%%WHITE%Exceptional Tier:%NL%%NL%%RED%True Silver%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP am3 MAPID>132]: %NAME%%RED%Stoneraven%NL%%WHITE%Elite Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP am4 MAPID>132]: %NAME%%RED%Zerae's Resolve%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Lycander's Flank%NL%%WHITE%Exceptional Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ktr MAPID>132]: %NAME%%GOLD%Mage Slayer%NL%%WHITE%Exceptional Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP wrb MAPID>132]: %NAME%%GOLD%Jade Talon%NL%%WHITE%Elite Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP axf MAPID>132]: %NAME%%GOLD%Whispering Mirage%NL%%WHITE%Elite Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ces MAPID>132]: %NAME%%GOLD%Shadow Killer%NL%%WHITE%Elite Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP clw MAPID>132]: %NAME%%GOLD%Firelizard's Talons%NL%%WHITE%Elite Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP btl MAPID>132]: %NAME%%GOLD%Stalker's Cull%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Bartuc's Cut-Throat%NL%%WHITE%Exceptional Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP wrb MAPID>132]: %NAME%%RED%Jade Talon%NL%%WHITE%Elite Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP axf MAPID>132]: %NAME%%PURPLE%Whispering Mirage%NL%%WHITE%Elite Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ces MAPID>132]: %NAME%%PURPLE%Shadow Killer%NL%%WHITE%Elite Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP clw MAPID>132]: %NAME%%PURPLE%Firelizard's Talons%NL%%WHITE%Elite Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP btl MAPID>132]: %NAME%%PURPLE%Stalker's Cull%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Bartuc's Cut-Throat%NL%%WHITE%Exceptional Tier:%CONTINUE%
 //ItemDisplay[NMAG !ID SHOP skr MAPID>132]: %NAME%
 ItemDisplay[NMAG !ID SHOP ba1 MAPID>132]: %NAME%%GOLD%Cyclopean Roar%NL%%WHITE%Exceptional Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ba2 MAPID>132]: %NAME%%GOLD%Wolfhowl%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Wildspeaker%NL%%WHITE%Normal Tier:%CONTINUE%
@@ -1708,7 +1708,7 @@ ItemDisplay[9tw UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Bartuc's
 ItemDisplay[7cs UNI !ID ETH]: %RED%o %PURPLE%Shadow Killer %RED%o%MAP%
 ItemDisplay[7lw UNI !ID !ETH]: %RED%oo %PURPLE%Firelizard's Talons %RED%oo%MAP%
 ItemDisplay[7lw UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Firelizard's Talons %RED%ooo%MAP%
-ItemDisplay[7wb UNI !ID !ETH]: %RED%oo Jade Talon oo%MAP%
+ItemDisplay[7wb UNI !ID !ETH]: %RED%ooo Jade Talon ooo%MAP%
 ItemDisplay[7wb UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Jade Talon %RED%ooo%MAP%
 ItemDisplay[oba UNI !ID !ETH]: %RED%oo %PURPLE%The Oculus %RED%oo%MAP%
 ItemDisplay[oba UNI !ID !ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Oculus %RED%oo%MAP%
