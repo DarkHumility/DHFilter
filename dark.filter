@@ -40,14 +40,14 @@ ItemDisplay[NMAG !ID SHOP ces MAPID>132]: %NAME%%PURPLE%Shadow Killer%NL%%WHITE%
 ItemDisplay[NMAG !ID SHOP clw MAPID>132]: %NAME%%PURPLE%Firelizard's Talons%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP btl MAPID>132]: %NAME%%PURPLE%Stalker's Cull%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Bartuc's Cut-Throat%NL%%WHITE%Exceptional Tier:%CONTINUE%
 //ItemDisplay[NMAG !ID SHOP skr MAPID>132]: %NAME%
-ItemDisplay[NMAG !ID SHOP ba1 MAPID>132]: %NAME%%GOLD%Cyclopean Roar%NL%%WHITE%Exceptional Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ba2 MAPID>132]: %NAME%%GOLD%Wolfhowl%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Wildspeaker%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ba3 MAPID>132]: %NAME%%GOLD%Demonhorn's Edge%NL%%WHITE%Elite Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ba4 MAPID>132]: %NAME%%GOLD%Halaberd's Reign%NL%%WHITE%Elite Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ba5 MAPID>132]: %NAME%%GOLD%Raekor's Virtue%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Arreat's Face%NL%%WHITE%Exceptional Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP dr1 MAPID>132]: %NAME%%GOLD%Cerebus' Bite%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Fenris%NL%%WHITE%Exceptional Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP dr2 MAPID>132]: %NAME%%GOLD%Denmother%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Quetzalcoatl%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP dr3 MAPID>132]: %NAME%%GOLD%Spirit Keeper%NL%%WHITE%Elite Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ba1 MAPID>132]: %NAME%%RED%Cyclopean Roar%NL%%WHITE%Exceptional Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ba2 MAPID>132]: %NAME%%RED%Wolfhowl%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Wildspeaker%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ba3 MAPID>132]: %NAME%%RED%Demonhorn's Edge%NL%%WHITE%Elite Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ba4 MAPID>132]: %NAME%%PURPLE%Halaberd's Reign%NL%%WHITE%Elite Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ba5 MAPID>132]: %NAME%%PURPLE%Raekor's Virtue%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Arreat's Face%NL%%WHITE%Exceptional Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP dr1 MAPID>132]: %NAME%%PURPLE%Cerebus' Bite%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Fenris%NL%%WHITE%Exceptional Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP dr2 MAPID>132]: %NAME%%PURPLE%Denmother%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Quetzalcoatl%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP dr3 MAPID>132]: %NAME%%PURPLE%Spirit Keeper%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP dr4 MAPID>132]: %NAME%%GOLD%Ravenlore%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP dr5 MAPID>132]: %NAME%%GOLD%Ursa's Nightmare%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Jalal's Mane%NL%%WHITE%Exceptional Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ne1 MAPID>132]: %NAME%%GOLD%Kalan's Legacy%NL%%WHITE%Exceptional Tier:%CONTINUE%
