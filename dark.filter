@@ -15,9 +15,12 @@ ItemDisplay[(MAG AND cm2) OR (RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !EQ7 !ri
 //HORADRIC CUBE MESSAGE
 ItemDisplay[box]: %GOLD%%NAME%%MAP% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%5 Strictness Levels Available! %NL%%WHITE%DH's Personal Filter:}
 //Hides Koin Pilez
-ItemDisplay[GOLD<100 CLVL>10]:
+ItemDisplay[GOLD<100]:
+ItemDisplay[GOLD<200 CLVL>10]:
+ItemDisplay[GOLD<350 CLVL>20]:
 ItemDisplay[GOLD<500 CLVL>30]:
-ItemDisplay[GOLD<1000 CLVL>60]:
+ItemDisplay[GOLD<1000 CLVL>45]:
+ItemDisplay[GOLD<1500 CLVL>60]:
 ItemDisplay[GOLD<2500 CLVL>70]:
 ItemDisplay[GOLD<5000 CLVL>80]:
 ///Gheed Gambling Event
