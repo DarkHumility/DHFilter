@@ -23,7 +23,7 @@ ItemDisplay[GOLD<1000 CLVL>45]:
 ItemDisplay[GOLD<1500 CLVL>60]:
 ItemDisplay[GOLD<2500 CLVL>70]:
 ItemDisplay[GOLD<5000 CLVL>80]:
-ItemDisplay[GOLD<7000 CLVL>90]:
+ItemDisplay[GOLD<7500 CLVL>90]:
 ///Gheed Gambling Event
 ItemDisplay[NMAG !ID SHOP MAPID>132]: %RED%Worse %WHITE%odds for uniques listed %RED%lower%WHITE% down%NL%%TAN%Note: %RED%Better %WHITE%odds for uniques listed %RED%higher%WHITE% in tooltip%NL%%GREEN%Gheed Map Event%NL%%NL%%CONTINUE%
 ItemDisplay[NMAG !ID SHOP amu MAPID>132]: %NAME%%GOLD%Nokozan Relic, Mahim-Oak Curio, Eye of Etlich%NL%%PURPLE%Rising Sun, Saracen's Chance, Cat's Eye,%NL%Atma's Scarab, Crescent Moon, Highlord's Wrath,%NL%Metalgrid, Mara's Kaleidoscope, Seraph's Hymn,%NL%%WHITE%List of Amulets:%CONTINUE%
