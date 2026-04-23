@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S12 v12.20
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.1
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -354,8 +354,6 @@ ItemDisplay[t26 NMAG !RARE ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%m
 ItemDisplay[t36 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
 ItemDisplay[t36 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
 ItemDisplay[t36 NMAG !RARE ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
-ItemDisplay[t12 OR t15 OR t17 OR t22 OR t23 OR t25 OR t26 OR t36 MAG !ID]: %GREEN%o %BLUE%%NAME% %GREEN%o%MAP%
-ItemDisplay[t12 OR t15 OR t17 OR t22 OR t23 OR t25 OR t26 OR t36 RARE !ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o%MAP%
 ItemDisplay[t12 OR t15 OR t17 OR t22 OR t23 OR t25 OR t26 OR t36 (NMAG OR !RARE) ID]: %GREEN%o %WHITE%%NAME% %GREEN%o%MAP%
 ///tier2
 ItemDisplay[t11 NMAG !RARE !ID]: %ORANGE%oo %WHITE%%NAME% %ORANGE%oo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %RED%Fire %NL%%PURPLE%Danger %WHITE%* Lancers Archers}%MAP%
@@ -390,8 +388,6 @@ ItemDisplay[t33 !RARE NMAG ID]: %ORANGE%oo %WHITE%%NAME% %ORANGE%oo {%BLUE%I%GRE
 ItemDisplay[t34 MAG ID]: %ORANGE%oo %BLUE%%NAME% %ORANGE%oo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
 ItemDisplay[t34 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
 ItemDisplay[t34 !RARE NMAG ID]: %ORANGE%oo %WHITE%%NAME% %ORANGE%oo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t11 OR t13 OR t24 OR t27 OR t28 OR t31 OR t33 OR t34 MAG !ID]: %ORANGE%oo %BLUE%%NAME% %ORANGE%oo%MAP%
-ItemDisplay[t11 OR t13 OR t24 OR t27 OR t28 OR t31 OR t33 OR t34 RARE !ID]: %ORANGE%oo %YELLOW%%NAME% %ORANGE%oo%MAP%
 ItemDisplay[t11 OR t13 OR t24 OR t27 OR t28 OR t31 OR t33 OR t34 (NMAG OR !RARE) ID]: %ORANGE%oo %WHITE%%NAME% %ORANGE%oo%MAP%
 ItemDisplay[t53 UNI ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
 ItemDisplay[t53 UNI !ID]: %ORANGE%oo %TAN%The Fallen Gardens Map %ORANGE%oo%MAP%
@@ -406,6 +402,7 @@ ItemDisplay[t37 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%
 ItemDisplay[t38 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %GREEN%Psn %TAN%Phys %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Snakes Ranged Soul Killers}%MAP%
 ItemDisplay[t39 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %BLUE%Cold %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Fire Towers Archers}%MAP%
 ItemDisplay[t3a NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
+ItemDisplay[t3b NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords}%MAP%
 ItemDisplay[t14 MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Gloams Archers Death Lords}%MAP%
 ItemDisplay[t14 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Gloams Archers Death Lords}%MAP%
 ItemDisplay[t14 !RARE NMAG ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Gloams Archers Death Lords}%MAP%
@@ -432,12 +429,13 @@ ItemDisplay[t39 RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TA
 ItemDisplay[t39 NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %BLUE%Cold %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Fire Towers Archers}%MAP%
 ItemDisplay[t3a MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
 ItemDisplay[t3a RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
-ItemDisplay[t3a NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
+ItemDisplay[t3a NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords}%MAP%
+ItemDisplay[t3b MAG ID]: %RED%ooo %BLUE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Burning Souls}%MAP%
+ItemDisplay[t3b RARE ID]: %NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords}%MAP%
+ItemDisplay[t3b NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords}%MAP%
 ItemDisplay[t51 UNI ID]: %RED%ooo %TAN%Zhar's Sanctum Map %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
 ItemDisplay[t52 UNI ID]: %RED%ooo %TAN%Warlord of Blood Map %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t14 OR t16 OR t21 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a MAG !ID]: %RED%ooo %BLUE%%NAME% %RED%ooo%MAP%
-ItemDisplay[t14 OR t16 OR t21 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a RARE !ID]: %RED%ooo %YELLOW%%NAME% %RED%ooo%MAP%
-ItemDisplay[t14 OR t16 OR t21 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a (NMAG OR !RARE) ID]: %RED%ooo %WHITE%%NAME% %RED%ooo%MAP%
+ItemDisplay[t14 OR t16 OR t21 OR t32 OR t35 OR t37 OR t38 OR t39 OR t3a OR t3b (NMAG OR !RARE) ID]: %RED%ooo %WHITE%%NAME% %RED%ooo%MAP%
 ItemDisplay[t51 UNI !ID]: %RED%ooo %TAN%Zhar's Sanctum Map %RED%ooo%MAP%
 ItemDisplay[t51 UNI ID]: %RED%ooo %TAN%Zhar's Sanctum Map %RED%ooo%MAP%
 ItemDisplay[t52 UNI !ID]: %RED%ooo %TAN%Warlord of Blood Map %RED%ooo%MAP%
@@ -448,6 +446,10 @@ ItemDisplay[t55 UNI !ID]: %RED%ooo %TAN%Outer Void Map %RED%ooo%MAP%
 ItemDisplay[t55 UNI ID]: %RED%ooo %TAN%Outer Void Map %RED%ooo%MAP%
 ItemDisplay[t56 UNI !ID]: %RED%ooo %TAN%City of Ureh Map %RED%ooo%MAP%
 ItemDisplay[t56 UNI ID]: %RED%ooo %TAN%City of Ureh Map %RED%ooo%MAP%
+ItemDisplay[t57 UNI !ID]: %RED%ooo %TAN%Djinn's Domain Map %RED%ooo%MAP%
+ItemDisplay[t57 UNI ID]: %RED%ooo %TAN%Djinn's Domain Map %RED%ooo%MAP%
+ItemDisplay[t58 UNI !ID]: %RED%ooo %TAN%Na-krul's Abyss Map %RED%ooo%MAP%
+ItemDisplay[t58 UNI ID]: %RED%ooo %TAN%Na-krul's Abyss Map %RED%ooo%MAP%
 ///tier4
 ItemDisplay[t41 OR t42 OR t43 OR t44 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs Defilers %GOLD%Boss %NL%%RED%Requires a Strong Party}
 ItemDisplay[t41 OR t42 OR t43 OR t44 RARE ID]: %NAME%%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs Defilers %GOLD%Boss %NL%%RED%Requires a Strong Party}
