@@ -59,15 +59,15 @@ ItemDisplay[NMAG !ID SHOP ne2 MAPID>132]: %NAME%%RED%Sacred Totem%NL%%WHITE%Elit
 ItemDisplay[NMAG !ID SHOP ne3 MAPID>132]: %NAME%%PURPLE%Martyrdom%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ne4 MAPID>132]: %NAME%%PURPLE%Boneflame%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ne5 MAPID>132]: %NAME%%PURPLE%Darkforce Spawn%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Homunculus%NL%%WHITE%Exceptional Tier:%CONTINUE%
-// ItemDisplay[NMAG !ID SHOP pa1 MAPID>132]: %NAME%
+// ItemDisplay[NMAG !ID SHOP pa1 MAPID>132]: %NAME%%PURPLE%Ephemeral%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP pa2 MAPID>132]: %NAME%%PURPLE%Alma Negra%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP pa3 MAPID>132]: %NAME%%GOLD%Sankekur's Fall%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP pa4 MAPID>132]: %NAME%%PURPLE%Dragonscale%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Herald of Zakarum%NL%%WHITE%Exceptional Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP pa5 MAPID>132]: %NAME%%PURPLE%Skywarden%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ob1 MAPID>132]: %NAME%%RED%Tempest%NL%%WHITE%Exceptional Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ob2 MAPID>132]: %NAME%%PURPLE%Eschuta's Temper%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Skorn%NL%%WHITE%Exceptional Tier:%CONTINUE%
-// ItemDisplay[NMAG !ID SHOP ob3 MAPID>132]: %NAME%
-// ItemDisplay[NMAG !ID SHOP ob4 MAPID>132]: %NAME%
+// ItemDisplay[NMAG !ID SHOP ob3 MAPID>132]: %NAME%%PURPLE%Embersworn%NL%%WHITE%Elite Tier:%CONTINUE%
+// ItemDisplay[NMAG !ID SHOP ob4 MAPID>132]: %NAME%%PURPLE%Skyfall%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ob5 MAPID>132]: %NAME%%PURPLE%Death's Fathom%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%The Oculus%NL%%WHITE%Exceptional Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP qui MAPID>132]: %NAME%%PURPLE%Ormus' Robes%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Spirit Shroud%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Greyform%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP lea MAPID>132]: %NAME%%PURPLE%Skin of the Vipermagi%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Blinkbat's Form%NL%%WHITE%Normal Tier:%CONTINUE%
@@ -102,7 +102,7 @@ ItemDisplay[NMAG !ID SHOP hgl MAPID>132]: %NAME%%PURPLE%Steelrend%NL%%WHITE%Elit
 ItemDisplay[NMAG !ID SHOP cap MAPID>132]: %NAME%%PURPLE%Harlequin Crest%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Peasant Crown%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Biggin's Bonnet%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP skp MAPID>132]: %NAME%%GOLD%Rockstopper%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Tarnhelm%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP hlm MAPID>132]: %NAME%%PURPLE%Steel Shade%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Stealskull%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Coif of Glory%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP fhl MAPID>132]: %NAME%%GOLD%Darksight Helm%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Duskdeep%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP fhl MAPID>132]: %NAME%%PURPLE%Sage's Defiance%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Darksight Helm%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Duskdeep%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ghm MAPID>132]: %NAME%%PURPLE%Nightwing's Veil%NL%Veil of Steel%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Valkyrie Wing%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Howltusk%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP msk MAPID>132]: %NAME%%PURPLE%Andariel's Visage%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Blackhorn's Face%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%The Face of Horror%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP crn MAPID>132]: %NAME%%PURPLE%Crown of Ages%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Crown of Thieves%NL%%WHITE%Exceptional Tier:%NL%%NL%%RED%Undead Crown%NL%%WHITE%Normal Tier:%CONTINUE%
@@ -155,7 +155,7 @@ ItemDisplay[NMAG !ID SHOP whm MAPID>132]: %NAME%%PURPLE%Schaefer's Hammer%NL%Sto
 ItemDisplay[NMAG !ID SHOP mau MAPID>132]: %NAME%%PURPLE%Windhammer%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Bloodtree Stump%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Bonesnap%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP gma MAPID>132]: %NAME%%PURPLE%The Cranium Basher%NL%Earth Shifter%NL%%WHITE%Elite Tier:%NL%%NL%%RED%The Gavel of Pain%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Steeldriver%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP bar MAPID>132]: %NAME%%RED%Bonehew%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%The Meat Scraper%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Dimoak's Hew%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP vou MAPID>132]: %NAME%%GOLD%Blackleach Blade%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Steelgoad%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP vou MAPID>132]: %NAME%%RED%Giant Maimer%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Blackleach Blade%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Steelgoad%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP scy MAPID>132]: %NAME%%PURPLE%The Reaper's Toll%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Athena's Wrath%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Soul Harvest%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP pax MAPID>132]: %NAME%%RED%Tomb Reaver%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Pierre Tombale Couant%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%The Battlebranch%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP hal MAPID>132]: %NAME%%GOLD%Husoldal Evo%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Woestave%NL%%WHITE%Normal Tier:%CONTINUE%
@@ -192,7 +192,7 @@ ItemDisplay[NMAG !ID SHOP bkf MAPID>132]: %NAME%%RED%Warshrike%NL%%WHITE%Elite T
 ItemDisplay[NMAG !ID SHOP tax MAPID>132]: %NAME%%RED%Gimmershred%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%The Scalper%NL%%WHITE%Exceptional Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP bal MAPID>132]: %NAME%%PURPLE%Lacerator%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Achilles Strike%NL%%WHITE%Exceptional Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP wnd MAPID>132]: %NAME%%RED%Suicide Branch%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Torch of Iro%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP ywn MAPID>132]: %NAME%%RED%Carin Shard%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Maelstrom%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP ywn MAPID>132]: %NAME%%RED%Nethercrux%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Carin Shard%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Maelstrom%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP bwn MAPID>132]: %NAME%%PURPLE%Boneshade%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Arm of King Leoric%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Gravenspine%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP gwn MAPID>132]: %NAME%%PURPLE%Death's Web%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Blackhand Key%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Ume's Lament%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP (aqv OR aqv2 OR aqv3) MAPID>132]: %NAME%%PURPLE%Doom's Finger%NL%Basilisk's Quill%NL%Aetherwing%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Tombsong%NL%Swiftwind Needle%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Balefire%NL%%WHITE%Normal Tier:%CONTINUE%
