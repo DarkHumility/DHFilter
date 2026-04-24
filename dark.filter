@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.1
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.2
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -330,38 +330,38 @@ ItemDisplay[ivep]: %SOUNDID-222%%LIGHT_GRAY%^^^%GREEN%^^ %GOLD%%NAME% %GREEN%^^%
 ItemDisplay[ives]: %SOUNDID-222%%PURPLE%^^^%GREEN%^^ %GOLD%%NAME% %GREEN%^^%PURPLE%^^^%MAP%
 //Maps
 ///tier1
-ItemDisplay[t11 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %RED%Fire %NL%%PURPLE%Danger %WHITE%* Lancers Archers}%MAP%
-ItemDisplay[t21 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
-ItemDisplay[t22 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* Quill Rats}%MAP%
-ItemDisplay[t24 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %TAN%Phys %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Quill Rats}%MAP%
-ItemDisplay[t26 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %TAN%Phys %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Succubus}%MAP%
-ItemDisplay[t33 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %BLUE%Cold %NL%%PURPLE%Danger %WHITE%* Gorebellys Unravellers}%MAP%
-ItemDisplay[t34 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t36 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
-ItemDisplay[t11 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %RED%Fire %NL%%PURPLE%Danger %WHITE%* Lancers Archers}%MAP%
-ItemDisplay[t11 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %RED%Fire %NL%%PURPLE%Danger %WHITE%* Lancers Archers}%MAP%
-ItemDisplay[t11 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %RED%Fire %NL%%PURPLE%Danger %WHITE%* Lancers Archers}%MAP%
-ItemDisplay[t21 MAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
-ItemDisplay[t21 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
-ItemDisplay[t21 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
-ItemDisplay[t22 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* Quill Rats}%MAP%
-ItemDisplay[t22 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* Quill Rats}%MAP%
-ItemDisplay[t22 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* Quill Rats}%MAP%
-ItemDisplay[t24 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %TAN%Phys %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Quill Rats}%MAP%
-ItemDisplay[t24 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %TAN%Phys %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Quill Rats}%MAP%
-ItemDisplay[t24 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %TAN%Phys %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Quill Rats}%MAP%
-ItemDisplay[t26 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %TAN%Phys %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Succubus}%MAP%
-ItemDisplay[t26 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %TAN%Phys %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Succubus}%MAP%
-ItemDisplay[t26 NMAG !RARE ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %TAN%Phys %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Succubus}%MAP%
-ItemDisplay[t33 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %BLUE%Cold %NL%%PURPLE%Danger %WHITE%* Gorebellys}%MAP%
-ItemDisplay[t33 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %BLUE%Cold %NL%%PURPLE%Danger %WHITE%* Gorebellys Unravellers}%MAP%
-ItemDisplay[t33 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %BLUE%Cold %NL%%PURPLE%Danger %WHITE%* Gorebellys Unravellers}%MAP%
-ItemDisplay[t34 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t34 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t34 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
-ItemDisplay[t36 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
-ItemDisplay[t36 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
-ItemDisplay[t36 NMAG !RARE ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
+ItemDisplay[t11 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Lancers Archers}%MAP%
+ItemDisplay[t21 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
+ItemDisplay[t22 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Quill Rats}%MAP%
+ItemDisplay[t24 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %TAN%Phys %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Quill Rats}%MAP%
+ItemDisplay[t26 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Succubus}%MAP%
+ItemDisplay[t33 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %ORANGE%Magic %BLUE%Cold %NL%%PURPLE%Danger %WHITE%* Gorebellys Unravellers}%MAP%
+ItemDisplay[t34 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t36 NMAG !RARE !ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %TAN%Phys %ORANGE%Magic %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
+ItemDisplay[t11 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Lancers Archers}%MAP%
+ItemDisplay[t11 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Lancers Archers}%MAP%
+ItemDisplay[t11 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Lancers Archers}%MAP%
+ItemDisplay[t21 MAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
+ItemDisplay[t21 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
+ItemDisplay[t21 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Slingers Unholy Corpses Blood Lords}%MAP%
+ItemDisplay[t22 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Quill Rats}%MAP%
+ItemDisplay[t22 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Quill Rats}%MAP%
+ItemDisplay[t22 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %BLUE%Cold %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* Quill Rats}%MAP%
+ItemDisplay[t24 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %TAN%Phys %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Quill Rats}%MAP%
+ItemDisplay[t24 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %TAN%Phys %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Quill Rats}%MAP%
+ItemDisplay[t24 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %TAN%Phys %GREEN%Psn %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Quill Rats}%MAP%
+ItemDisplay[t26 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Succubus}%MAP%
+ItemDisplay[t26 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Succubus}%MAP%
+ItemDisplay[t26 NMAG !RARE ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Succubus}%MAP%
+ItemDisplay[t33 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %ORANGE%Magic %BLUE%Cold %NL%%PURPLE%Danger %WHITE%* Gorebellys Unravellers}%MAP%
+ItemDisplay[t33 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %ORANGE%Magic %BLUE%Cold %NL%%PURPLE%Danger %WHITE%* Gorebellys Unravellers}%MAP%
+ItemDisplay[t33 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %ORANGE%Magic %BLUE%Cold %NL%%PURPLE%Danger %WHITE%* Gorebellys Unravellers}%MAP%
+ItemDisplay[t34 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t34 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t34 !RARE NMAG ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
+ItemDisplay[t36 MAG ID]: %GREEN%o %BLUE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %TAN%Phys %ORANGE%Magic %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
+ItemDisplay[t36 RARE ID]: %GREEN%o %YELLOW%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %TAN%Phys %ORANGE%Magic %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
+ItemDisplay[t36 NMAG !RARE ID]: %GREEN%o %WHITE%%NAME% %GREEN%o {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %TAN%Phys %ORANGE%Magic %YELLOW%Light %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Hierophants}%MAP%
 ItemDisplay[t11 OR t21 OR t22 OR t24 OR t26 OR t33 OR t34 OR t36 (NMAG AND !RARE) ID]: %GREEN%o %WHITE%%NAME% %GREEN%o%MAP%
 ///tier2
 ItemDisplay[t12 NMAG !RARE !ID]: %ORANGE%oo %WHITE%%NAME% %ORANGE%oo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %BLUE%Cold %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss}%MAP%
