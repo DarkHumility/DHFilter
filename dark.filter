@@ -10,7 +10,7 @@ ItemDisplayFilterName[]: Removes Large Charms & Most Rare Item Bases
 //Filter Level Parameters
 ItemDisplay[(MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH)) !SHOP !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[(NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND !EDEF) !SHOP !RW !UNI !SET !ID FILTLVL>2]:
-ItemDisplay[(mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps OR rvs) FILTLVL>3]:
+ItemDisplay[(mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps OR rvs) FILTLVL>3]: 
 ItemDisplay[(MAG AND cm2) OR (RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !EQ7 !rin !amu !jew !aqv !cqv !SHOP !NMAG !SET !RW !UNI !ID FILTLVL>4]:
 //HORADRIC CUBE MESSAGE
 ItemDisplay[box]: %GOLD%%NAME%%MAP% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%5 Strictness Levels Available! %NL%%WHITE%DH's Personal Filter:}
@@ -74,7 +74,7 @@ ItemDisplay[NMAG !ID SHOP lea MAPID>132]: %NAME%%PURPLE%Skin of the Vipermagi%NL
 ItemDisplay[NMAG !ID SHOP hla MAPID>132]: %NAME%%GOLD%Skin of the Flayed One%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%The Centurion%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP stu MAPID>132]: %NAME%%PURPLE%The Gladiator's Bane%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Iron Pelt%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Twitchthroe%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP rng MAPID>132]: %NAME%%PURPLE%Wraithskin%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Spirit Forge%NL%%WHITE%Exceptional Tier:%NL%%NL%%RED%Darkglow%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP scl MAPID>132]: %NAME%%GOLD%Crow Caw%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Hawkmail%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP scl MAPID>132]: %NAME%%RED%Crow Caw%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Hawkmail%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP brs MAPID>132]: %NAME%%RED%Duriel's Shell%NL%%WHITE%Exceptional Tier:%NL%%NL%%RED%Venom Ward%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP chn MAPID>132]: %NAME%%PURPLE%Shaftstop%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Sparking Mail%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP spl MAPID>132]: %NAME%%PURPLE%Arkaine's Valor%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Skullder's Ire%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Iceblink%NL%%WHITE%Normal Tier:%CONTINUE%
@@ -1236,8 +1236,8 @@ ItemDisplay[aar UNI !ID !ETH]: %GOLD%ooo Silks of the Victor ooo%MAP%
 ItemDisplay[aar UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Silks of the Victor%MAP%
 ItemDisplay[xtu UNI !ID !ETH]: %GOLD%ooo Iron Pelt ooo%MAP%
 ItemDisplay[xtu UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Iron Pelt ooo%MAP%
-ItemDisplay[xcl UNI !ID !ETH]: %GOLD%ooo Crow Caw ooo%MAP%
-ItemDisplay[xcl UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Crow Caw ooo%MAP%
+ItemDisplay[xcl UNI !ID !ETH]: %RED%o Crow Caw o%MAP%
+ItemDisplay[xcl UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Crow Caw o%MAP%
 ItemDisplay[xui UNI !ID !ETH]: %RED%o %PURPLE%The Spirit Shroud %RED%o%MAP%
 ItemDisplay[xui UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%The Spirit Shroud oo%MAP%
 ItemDisplay[xea UNI !ID !ETH]: %RED%ooo %PURPLE%Skin of the Vipermagi %RED%ooo%MAP%
@@ -1540,8 +1540,8 @@ ItemDisplay[7wc UNI !ID !ETH]: %RED%ooo %PURPLE%Stormspire %RED%ooo%MAP%
 ItemDisplay[7wc UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stormspire %RED%oooo%MAP%
 ItemDisplay[7wh UNI !ID !ETH]: %RED%oooo %PURPLE%Stone Crusher or Schaefer's Hammer %RED%oooo%MAP%
 ItemDisplay[7wh UNI !ID ETH]: %SOUNDID-4723%%YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stone Crusher or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Schaefer's Hammer %YELLOW%ooooo%MAP%
-ItemDisplay[7gm UNI !ID !ETH]: %RED%oooo %PURPLE%Earth Shifter or The Cranium Basher %RED%oooo%MAP%
-ItemDisplay[7gm UNI !ID ETH]: %SOUNDID-4723%%YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Earth Shifter or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Cranium Basher %YELLOW%ooooo%MAP%
+ItemDisplay[7gm UNI !ID !ETH]: %RED%oooo %PURPLE%Earth Shifter or Cranium Basher %RED%oooo%MAP%
+ItemDisplay[7gm UNI !ID ETH]: %SOUNDID-4723%%YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Earth Shifter or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Cranium Basher %YELLOW%ooooo%MAP%
 ItemDisplay[9bs UNI !ID !ETH]: %GOLD%ooo Headstriker ooo%MAP%
 ItemDisplay[9bs UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Headstriker %RED%oo%MAP%
 ItemDisplay[72a UNI !ID !ETH]: %RED%o Rune Master o%MAP%
@@ -1599,8 +1599,8 @@ ItemDisplay[9br UNI !ID !ETH]: %GOLD%oo Soulfeast Tine oo%MAP%
 ItemDisplay[9br UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Soulfeast Tine o%MAP%
 ItemDisplay[9st UNI !ID !ETH]: %GOLD%oo Hone Sundan oo%MAP%
 ItemDisplay[9st UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Hone Sundan oo%MAP%
-ItemDisplay[7br UNI !ID !ETH]: %RED%o Viperfork o%MAP% 
-ItemDisplay[7br UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Viperfork o%MAP% 
+ItemDisplay[7br UNI !ID !ETH]: %RED%oo Viperfork oo%MAP% 
+ItemDisplay[7br UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Viperfork oo%MAP% 
 ItemDisplay[7p7 UNI !ID !ETH]: %RED%ooo %PURPLE%Steel Pillar %RED%ooo%MAP%
 ItemDisplay[7p7 UNI !ID ETH]: %SOUNDID-4723%%YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Steel Pillar %YELLOW%ooooo%MAP%
 ItemDisplay[bar UNI !ID !ETH]: %GOLD%o Dimoak's Hew o%MAP%
