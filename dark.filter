@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.3
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.4
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -2901,22 +2901,19 @@ ItemDisplay[(WP13 OR 2ax OR wax OR mpi) !ETH (NMAG OR RW) SOCK=5 FILTLVL<3]: %NA
 ItemDisplay[(WP9 AND WP10) NMAG (EXC OR ELT) (SOCK=3 OR SOCK=4) (CLVL<91 AND FILTLVL<3)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(WP9 AND WP10) NMAG (SOCK=3 OR SOCK=4) (CLVL<71 AND FILTLVL<3)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 //Mist
-ItemDisplay[6cb OR 6lb OR 6s7 OR 6lw (NMAG OR RW) (SUP AND ED=20) SOCK=5]: %GRAY%[%WHITE%%20%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[6cb OR 6lb OR 6s7 OR 6lw (NMAG OR RW) (SUP AND ED>0) SOCK=5]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6cb OR 6lb OR 6s7 OR 6lw (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6hx OR 6rx (NMAG OR RW) (SUP AND ED=20) SOCK=5]: %GRAY%[%WHITE%%20%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[6hx OR 6rx (NMAG OR RW) (SUP AND ED>0) SOCK=5]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6hx OR 6rx (NMAG OR RW) SOCK=5]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(6rx OR 6hx OR 6lw OR 6mx OR 6s7 OR 6lb OR 6cb) (NMAG OR RW) (SUP AND ED=20) SOCK=5]: %GRAY%[%WHITE%%20%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[(6rx OR 6hx OR 6lw OR 6mx OR 6s7 OR 6lb OR 6cb) (NMAG OR RW) (SUP AND ED>0) SOCK=5]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(6rx OR 6hx OR 6lw OR 6mx OR 6s7 OR 6lb OR 6cb) (NMAG OR RW) SOCK=5 FILTLVL<3]: %NAME% %TAN%[%SOCKETS%]
 //Asylum+Botd
 ItemDisplay[6hx OR 6lw OR 6lb (NMAG OR RW) (SUP AND ED=20) SOCK=6]: %GRAY%[%WHITE%%20%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[6hx OR 6lw OR 6lb (NMAG OR RW) (SUP AND ED>0) SOCK=6]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6hx OR 6lw OR 6lb (NMAG OR RW) SOCK=6]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6hx OR 6lw OR 6lb (NMAG OR RW) SOCK=6 FILTLVL<3]: %NAME% %TAN%[%SOCKETS%]
 //Faith+Ice
-ItemDisplay[amc OR amb (NMAG OR RW) TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[amc OR amb (NMAG OR RW) TABSK0>2 SOCK=4]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[amc OR amb (NMAG OR RW) TABSK0>2 SOCK=0 !INF FILTLVL<3]: %GRAY%[%WHITE%3bow%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6rx (SUP AND ED>0) AND SOCK=4]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[6s7 OR 6lb OR 6hx (SUP AND ED>0) AND SOCK=4]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(6cb OR 6rx OR 6hx) AND SOCK=4 FILTLVL<3]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(6rx OR 6hx OR 6lw OR 6mx OR 6s7 OR 6lb) (SUP AND ED=20) AND SOCK=4]: %GRAY%[%WHITE%%20%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[(6rx OR 6hx OR 6lw OR 6mx OR 6s7 OR 6lb) (SUP AND ED>0) AND SOCK=4]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(6cb OR 6rx OR 6hx OR 6lw OR 6mx OR 6s7 OR 6lb) AND SOCK=4 FILTLVL<3]: %NAME% %TAN%[%SOCKETS%]
 //Necro+Splendor+Rhyme+Other
 ItemDisplay[CL4 NMAG !ETH (SK84>2 AND SK67>2) !SOCK=1]: %GRAY%[%WHITE%Bone%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[CL4 NMAG !ETH SK84>2 !SOCK=1]: %GRAY%[%WHITE%3bs%GRAY%] %NAME% %TAN%[%SOCKETS%]
