@@ -118,7 +118,7 @@ ItemDisplay[NMAG !ID SHOP gts MAPID>132]: %NAME%%PURPLE%Spirit Ward%NL%%WHITE%El
 ItemDisplay[NMAG !ID SHOP hax MAPID>132]: %NAME%%RED%Razor's Edge%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Coldkill%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%The Gnasher%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP axe MAPID>132]: %NAME%%GOLD%Butcher's Pupil%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Deathspade%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP 2ax MAPID>132]: %NAME%%RED%Rune Master%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Islestrike%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Bladebone%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP mpi MAPID>132]: %NAME%%PURPLE%Cranebeak%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Pompeii's Wrath%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Skull Splitter%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP mpi MAPID>132]: %NAME%%RED%Cranebeak%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Pompeii's Wrath%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Skull Splitter%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP wax MAPID>132]: %NAME%%PURPLE%Death Cleaver%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Guardian Naga%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Rakescar%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP lax MAPID>132]: %NAME%%RED%Warlord's Trust%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Axe of Fechmar%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP bax MAPID>132]: %NAME%%GOLD%Ethereal Edge%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Spellsteel%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Goreshovel%NL%%WHITE%Normal Tier:%CONTINUE%
@@ -1423,8 +1423,8 @@ ItemDisplay[9gi UNI !ID !ETH]: %GOLD%ooo The Minotaur ooo%MAP%
 ItemDisplay[9gi UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%The Minotaur oo%MAP%
 ItemDisplay[7ha UNI !ID !ETH]: %RED%o Razor's Edge o%MAP%
 ItemDisplay[7ha UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Razor's Edge ooo%MAP%
-ItemDisplay[7mp UNI !ID !ETH]: %RED%oo %PURPLE%Cranebeak %RED%oo%MAP%
-ItemDisplay[7mp UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Cranebeak %RED%oo%MAP%
+ItemDisplay[7mp UNI !ID !ETH]: %RED%ooo Cranebeak ooo%MAP%
+ItemDisplay[7mp UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Cranebeak ooo%MAP%
 ItemDisplay[7ba UNI !ID ETH]: %GOLD%ooo Ethereal Edge ooo%MAP%
 ItemDisplay[spc UNI !ID !ETH]: %GOLD%o Stoutnail o%MAP%
 ItemDisplay[spc UNI !ID ETH]: %GOLD%o %GRAY%[%WHITE%eth%GRAY%] %GOLD%Stoutnail o%MAP%
