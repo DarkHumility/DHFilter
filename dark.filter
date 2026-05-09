@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.5
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.6
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -178,7 +178,7 @@ ItemDisplay[NMAG !ID SHOP scm MAPID>132]: %NAME%%RED%Djinn Slayer%NL%%WHITE%Elit
 ItemDisplay[NMAG !ID SHOP sbr MAPID>132]: %NAME%%GOLD%Bloodmoon%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Hexfire%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Skewer of Krintiz%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP flc MAPID>132]: %NAME%%RED%Blade of Ali Baba%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Gleamscythe%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP crs MAPID>132]: %NAME%%PURPLE%Lightsabre%NL%Azurewrath%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Ginther's Rift%NL%%WHITE%Exceptional Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP bsd MAPID>132]: %NAME%%GOLD%Headstriker%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Griswold's Edge%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP bsd MAPID>132]: %NAME%%RED%Headstriker%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Griswold's Edge%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP lsd MAPID>132]: %NAME%%PURPLE%Frostwind%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Plague Bearer%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Hellplague%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP wsd MAPID>132]: %NAME%%GOLD%The Atlantean%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Culwen's Point%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP 2hs MAPID>132]: %NAME%%GOLD%Crainte Vomir%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Shadowfang%NL%%WHITE%Normal Tier:%CONTINUE%
@@ -1542,8 +1542,8 @@ ItemDisplay[7wh UNI !ID !ETH]: %RED%oooo %PURPLE%Stone Crusher or Schaefer's Ham
 ItemDisplay[7wh UNI !ID ETH]: %SOUNDID-4723%%YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stone Crusher or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Schaefer's Hammer %YELLOW%ooooo%MAP%
 ItemDisplay[7gm UNI !ID !ETH]: %RED%oooo %PURPLE%Earth Shifter or Cranium Basher %RED%oooo%MAP%
 ItemDisplay[7gm UNI !ID ETH]: %SOUNDID-4723%%YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Earth Shifter or %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Cranium Basher %YELLOW%ooooo%MAP%
-ItemDisplay[9bs UNI !ID !ETH]: %GOLD%ooo Headstriker ooo%MAP%
-ItemDisplay[9bs UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Headstriker %RED%oo%MAP%
+ItemDisplay[9bs UNI !ID !ETH]: %RED%oo Headstriker oo%MAP%
+ItemDisplay[9bs UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Headstriker %RED%ooo%MAP%
 ItemDisplay[72a UNI !ID !ETH]: %RED%o Rune Master o%MAP%
 ItemDisplay[72a UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Rune Master %RED%ooo%MAP%
 ItemDisplay[9ls UNI !ID !ETH]: %RED%ooo %PURPLE%Plague Bearer %RED%ooo%MAP%
