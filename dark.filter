@@ -1,9 +1,9 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.6
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.7
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
 ItemDisplayFilterName[]: Standard - Trash Hidden Based on CLVL
-ItemDisplayFilterName[]: Removes Magic Item Bases
+ItemDisplayFilterName[]: Removes Most Magic Item Bases
 ItemDisplayFilterName[]: Removes Low-Tier Socket Bases
 ItemDisplayFilterName[]: Removes Most Potions
 ItemDisplayFilterName[]: Removes Large Charms & Most Rare Item Bases
@@ -1403,7 +1403,7 @@ ItemDisplay[btx UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%The Chief
 ItemDisplay[gax UNI !ID !ETH]: %GOLD%oo Brainhew oo%MAP%
 ItemDisplay[gax UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Brainhew ooo%MAP%
 ItemDisplay[gix UNI !ID !ETH]: %GOLD%ooo Humongous ooo%MAP%
-ItemDisplay[gix UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %RED%Humongous oo%MAP%
+ItemDisplay[gix UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Humongous ooo%MAP%
 ItemDisplay[9ha UNI !ID !ETH]: %GOLD%oo Coldkill oo%MAP%
 ItemDisplay[9ha UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Coldkill ooo%MAP%
 ItemDisplay[9ax UNI !ID !ETH]: %GOLD%ooo Butcher's Pupil ooo%MAP%
@@ -1460,8 +1460,8 @@ ItemDisplay[7wa UNI !ID !ETH]: %RED%oooo %PURPLE%Death Cleaver %RED%oooo%MAP%
 ItemDisplay[7wa UNI !ID ETH]: %SOUNDID-4723%%YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Death Cleaver %YELLOW%ooooo%MAP%
 ItemDisplay[7bt UNI !ID !ETH]: %RED%ooo Hellslayer ooo%MAP%
 ItemDisplay[7bt UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Hellslayer %RED%oooo%MAP%
-ItemDisplay[7gi UNI !ID !ETH]: %RED%ooo %PURPLE%Executioner's Justice %RED%ooo%MAP%
-ItemDisplay[7gi UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Executioner's Justice %RED%oooo%MAP%
+ItemDisplay[7gi UNI !ID !ETH]: %RED%oooo %PURPLE%Executioner's Justice %RED%oooo%MAP%
+ItemDisplay[7gi UNI !ID ETH]: %SOUNDID-4723%%YELLOW%ooooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Executioner's Justice %YELLOW%ooooo%MAP%
 ItemDisplay[9ba UNI !ID !ETH]: %GOLD%ooo Spellsteel ooo%MAP%
 ItemDisplay[9ba UNI !ID ETH]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spellsteel ooo%MAP%
 ItemDisplay[7ga UNI !ID !ETH]: %RED%oo Messerschmidt's Reaver oo%MAP%
@@ -2001,24 +2001,26 @@ ItemDisplay[(UNI OR SET) AND !ETH !ID]: %NAME%
 ItemDisplay[SET AND ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %GREEN%%NAME%
 ItemDisplay[UNI AND ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME%
 //Rares Worthy
-ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
-ItemDisplay[(7p7 OR 7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE ETH !ID FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(7p7 OR 9p9 OR pik OR 7st OR 9st OR spt OR mau OR 9m9 OR 7m7) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(7ts OR 9ts OR tsp OR 7gl OR 9gl OR glv) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
+ItemDisplay[(7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE ETH !ID FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[RARE (EQ4 OR EQ5 OR EQ6 OR 9lw OR 9tw OR 7tw OR 7lw OR clw OR btl) !ID !ETH FILTLVL<5]: %YELLOW%%NAME%
 ItemDisplay[RARE (EQ4 OR EQ5 OR EQ6 OR 9lw OR 9tw OR 7tw OR 7lw OR clw OR btl) !ID ETH FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) ELT RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
 ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) ELT RARE ETH !ID FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) EXC RARE !ETH !ID (CLVL<91 AND FILTLVL<5)]: %YELLOW%%NAME%
-ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) EXC RARE ETH !ID (CLVL<91 AND FILTLVL<5)]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) NORM RARE !ETH !ID (CLVL<71 AND FILTLVL<5]: %YELLOW%%NAME%
-ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) NORM RARE ETH !ID (CLVL<71 AND FILTLVL<5)]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) EXC RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
+ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) EXC RARE ETH !ID FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) NORM RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
+ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) NORM RARE ETH !ID FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ETH RARE !ID FILTLVL<5]: %YELLOW%%NAME%
 ItemDisplay[(CL5 OR CL6 OR CL7) ETH RARE !ID FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
 //Magic
-ItemDisplay[SIN QLVL>40 MAG !ID FILTLVL<2]: %BLUE%%NAME%
-ItemDisplay[SIN ETH QLVL>40 MAG !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-ItemDisplay[CL2 MAG !ETH IVL>60 !ID FILTLVL<2]: %BLUE%%NAME%
-ItemDisplay[CL6 MAG !ETH IVL>60 !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[CL5 MAG !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[CL5 ETH MAG !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[CL2 MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+ItemDisplay[CL6 MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
 ItemDisplay[(WP6 OR WP11 OR WP12 OR WP13) ELT MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
 ItemDisplay[(WP6 OR WP11 OR WP12 OR WP13) ELT MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[(WP6 OR WP11 OR WP12 OR WP13) EXC MAG !ETH !ID CLVL<91 FILTLVL<2]: %BLUE%%NAME%
@@ -2032,15 +2034,17 @@ ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) MAG !ETH !ID FILTLVL<2]
 //Axes
 ItemDisplay[(9ax OR 7ax OR 72a OR 7mp OR 9wa OR 7wa OR 9la OR 7la OR 7ba OR 7bt OR 7ga OR 7gi OR wax OR btx OR 9bt OR 9ga OR gax OR 9gi OR gix) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Mauls
-ItemDisplay[(9fl OR 7fl OR 9wh OR 7wh OR 9m9 OR 7m7 OR 9gm OR 7gm OR whm OR gma) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(mau OR 9m9 OR 7m7) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(9fl OR 7fl OR 9wh OR 7wh OR 9gm OR 7gm OR whm OR gma) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Swords
 ItemDisplay[(9cr OR 9ls OR 7ls OR 7gs OR 9gs OR 7b7 OR 9b9 OR 7fb OR 9fb OR 7gd OR 9gd OR gsd OR flb OR crs OR 9ls OR 9wd OR bsw OR gis OR lsd) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Fanged knife
 ItemDisplay[(7kr OR 9kr OR kri) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //throw + jav
-ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 7ts OR 7gl OR 9ts OR 9gl OR 9b8 OR glv OR tsp OR bal) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7ts OR 9ts OR tsp OR 7gl OR 9gl OR glv) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 9b8 OR glv OR tsp OR bal) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Ghost Spear + Warpike
-ItemDisplay[(7st OR 7p7 OR 9p9 OR pik) MAG ETH ILVL>70 !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(7st OR 7p7 OR 9st OR 9p9 OR spt OR pik) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Polearms
 ItemDisplay[(7pa OR 9pa OR 7wc OR 9wc OR 7h7 OR 9h9 OR 7s8 OR 9s8 OR scy OR pax OR wsc OR hal) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Archon Staff, Shillelagh, Stalagmite
