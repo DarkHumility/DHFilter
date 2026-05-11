@@ -2043,8 +2043,8 @@ ItemDisplay[(7kr OR 9kr OR kri) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%]
 //throw + jav
 ItemDisplay[(7ts OR 9ts OR tsp OR 7gl OR 9gl OR glv) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 9b8 OR glv OR tsp OR bal) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-//Ghost Spear + Warpike
-ItemDisplay[(7st OR 7p7 OR 9st OR 9p9 OR spt OR pik) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+//Ghost Spear, Warpike, Zon Spear
+ItemDisplay[(7st OR 7p7 OR 9st OR 9p9 OR spt OR pik OR am3 OR am8 OR amd OR am4 OR am9 OR ame) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Polearms
 ItemDisplay[(7pa OR 9pa OR 7wc OR 9wc OR 7h7 OR 9h9 OR 7s8 OR 9s8 OR scy OR pax OR wsc OR hal) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Archon Staff, Shillelagh, Stalagmite
