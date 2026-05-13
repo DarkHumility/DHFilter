@@ -12,7 +12,7 @@ ItemDisplay[(MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR
 ItemDisplay[(NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND !EDEF) !SHOP !RW !UNI !SET !ID FILTLVL>2]:
 ItemDisplay[(mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps OR rvs) FILTLVL>3]: 
 ItemDisplay[(RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !7p7 !9p9 !pik !7st !9st !spt !mau !9m9 !7m7 !7ts !9ts !tsp !7gl !9gl !glv !am3 !am8 !amd !am4 !am9 !ame !EQ7 !rin !amu !jew !aqv3 !cqv3 !SHOP !NMAG !SET !RW !UNI !ID FILTLVL>4]:
-ItemDisplay[(MAG AND cm2) !SHOP !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>5]:
+ItemDisplay[(MAG AND cm2) !ID FILTLVL>5]:
 //HORADRIC CUBE MESSAGE
 ItemDisplay[box]: %GOLD%%NAME%%MAP% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%6 Strictness Levels Available! %NL%%WHITE%DH's Personal Filter:}
 //Hides Koin Pilez
