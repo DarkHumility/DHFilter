@@ -6,7 +6,8 @@ ItemDisplayFilterName[]: Standard - Trash Hidden Based on CLVL
 ItemDisplayFilterName[]: Removes Most Magic Item Bases
 ItemDisplayFilterName[]: Removes Low-Tier Socket Bases
 ItemDisplayFilterName[]: Removes Most Potions
-ItemDisplayFilterName[]: Removes Large Charms & Most Rare Item Bases
+ItemDisplayFilterName[]: Removes Most Rare Item Bases
+ItemDisplayFilterName[]: Removes Large Charms
 //Filter Level Parameters
 ItemDisplay[(MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH)) ((!am3 AND !am8 AND !amd AND !am4 AND !am9 AND !ame AND !7p7 AND !9p9 AND !pik AND !7st AND !9st AND !spt AND !mau AND !9m9 AND !7m7 AND !7ts AND !9ts AND !tsp AND !7gl AND !9gl AND !glv) AND ETH) !SHOP !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[(NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND !EDEF) !SHOP !RW !UNI !SET !ID FILTLVL>2]:
