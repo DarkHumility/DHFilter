@@ -8,12 +8,13 @@ ItemDisplayFilterName[]: Removes Low-Tier Socket Bases
 ItemDisplayFilterName[]: Removes Most Potions
 ItemDisplayFilterName[]: Removes Large Charms & Most Rare Item Bases
 //Filter Level Parameters
-ItemDisplay[(MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH)) !SHOP !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
+ItemDisplay[(MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH)) ((!am3 AND !am8 AND !amd AND !am4 AND !am9 AND !ame AND !7p7 AND !9p9 AND !pik AND !7st AND !9st AND !spt AND !mau AND !9m9 AND !7m7 AND !7ts AND !9ts AND !tsp AND !7gl AND !9gl AND !glv) AND ETH) !SHOP !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[(NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND !EDEF) !SHOP !RW !UNI !SET !ID FILTLVL>2]:
 ItemDisplay[(mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps OR rvs) FILTLVL>3]: 
-ItemDisplay[(MAG AND cm2) OR (RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !EQ7 !rin !amu !jew !aqv !cqv !SHOP !NMAG !SET !RW !UNI !ID FILTLVL>4]:
+ItemDisplay[(RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !7p7 !9p9 !pik !7st !9st !spt !mau !9m9 !7m7 !7ts !9ts !tsp !7gl !9gl !glv !am3 !am8 !amd !am4 !am9 !ame !EQ7 !rin !amu !jew !aqv3 !cqv3 !SHOP !NMAG !SET !RW !UNI !ID FILTLVL>4]:
+ItemDisplay[(MAG AND cm2) !SHOP !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>5]:
 //HORADRIC CUBE MESSAGE
-ItemDisplay[box]: %GOLD%%NAME%%MAP% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%5 Strictness Levels Available! %NL%%WHITE%DH's Personal Filter:}
+ItemDisplay[box]: %GOLD%%NAME%%MAP% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%6 Strictness Levels Available! %NL%%WHITE%DH's Personal Filter:}
 //Hides Koin Pilez
 ItemDisplay[GOLD<100]:
 ItemDisplay[GOLD<200 CLVL>10]:
@@ -989,7 +990,7 @@ ItemDisplay[cm3 MAG !ID ILVL=90]: %ORANGE%+++ %BLUE%%NAME% %ORANGE%+++%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<90 ILVL>49]: %YELLOW%++ %BLUE%%NAME% %YELLOW%++%MAP%
 ItemDisplay[cm3 MAG !ID ILVL<50]: %GREEN%+ %BLUE%%NAME% %GREEN%+%MAP%
 //Large
-ItemDisplay[cm2 MAG !ID FILTLVL<5]: %BLUE%+ %NAME% %BLUE%+%MAP%
+ItemDisplay[cm2 MAG !ID FILTLVL<6]: %BLUE%+ %NAME% %BLUE%+%MAP%
 //Small
 ItemDisplay[cm1 MAG ID ILVL>89]: %BLUE%%NAME% {%RED%LVL 90+ REROLL}
 ItemDisplay[cm1 MAG !ID ILVL>89]: %RED%++ %BLUE%%NAME% %RED%++%MAP%
@@ -2003,6 +2004,7 @@ ItemDisplay[UNI AND ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %GOLD%%NAME%
 //Rares Worthy
 ItemDisplay[(7p7 OR 9p9 OR pik OR 7st OR 9st OR spt OR mau OR 9m9 OR 7m7) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[(7ts OR 9ts OR tsp OR 7gl OR 9gl OR glv) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
+ItemDisplay[(am3 OR am8 OR amd OR am4 OR am9 OR ame) RARE ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[(7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
 ItemDisplay[(7wa OR 9cr OR 7cr OR 7s8 OR 7wc) RARE ETH !ID FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[RARE (EQ4 OR EQ5 OR EQ6 OR 9lw OR 9tw OR 7tw OR 7lw OR clw OR btl) !ID !ETH FILTLVL<5]: %YELLOW%%NAME%
@@ -2015,7 +2017,8 @@ ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) NORM RARE !ETH !ID FILTLVL<5]: %Y
 ItemDisplay[(1H OR 2H OR WP11 OR WP12 OR WP13) NORM RARE ETH !ID FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
 ItemDisplay[(CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ETH RARE !ID FILTLVL<5]: %YELLOW%%NAME%
 ItemDisplay[(CL5 OR CL6 OR CL7) ETH RARE !ID FILTLVL<5]: %GRAY%[%WHITE%eth%GRAY%] %YELLOW%%NAME%
-ItemDisplay[(aqv OR aqv2 OR aqv3 OR cqv OR cqv2 OR cqv3) RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
+ItemDisplay[(aqv3 OR cqv3) RARE !ETH !ID]: %YELLOW%%NAME%
+ItemDisplay[(aqv OR aqv2 OR cqv OR cqv2) RARE !ETH !ID FILTLVL<5]: %YELLOW%%NAME%
 //Magic
 ItemDisplay[CL5 MAG !ID FILTLVL<2]: %BLUE%%NAME%
 ItemDisplay[CL5 ETH MAG !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
