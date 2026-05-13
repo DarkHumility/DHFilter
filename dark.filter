@@ -12,7 +12,7 @@ ItemDisplayFilterName[]: Removes Large Charms
 ItemDisplay[((!am3 AND !am8 AND !amd AND !am4 AND !am9 AND !ame AND !7p7 AND !9p9 AND !pik AND !7st AND !9st AND !spt AND !mau AND !9m9 AND !7m7 AND !7ts AND !9ts AND !tsp AND !7gl AND !9gl AND !glv) AND (MAG AND ETH)) (MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH)) !EQ7 !SHOP !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[(NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND !EDEF) !SHOP !RW !UNI !SET !ID FILTLVL>2]:
 ItemDisplay[(mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps OR rvs) FILTLVL>3]: 
-ItemDisplay[((!7p7 AND !9p9 AND !pik AND !7st AND !9st AND !spt AND !mau AND !9m9 AND !7m7 AND !7ts AND !9ts AND !tsp AND !7gl AND !9gl AND !glv AND !am3 AND !am8 AND !amd AND !am4 AND !am9 AND !ame AND !EQ7 AND !rin AND !amu AND !aqv3 AND !cqv3) AND RARE) (RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !SHOP !NMAG !SET !jew !RW !UNI !ID FILTLVL>4]:
+ItemDisplay[((!7p7 AND !9p9 AND !pik AND !7st AND !9st AND !spt AND !mau AND !9m9 AND !7m7 AND !7ts AND !9ts AND !tsp AND !7gl AND !9gl AND !glv AND !am3 AND !am8 AND !amd AND !am4 AND !am9 AND !ame AND !EQ7) AND RARE) (RARE (WEAPON OR ARMOR) AND (ETH OR !ETH)) !SHOP !NMAG !SET !jew !RW !UNI !ID FILTLVL>4]:
 ItemDisplay[(MAG AND cm2) !ID FILTLVL>5]:
 //HORADRIC CUBE MESSAGE
 ItemDisplay[box]: %GOLD%%NAME%%MAP% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%6 Strictness Levels Available! %NL%%WHITE%DH's Personal Filter:}
