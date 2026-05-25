@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.7
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S13 v13.8
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -2051,9 +2051,9 @@ ItemDisplay[(7tk OR 7bk OR 7b8 OR 7ta OR 9b8 OR glv OR tsp OR bal) MAG ETH !ID F
 ItemDisplay[(7st OR 7p7 OR 9st OR 9p9 OR spt OR pik OR am3 OR am8 OR amd OR am4 OR am9 OR ame) MAG ETH !ID]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 //Polearms
 ItemDisplay[(7pa OR 9pa OR 7wc OR 9wc OR 7h7 OR 9h9 OR 7s8 OR 9s8 OR scy OR pax OR wsc OR hal) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-//Archon Staff, Shillelagh, Stalagmite
-ItemDisplay[(6ws OR 6cs OR 6ls) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
-ItemDisplay[(6ws OR 6cs OR 6ls) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
+//Archon Staff, Rune Staff, War Staff, Shillelagh, Stalagmite, Elder Staff
+ItemDisplay[(6ws OR 6cs OR 6ls OR 6cs OR wst OR 8ws) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
+ItemDisplay[(6ws OR 6cs OR 6ls OR 6cs OR wst OR 8ws) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
 //Caddy
 ItemDisplay[(7ws OR 9ws OR wsp) MAG ETH !ID FILTLVL<2]: %GRAY%[%WHITE%eth%GRAY%] %BLUE%%NAME%
 ItemDisplay[(7ws OR 9ws OR wsp) MAG !ETH !ID FILTLVL<2]: %BLUE%%NAME%
@@ -3013,6 +3013,7 @@ ItemDisplay[(7wa OR 7gd OR 7wh OR 7gm OR 7m7) (ETH AND !INF AND !SUP) AND (NMAG 
 ItemDisplay[7cr !INF AND (NMAG OR RW) (SOCK=0 OR SOCK=6) FILTLVL<3]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(7wa OR 7gd OR 7p7 OR 7gm OR 7m7) (ETH AND !INF) AND (NMAG OR RW) (SOCK=0 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[6ws ETH NMAG (SOCK=0 OR SOCK=2 OR SOCK=6)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[6ws !ETH NMAG (SOCK=0 OR SOCK=6) FILTLVL<3]: %NAME% %TAN%[%SOCKETS%]
 //Chaos+Fury+BF+BS Claws
 ItemDisplay[CL5 ELT NMAG (ETH AND !INF) (SK263>2 AND SK258>2) (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%chaos%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[CL5 ELT NMAG (ETH AND !INF) SK263>2 (SOCK=0 OR SOCK=3)]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3wb%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
