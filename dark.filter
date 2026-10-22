@@ -44,7 +44,7 @@ ItemDisplay[NMAG !ID SHOP wrb MAPID>132]: %NAME%%RED%Jade Talon%NL%%WHITE%Elite 
 ItemDisplay[NMAG !ID SHOP axf MAPID>132]: %NAME%%PURPLE%Whispering Mirage%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ces MAPID>132]: %NAME%%PURPLE%Shadow Killer%NL%%WHITE%Elite Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP clw MAPID>132]: %NAME%%PURPLE%Firelizard's Talons%NL%%WHITE%Elite Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP btl MAPID>132]: %NAME%%RED%Stalker's Cull%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Bartuc's Cut-Throat%NL%%WHITE%Exceptional Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP btl MAPID>132]: %NAME%%PURPLE%Stalker's Cull%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Bartuc's Cut-Throat%NL%%WHITE%Exceptional Tier:%CONTINUE%
 //ItemDisplay[NMAG !ID SHOP skr MAPID>132]: %NAME%
 ItemDisplay[NMAG !ID SHOP ba1 MAPID>132]: %NAME%%RED%Cyclopean Roar%NL%%WHITE%Exceptional Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP ba2 MAPID>132]: %NAME%%RED%Wolfhowl%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Wildspeaker%NL%%WHITE%Normal Tier:%CONTINUE%
@@ -1038,6 +1038,10 @@ ItemDisplay[rin MAG ILVL=93 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE
 ItemDisplay[rin MAG ILVL=94 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 76+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL>94 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 74+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL<86 FILTLVL<2]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
+//s14 PD2 Uniques
+ItemDisplay[uuc UNI !ID !ETH]: %RED%o %PURPLE%Warriv's Warder %RED%o%MAP%
+ItemDisplay[uuc UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Warriv's Warder %RED%o%MAP%
+ItemDisplay[urs UNI !ID !ETH]: %RED%ooo %PURPLE%Spectral Plate %RED%ooo%MAP%
 //s13 PD2 Uniques
 ItemDisplay[obd UNI !ID !ETH]: %RED%oo %PURPLE%Embersworn %RED%oo%MAP%
 ItemDisplay[obd UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Embersworn %RED%oo%MAP%
@@ -1108,7 +1112,7 @@ ItemDisplay[6bs UNI !ID !ETH]: %RED%oooo %PURPLE%Brimstone Rain %RED%oooo%MAP%
 ItemDisplay[6bs UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Brimstone Rain %RED%oooo%MAP%
 ItemDisplay[7qs UNI !ID !ETH]: %RED%ooo %PURPLE%Akarat's Devotion %RED%ooo%MAP%
 ItemDisplay[7qs UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Akarat's Devotion %RED%ooo%MAP%
-ItemDisplay[7tw UNI !ID !ETH]: %RED%ooo Stalker's Cull ooo%MAP%
+ItemDisplay[7tw UNI !ID !ETH]: %RED%o %PURPLE%Stalker's Cull %RED%o%MAP%
 ItemDisplay[7tw UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Stalker's Cull %RED%ooo%MAP%
 ItemDisplay[baf UNI !ID !ETH]: %RED%ooo %PURPLE%Raekor's Virtue %RED%ooo%MAP%
 ItemDisplay[baf UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Raekor's Virtue %RED%ooo%MAP%
@@ -2173,11 +2177,11 @@ ItemDisplay[EQ2 ELT NMAG !ETH (SOCK=0 OR SOCK>2) ED>0 ED<20]: %GRAY%[%WHITE%%%ED
 ItemDisplay[EQ2 ELT (NMAG OR RW) ETH !SOCK=1 ED=20]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%20%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[EQ2 ELT (NMAG OR RW) ETH !SOCK=1 ED>0 ED<20]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[EQ2 (NMAG OR RW) NMAG ETH ELT !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[EQ2 (NMAG OR RW) NMAG ETH EXC !SOCK=1 (CLVL<81 AND FILTLVL<3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[EQ2 (NMAG OR RW) NMAG ETH EXC !SOCK=1 (CLVL<91 AND FILTLVL<3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 (NMAG OR RW) NMAG ETH NORM !SOCK=1 (CLVL<31 AND FILTLVL<3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 (NMAG OR RW) NMAG !ETH ELT SOCK>1 (CLVL<91 AND FILTLVL<3)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 (NMAG OR RW) NMAG !ETH ELT SOCK=0 (CLVL<81 AND FILTLVL<3)]: %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[EQ2 (NMAG OR RW) NMAG !ETH EXC SOCK>1 (CLVL<81 AND FILTLVL<3)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
+ItemDisplay[EQ2 (NMAG OR RW) NMAG !ETH EXC SOCK>1 (CLVL<91 AND FILTLVL<3)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 (NMAG OR RW) NMAG !ETH EXC SOCK=0 (CLVL<71 AND FILTLVL<3)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 (NMAG OR RW) NMAG !ETH NORM SOCK>1 (CLVL<31 AND FILTLVL<3)]: %GRAY%%NAME% %TAN%[%SOCKETS%]
 ItemDisplay[EQ2 (NMAG OR RW) NMAG !ETH NORM SOCK=0 (CLVL<31 AND FILTLVL<3)]: %NAME% %TAN%[%SOCKETS%]
@@ -2315,7 +2319,7 @@ ItemDisplay[CL2 NMAG ETH SK138>2 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHIT
 ItemDisplay[CL2 NMAG ETH SK142>2 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3fitem%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL2 NMAG ETH SK140>2 !SOCK=1]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%3dthrw%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[CL2 NMAG ETH (SK128>1 OR SK132>1 OR SK133>1 OR SK134>1 OR SK135>1 OR SK140>1 OR SK141>1 OR SK143>1 OR SK146>1 OR SK147>1 OR SK149>1 OR SK151>1 OR SK152>1 OR SK154>1 OR SK368>1) (CLVL<71 AND FILTLVL<3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[(ci3 OR uh9 OR usk OR uhm OR urn) ETH AND (NMAG OR RW) (SOCK=3 OR SOCK=0)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[(ci3 OR uh9 OR usk OR ulm OR uhl OR uhm OR urn) ETH AND (NMAG OR RW) (SOCK=3 OR SOCK=0)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(ci3 OR uh9 OR usk) (!INF AND !ETH) AND (NMAG OR RW) SOCK=3]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(xsk OR xhm OR crn OR usk OR ci2) ETH AND (NMAG OR RW) (SOCK=3 OR SOCK=0) (CLVL<71 AND FILTLVL<3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(xsk OR xhm OR crn OR usk OR ci2) (!INF AND !ETH) AND (NMAG OR RW) (SOCK=3 OR SOCK=0) (CLVL<71 AND FILTLVL<3)]: %NAME% %TAN%[%SOCKETS%]
@@ -2616,7 +2620,7 @@ ItemDisplay[7wa ETH NMAG ED=20 SOCK>2]: %GRAY%[%WHITE%eth%GRAY%][%WHITE%%20%GRAY
 ItemDisplay[7wa ETH NMAG ED>0 ED<20 SOCK>2]: %GRAY%[%WHITE%eth%GRAY%][%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[7wa !ETH NMAG ED=20 !SOCK=1 FILTLVL<3]: %GRAY%[%WHITE%%20%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wa !ETH NMAG ED>0 ED<20 !SOCK=1 FILTLVL<3]: %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]
-ItemDisplay[7wa !ETH NMAG (SOCK=2 OR SOCK=5 OR SOCK=6) FILTLVL<3]: %NAME% %TAN%[%SOCKETS%]
+ItemDisplay[7wa !ETH NMAG (SOCK=2 OR SOCK=4 OR SOCK=5 OR SOCK=6) FILTLVL<3]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wa !ETH NMAG SOCK=0 (CLVL<91 AND FILTLVL<3)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[7wa ETH NMAG (SOCK=0 OR SOCK>2)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 //Decapitator
@@ -2730,9 +2734,9 @@ ItemDisplay[WP4 (NMAG AND !ETH) (SOCK=0 OR SOCK>1) SK266=2 (CLVL<71 AND FILTLVL<
 ItemDisplay[WP4 (NMAG AND ETH) (SOCK=0 OR SOCK>1) SK257=2 (CLVL<71 AND FILTLVL<3)]:  %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%2bs%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP4 (NMAG AND ETH) (SOCK=0 OR SOCK>1) SK266=2 (CLVL<71 AND FILTLVL<3)]:  %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%2bf%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP4 NMAG !ETH !SOCK=1 (CLVL<61 AND FILTLVL<3)]: %NAME% %TAN%[%SOCKETS%]
-//Spirit Swords
-ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=4 (CLVL<91 AND FILTLVL<3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
-ItemDisplay[(crs OR bsd OR lsd) (NMAG OR RW) SOCK=4 (CLVL<91 AND FILTLVL<3)]: %NAME% %TAN%[%SOCKETS%]
+//Spirit Swords/Madness
+ItemDisplay[(crs OR bsd OR lsd OR 2ax OR wax) (ETH AND (NMAG OR RW)) SOCK=4 (CLVL<91 AND FILTLVL<3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[(crs OR bsd OR lsd OR 2ax OR wax) (NMAG OR RW) SOCK=4 (CLVL<91 AND FILTLVL<3)]: %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (ETH AND (NMAG OR RW)) SOCK=0 (ILVL>25 AND ILVL<40) FILTLVL<3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[(crs OR bsd OR lsd) (!ETH AND (NMAG OR RW)) SOCK=0 (ILVL>25 AND ILVL<40) FILTLVL<3]: %NAME% %TAN%[%SOCKETS%]
 //eth crystal for imbue/roll
