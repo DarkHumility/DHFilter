@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S14 v14.3
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S14 v14.4
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -432,7 +432,7 @@ ItemDisplay[t28 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%
 ItemDisplay[t31 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %YELLOW%Light %GREEN%Psn %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Archers}%MAP%
 ItemDisplay[t35 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* Got Milk?}%MAP%
 ItemDisplay[t39 NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Fire Towers Archers}%MAP%
-ItemDisplay[t3b NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords}%MAP%
+ItemDisplay[t3b NMAG !RARE !ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords Unholy Corpses}%MAP%
 ItemDisplay[t13 MAG ID]: %BLUE%%NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %ORANGE%Magic %BLUE%Cold %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Hell Temptress}%MAP%
 ItemDisplay[t13 RARE ID]: %YELLOW%%NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %ORANGE%Magic %BLUE%Cold %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Hell Temptress}%MAP%
 ItemDisplay[t13 !RARE NMAG ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %ORANGE%Magic %BLUE%Cold %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Hell Temptress}%MAP%
@@ -457,9 +457,9 @@ ItemDisplay[t35 !RARE NMAG ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%m
 ItemDisplay[t39 MAG ID]: %BLUE%%NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Fire Towers Archers}%MAP%
 ItemDisplay[t39 RARE ID]: %YELLOW%%NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Fire Towers Archers}%MAP%
 ItemDisplay[t39 NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %TAN%Phys %NL%%PURPLE%Danger %WHITE%* Fire Towers Archers}%MAP%
-ItemDisplay[t3b MAG ID]: %BLUE%%NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords}%MAP%
-ItemDisplay[t3b RARE ID]: %YELLOW%%NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords}%MAP%
-ItemDisplay[t3b NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* None %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords}%MAP%
+ItemDisplay[t3b MAG ID]: %BLUE%%NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords Unholy Corpses}%MAP%
+ItemDisplay[t3b RARE ID]: %YELLOW%%NAME% {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords Unholy Corpses}%MAP%
+ItemDisplay[t3b NMAG !RARE ID]: %RED%ooo %WHITE%%NAME% %RED%ooo {%BLUE%I%GREEN%mm%YELLOW%un%ORANGE%it%RED%ie%TAN%s %WHITE%* %RED%Fire %YELLOW%Light %ORANGE%Magic %NL%%PURPLE%Danger %WHITE%* %GOLD%Boss %WHITE%Death Lords Unholy Corpses}%MAP%
 ItemDisplay[t13 OR t15 OR t23 OR t27 OR t28 OR t31 OR t35 OR t39 OR t3b (NMAG AND !RARE) ID]: %RED%ooo %WHITE%%NAME% %RED%ooo%MAP%
 ItemDisplay[t51 UNI !ID]: %RED%ooo %TAN%Zhar's Sanctum Map %RED%ooo%MAP%
 ItemDisplay[t51 UNI ID]: %RED%ooo %TAN%Zhar's Sanctum Map %RED%ooo%MAP%
