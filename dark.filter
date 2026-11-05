@@ -924,9 +924,9 @@ ItemDisplay[jew !UNI !RARE (MAEK>2 AND STAT91=-15)]: %NAME% {%BLUE%Mana %WHITE%P
 ItemDisplay[jew !UNI !RARE (MAEK>2 AND IAS>0)]: %NAME% {%BLUE%Mana %WHITE%Per Kill %WHITE%* %ORANGE%IAS %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (STAT86>2 AND IAS>0)]: %NAME% {%RED%Life %WHITE%Per Kill %WHITE%* %ORANGE%IAS %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE ED>34]: %NAME% {%GOLD%ED %BLUE%Jewel}
-ItemDisplay[jew !UNI !RARE MAXDMG>14]: %NAME% {%TAN%Max Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE MAEK>2]: %NAME% {%BLUE%Mana %WHITE%Per Kill %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE STAT86>2]: %NAME% {%RED%Life %WHITE%Per Kill %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE MAXDMG>19]: %NAME% {%TAN%Max Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE RES>11]: %NAME% {%PURPLE%All %WHITE%Res %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (STAT501>74 AND IAS>0)]: %NAME% {%CORAL%Bleed %WHITE%* %ORANGE%IAS %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (STAT501>74 AND STAT91=-15)]: %NAME% {%CORAL%Bleed %WHITE%* %ORANGE%-Req %BLUE%Jewel}
