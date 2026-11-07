@@ -951,6 +951,11 @@ ItemDisplay[jew !UNI !RARE (DEX>4 AND STAT330>3)]: %NAME% {%GREEN%Dex %WHITE%* %
 ItemDisplay[jew !UNI !RARE (DEX>4 AND STAT331>3)]: %NAME% {%GREEN%Dex %WHITE%* %BLUE%Cold %TAN%Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (DEX>4 AND STAT332>3)]: %NAME% {%GREEN%Dex %WHITE%* %GREEN%Psn %TAN%Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (DEX>4 AND STAT357>3)]: %NAME% {%GREEN%Dex %WHITE%* %ORANGE%Magic %TAN%Dmg %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (STAT329>3 AND STAT91=-15)]: %NAME% {%RED%Fire %TAN%Dmg %WHITE%* %ORANGE%-Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (STAT330>3 AND STAT91=-15)]: %NAME% {%YELLOW%Light %TAN%Dmg %WHITE%* %ORANGE%-Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (STAT331>3 AND STAT91=-15)]: %NAME% {%BLUE%Cold %TAN%Dmg %WHITE%* %ORANGE%-Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (STAT332>3 AND STAT91=-15)]: %NAME% {%GREEN%Psn %TAN%Dmg %WHITE%* %ORANGE%-Req %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (STAT357>3 AND STAT91=-15)]: %NAME% {%ORANGE%Magic %TAN%Dmg %WHITE%* %ORANGE%-Req %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE STAT329>3]: %NAME% {%RED%Fire %TAN%Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE STAT330>3]: %NAME% {%YELLOW%Light %TAN%Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE STAT331>3]: %NAME% {%BLUE%Cold %TAN%Dmg %BLUE%Jewel}
