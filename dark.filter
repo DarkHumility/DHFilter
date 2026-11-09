@@ -1126,7 +1126,7 @@ ItemDisplay[rin MAG ILVL<86 FILTLVL<2]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+
 //s14 PD2 Uniques
 ItemDisplay[uuc UNI !ID !ETH]: %RED%o %PURPLE%Warriv's Warder %RED%o%MAP%
 ItemDisplay[uuc UNI !ID ETH]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Warriv's Warder %RED%o%MAP%
-ItemDisplay[urs UNI !ID !ETH]: %RED%ooo %PURPLE%Spectral Plate %RED%ooo%MAP%
+ItemDisplay[urs UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Spectral Plate %RED%ooo%MAP%
 //s13 PD2 Uniques
 ItemDisplay[obd UNI !ID !ETH]: %RED%oo %PURPLE%Embersworn %RED%oo%MAP%
 ItemDisplay[obd UNI !ID ETH]: %RED%oo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Embersworn %RED%oo%MAP%
