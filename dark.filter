@@ -12,7 +12,7 @@ ItemDisplayFilterName[]: Removes Large Charms
 //Filter Level Parameters
 ItemDisplay[(MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH) !EQ7 !am3 !am8 !amd !am4 !am9 !ame !7p7 !9p9 !pik !7st !9st !spt !mau !9m9 !7m7 !7ts !9ts !tsp !7gl !9gl !glv) !SHOP !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[(NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND !EDEF) !SHOP !RW !UNI !SET !ID FILTLVL>2]:
-ItemDisplay[(mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps OR rvs) FILTLVL>4]: 
+ItemDisplay[(mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps OR rvs) FILTLVL>3]: 
 ItemDisplay[(RARE (WEAPON OR ARMOR) AND (ETH OR !ETH) !7p7 !9p9 !pik !7st !9st !spt !mau !9m9 !7m7 !7ts !9ts !tsp !7gl !9gl !glv !am3 !am8 !amd !am4 !am9 !ame) !EQ7 !SHOP !MAG !NMAG !SET !rin !amu !jew !RW !UNI !ID FILTLVL>5]:
 ItemDisplay[(MAG AND cm2) !ID FILTLVL>6]:
 //HORADRIC CUBE MESSAGE
