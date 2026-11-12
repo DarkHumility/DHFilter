@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S14 v14.6
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S14 v14.7
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -936,6 +936,11 @@ ItemDisplay[jew !UNI !RARE (FHR>0 AND STAT330>3)]: %NAME% {%ORANGE%FHR %WHITE%* 
 ItemDisplay[jew !UNI !RARE (FHR>0 AND STAT331>3)]: %NAME% {%ORANGE%FHR %WHITE%* %BLUE%Cold %TAN%Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (FHR>0 AND STAT332>3)]: %NAME% {%ORANGE%FHR %WHITE%* %GREEN%Psn %TAN%Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (FHR>0 AND STAT357>3)]: %NAME% {%ORANGE%FHR %WHITE%* %ORANGE%Magic %TAN%Dmg %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (IAS>0 AND STAT329>3)]: %NAME% {%ORANGE%IAS %WHITE%* %RED%Fire %TAN%Dmg %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (IAS>0 AND STAT330>3)]: %NAME% {%ORANGE%IAS %WHITE%* %YELLOW%Light %TAN%Dmg %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (IAS>0 AND STAT331>3)]: %NAME% {%ORANGE%IAS %WHITE%* %BLUE%Cold %TAN%Dmg %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (IAS>0 AND STAT332>3)]: %NAME% {%ORANGE%IAS %WHITE%* %GREEN%Psn %TAN%Dmg %BLUE%Jewel}
+ItemDisplay[jew !UNI !RARE (IAS>0 AND STAT357>3)]: %NAME% {%ORANGE%IAS %WHITE%* %ORANGE%Magic %TAN%Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (LIFE>14 AND STAT329>3)]: %NAME% {%RED%Life %WHITE%* %RED%Fire %TAN%Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (LIFE>14 AND STAT330>3)]: %NAME% {%RED%Life %WHITE%* %YELLOW%Light %TAN%Dmg %BLUE%Jewel}
 ItemDisplay[jew !UNI !RARE (LIFE>14 AND STAT331>3)]: %NAME% {%RED%Life %WHITE%* %BLUE%Cold %TAN%Dmg %BLUE%Jewel}
