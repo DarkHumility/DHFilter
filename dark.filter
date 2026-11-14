@@ -1756,7 +1756,7 @@ ItemDisplay[8l8 UNI !ID FILTLVL<5]: %RED%o Cliffkiller o%MAP%
 ItemDisplay[8sw UNI !ID FILTLVL<5]: %GOLD%ooo Magewrath ooo%MAP%
 ItemDisplay[8s8 UNI !ID]: %RED%ooo Witchwild String ooo%MAP%
 ItemDisplay[6l7 UNI !ID]: %RED%ooo Eaglehorn ooo%MAP%
-ItemDisplay[8lw UNI !ID]: %RED%o Goldstrike Arch o%MAP%
+ItemDisplay[8lw UNI !ID FILTLVL<5]: %RED%o Goldstrike Arch o%MAP%
 ItemDisplay[6sw UNI !ID]: %RED%ooo Widowmaker ooo%MAP%
 ItemDisplay[6lw UNI !ID]: %RED%oooo %PURPLE%Windforce %RED%oooo%MAP%
 ItemDisplay[8ls UNI !ID !ETH]: %RED%ooo Ribcracker ooo%MAP%
