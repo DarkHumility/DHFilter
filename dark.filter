@@ -1375,8 +1375,8 @@ ItemDisplay[xng UNI !ID !ETH FILTLVL<5]: %GOLD%ooo Spirit Forge ooo%MAP%
 ItemDisplay[xng UNI !ID ETH FILTLVL<5]: %GOLD%ooo %GRAY%[%WHITE%eth%GRAY%] %GOLD%Spirit Forge ooo%MAP%
 ItemDisplay[xld UNI !ID !ETH]: %RED%ooo Toothrow ooo%MAP%
 ItemDisplay[xld UNI !ID ETH FILTLVL<5]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %RED%Toothrow o%MAP%
-ItemDisplay[ltp UNI !ID !ETH]: %RED%oo Heavenly Garb oo%MAP%
-ItemDisplay[ltp UNI !ID ETH FILTLVL<5]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Heavenly Garb ooo%MAP%
+ItemDisplay[ltp UNI !ID !ETH FILTLVL<5]: %RED%oo Heavenly Garb oo%MAP%
+ItemDisplay[ltp UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Heavenly Garb ooo%MAP%
 ItemDisplay[utu UNI !ID !ETH]: %RED%ooo %PURPLE%The Gladiator's Bane %RED%ooo%MAP%
 ItemDisplay[utu UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%The Gladiator's Bane %RED%ooo%MAP%
 ItemDisplay[upl UNI !ID !ETH]: %RED%ooo %PURPLE%Arkaine's Valor %RED%ooo%MAP%
@@ -2662,7 +2662,7 @@ ItemDisplay[WP12 !wnd !ywn !9wn NMAG ETH SK70>1 !SOCK=1 (CLVL<81 AND FILTLVL<3)]
 ItemDisplay[WP12 !wnd !ywn !9wn NMAG ETH SK74>1 !SOCK=1 (CLVL<81 AND FILTLVL<3)]: %GRAY%[%WHITE%eth%GRAY%] [%WHITE%2ce%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP12 NMAG ETH (SK67>1 OR SK84>1 OR SK75>1 OR SK70>1 OR SK94>1 OR SK74>1) (CLVL<71 AND FILTLVL<3)]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 //WP5 Throwing Weapons
-ItemDisplay[WP5 ELT NMAG ETH (SOCK=2 OR SOCK=3) ED=20]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%20%GRAY% %NAME% %TAN%[%SOCKETS%]%MAP%
+ItemDisplay[WP5 ELT NMAG ETH (SOCK=2 OR SOCK=3) ED=20]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%20%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[WP5 ELT NMAG ETH (SOCK=2 OR SOCK=3) ED>0 ED<20]: %GRAY%[%WHITE%eth%GRAY%] %GRAY%[%WHITE%%%ED%%GRAY%] %NAME% %TAN%[%SOCKETS%]%MAP%
 ItemDisplay[WP5 ELT NMAG ETH (SOCK=2 OR SOCK=3) FILTLVL<3]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
 ItemDisplay[WP5 NMAG ETH !SOCK=1 CLVL<91]: %GRAY%[%WHITE%eth%GRAY%] %NAME% %TAN%[%SOCKETS%]
