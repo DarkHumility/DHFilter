@@ -2032,8 +2032,8 @@ ItemDisplay[gth SET !ID !ETH FILTLVL<5]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP
 ItemDisplay[gth SET !ID ETH FILTLVL<5]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %GREEN%Sigon's %NAME% %RED%o%MAP%
 ItemDisplay[hbt SET !ID !ETH FILTLVL<5]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
 ItemDisplay[hbt SET !ID ETH FILTLVL<5]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %GREEN%Sigon's %NAME% %RED%o%MAP%
-ItemDisplay[tow SET !ID !ETH FILTLVL<5]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
-ItemDisplay[tow SET !ID ETH FILTLVL<5]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %GREEN%Sigon's %NAME% %RED%o%MAP%
+ItemDisplay[tow SET !ID !ETH]: %RED%ooo %GREEN%Sigon's %NAME% %RED%ooo%MAP%
+ItemDisplay[tow SET !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %GREEN%Sigon's %NAME% %RED%ooo%MAP%
 ItemDisplay[hbl SET !ID !ETH FILTLVL<5]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
 ItemDisplay[hbl SET !ID ETH FILTLVL<5]: %RED%o %GRAY%[%WHITE%eth%GRAY%] %GREEN%Sigon's %NAME% %RED%o%MAP%
 ItemDisplay[hgl SET !ID !ETH FILTLVL<5]: %RED%o %GREEN%Sigon's %NAME% %RED%o%MAP%
