@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S14 v14.7
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S14 v14.8
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -471,8 +471,8 @@ ItemDisplay[t55 UNI ID]: %RED%ooo %TAN%Outer Void Map %RED%ooo%MAP%
 ItemDisplay[t56 UNI !ID]: %RED%ooo %TAN%City of Ureh Map %RED%ooo%MAP%
 ItemDisplay[t56 UNI ID]: %RED%ooo %TAN%City of Ureh Map %RED%ooo%MAP%
 ///tier4
-ItemDisplay[t41 OR t42 OR t43 OR t44 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs Defilers %GOLD%Boss %NL%%RED%Requires a Strong Party}
-ItemDisplay[t41 OR t42 OR t43 OR t44 RARE ID]: %NAME%%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs Defilers %GOLD%Boss %NL%%RED%Requires a Strong Party}
+ItemDisplay[t41 OR t42 OR t43 OR t44 RARE !ID]: %PURPLE%oooo %YELLOW%%NAME% %PURPLE%oooo%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs Defilers Witches Spear Cats %GOLD%Boss %NL%%RED%Requires a Strong Party}
+ItemDisplay[t41 OR t42 OR t43 OR t44 RARE ID]: %NAME%%MAP% {%PURPLE%Ultra Danger %WHITE%* BBs Defilers Witches Spear Cats %GOLD%Boss %NL%%RED%Requires a Strong Party}
 ///PvP
 ItemDisplay[t61 OR t62 (NMAG OR !RARE) ID]: %BLUE%o %WHITE%%NAME% %BLUE%o%MAP%
 //Misc
