@@ -1,4 +1,4 @@
-// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S14 v14.10
+// ADev's Loot Filter for PD2, Dark Edition, Updated by DarkHumility. S14 v14.11
 //twitch.tv/ADevelopment
 //twitch.tv/DarkHumility
 //Filter Levels
@@ -185,7 +185,7 @@ ItemDisplay[NMAG !ID SHOP bsd MAPID>132]: %NAME%%RED%Headstriker%NL%%WHITE%Excep
 ItemDisplay[NMAG !ID SHOP lsd MAPID>132]: %NAME%%PURPLE%Frostwind%NL%%WHITE%Elite Tier:%NL%%NL%%PURPLE%Plague Bearer%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Hellplague%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP wsd MAPID>132]: %NAME%%GOLD%The Atlantean%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Culwen's Point%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP 2hs MAPID>132]: %NAME%%GOLD%Crainte Vomir%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Shadowfang%NL%%WHITE%Normal Tier:%CONTINUE%
-ItemDisplay[NMAG !ID SHOP clm MAPID>132]: %NAME%%PURPLE%Leoric's Mithril Bane%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Bing Sz Wang%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Soulflay%NL%%WHITE%Normal Tier:%CONTINUE%
+ItemDisplay[NMAG !ID SHOP clm MAPID>132]: %NAME%%RED%Leoric's Mithril Bane%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Bing Sz Wang%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Soulflay%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP gis MAPID>132]: %NAME%%RED%Flamebellow%NL%%WHITE%Elite Tier:%NL%%NL%%RED%The Vile Husk%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Kinemil's Awl%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP bsw MAPID>132]: %NAME%%PURPLE%Doombringer%NL%%WHITE%Elite Tier:%NL%%NL%%RED%Cloudcrack%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Blacktongue%NL%%WHITE%Normal Tier:%CONTINUE%
 ItemDisplay[NMAG !ID SHOP flb MAPID>132]: %NAME%%RED%Odium%NL%%WHITE%Elite Tier:%NL%%NL%%GOLD%Todesfaelle Flamme%NL%%WHITE%Exceptional Tier:%NL%%NL%%GOLD%Ripsaw%NL%%WHITE%Normal Tier:%CONTINUE%
@@ -1184,7 +1184,7 @@ ItemDisplay[amc UNI !ID]: %RED%o %PURPLE%Ebonbane %RED%o%MAP%
 ItemDisplay[7di UNI !ID !ETH]: %RED%ooo Shatterblade ooo%MAP%
 ItemDisplay[7di UNI !ID ETH]: %RED%ooo %GRAY%[%WHITE%eth%GRAY%] %RED%Shatterblade ooo%MAP%
 //s8 PD2 Uniques
-ItemDisplay[7cm UNI !ID !ETH]: %RED%o %PURPLE%Leoric's Mithril Bane %RED%o%MAP%
+ItemDisplay[7cm UNI !ID !ETH]: %RED%ooo %Leoric's Mithril Bane ooo%MAP%
 ItemDisplay[7cm UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Leoric's Mithril Bane %RED%oooo%MAP%
 ItemDisplay[7st UNI !ID !ETH]: %RED%ooo Uldyssian's Awakening ooo%MAP%
 ItemDisplay[7st UNI !ID ETH]: %RED%oooo %GRAY%[%WHITE%eth%GRAY%] %PURPLE%Uldyssian's Awakening %RED%oooo%MAP%
