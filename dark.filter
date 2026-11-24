@@ -8,13 +8,13 @@ ItemDisplayFilterName[]: Removes Low-Tier Socket Bases
 ItemDisplayFilterName[]: Removes Most Potions
 ItemDisplayFilterName[]: Removes All Uniques & Sets Rated Red/Green 2 Circles Or Below
 ItemDisplayFilterName[]: Removes Most Rare Item Bases
-ItemDisplayFilterName[]: Removes Large Charms
+ItemDisplayFilterName[]: Removes Large Charms, Magic Amulets, & Flawless Gems
 //Filter Level Parameters
-ItemDisplay[(MAG (WEAPON OR ARMOR OR rin OR amu OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH) !EQ7 !am3 !am8 !amd !am4 !am9 !ame !7p7 !9p9 !pik !7st !9st !spt !mau !9m9 !7m7 !7ts !9ts !tsp !7gl !9gl !glv) !SHOP !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
+ItemDisplay[(MAG (WEAPON OR ARMOR OR rin OR aqv OR cqv OR aqv2 OR cqv2 OR aqv3 OR cqv3) AND (ETH OR !ETH) !EQ7 !am3 !am8 !amd !am4 !am9 !ame !7p7 !9p9 !pik !7st !9st !spt !mau !9m9 !7m7 !7ts !9ts !tsp !7gl !9gl !glv) !SHOP !NMAG !SET !jew !RW !UNI !RARE !ID FILTLVL>1]:
 ItemDisplay[(NMAG AND (WEAPON OR ARMOR) AND SOCK<2 AND !ETH AND !EDEF) !SHOP !RW !UNI !SET !ID FILTLVL>2]:
 ItemDisplay[(mp5 OR mp4 OR hp5 OR hp4 OR rvs OR tpcl OR tpfl OR tpgl OR tpll OR wms OR yps OR rvs) FILTLVL>3]: 
 ItemDisplay[(RARE (WEAPON OR ARMOR) AND (ETH OR !ETH) !7p7 !9p9 !pik !7st !9st !spt !mau !9m9 !7m7 !7ts !9ts !tsp !7gl !9gl !glv !am3 !am8 !amd !am4 !am9 !ame) !EQ7 !SHOP !MAG !NMAG !SET !rin !amu !jew !RW !UNI !ID FILTLVL>5]:
-ItemDisplay[(MAG AND cm2) !ID FILTLVL>6]:
+ItemDisplay[(MAG (cm2 OR amu)) OR (gzv OR gly OR glb OR glg OR glr OR glw OR skl) !ID FILTLVL>6]:
 //HORADRIC CUBE MESSAGE
 ItemDisplay[box]: %GOLD%%NAME%%MAP% {%RED%More Circles = Higher Sub Tier %NL%%GOLD%Brown/Gold Uniques = Tier 1 - Leveling/Garbage %NL%%RED%Red Uniques = Tier 2 - Can Slam %NL%%PURPLE%Purple Uniques = Tier 3 - Should Slam %NL%%GREEN%7 Strictness Levels Available! %NL%%WHITE%DH's Personal Ultra-Clean Filter:}
 //Hides Koin Pilez
@@ -531,13 +531,13 @@ ItemDisplay[GEM=3 CLVL<26]: %NAME%
 ItemDisplay[GEM=2 CLVL<21]: %NAME%
 ItemDisplay[GEM=1 CLVL<16]: %NAME%
 //Flawless
-ItemDisplay[(GEM=4 AND GEMTYPE=1) OR gzv OR gzvs]: %ORANGE%Amethyst%MAP%
-ItemDisplay[(GEM=4 AND GEMTYPE=2) OR glw OR glws]: %ORANGE%Diamond%MAP%
-ItemDisplay[(GEM=4 AND GEMTYPE=3) OR glg OR glgs]: %ORANGE%Emerald%MAP%
-ItemDisplay[(GEM=4 AND GEMTYPE=4) OR glr OR glrs]: %ORANGE%Ruby%MAP%
-ItemDisplay[(GEM=4 AND GEMTYPE=5) OR glb OR glbs]: %ORANGE%Sapphire%MAP%
-ItemDisplay[(GEM=4 AND GEMTYPE=6) OR gly OR glys]: %ORANGE%Topaz%MAP%
-ItemDisplay[(GEM=4 AND GEMTYPE=7) OR skl OR skls]: %ORANGE%Skull%MAP%
+ItemDisplay[((GEM=4 AND GEMTYPE=1) OR gzv OR gzvs) FILTLVL<7]: %ORANGE%Amethyst%MAP%
+ItemDisplay[((GEM=4 AND GEMTYPE=2) OR glw OR glws) FILTLVL<7]: %ORANGE%Diamond%MAP%
+ItemDisplay[((GEM=4 AND GEMTYPE=3) OR glg OR glgs) FILTLVL<7]: %ORANGE%Emerald%MAP%
+ItemDisplay[((GEM=4 AND GEMTYPE=4) OR glr OR glrs) FILTLVL<7]: %ORANGE%Ruby%MAP%
+ItemDisplay[((GEM=4 AND GEMTYPE=5) OR glb OR glbs) FILTLVL<7]: %ORANGE%Sapphire%MAP%
+ItemDisplay[((GEM=4 AND GEMTYPE=6) OR gly OR glys) FILTLVL<7]: %ORANGE%Topaz%MAP%
+ItemDisplay[((GEM=4 AND GEMTYPE=7) OR skl OR skls) FILTLVL<7]: %ORANGE%Skull%MAP%
 //Perfect
 ItemDisplay[GEM=5 AND GEMTYPE=1 OR gpv OR gpvs]: %ORANGE%+ Amethyst +%MAP%
 ItemDisplay[GEM=5 AND GEMTYPE=2 OR gpw OR gpws]: %ORANGE%+ Diamond +%MAP%
@@ -1102,20 +1102,21 @@ ItemDisplay[cm1 MAG !ID ILVL<90]: %BLUE%+ %NAME% %BLUE%+%MAP%
 //Catch-all
 ItemDisplay[cm1 OR cm2 OR cm3 ID]: %NAME%
 //Amulets
-ItemDisplay[amu MAG !ID CLVL<81 FILTLVL<2]: %WHITE%o %BLUE%%NAME% %WHITE%o%MAP% {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=88 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 92+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=89 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 92+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=90 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 90+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=91 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 90+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=92 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 88+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=93 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 88+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=94 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 86+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=95 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 86+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=96 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=97 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=98 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL=99 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
-ItemDisplay[amu MAG ILVL<88 FILTLVL<2]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG !ID CLVL<91 FILTLVL<7]: %WHITE%o %BLUE%%NAME% %WHITE%o%MAP% {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=87 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 93+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=88 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 92+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=89 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 92+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=90 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 90+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=91 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 90+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=92 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 88+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=93 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 88+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=94 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 86+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=95 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 86+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=96 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=97 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=98 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL=99 FILTLVL<7]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 82+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
+ItemDisplay[amu MAG ILVL<87 FILTLVL<7]: %BLUE%%NAME%%WHITE% {%RED%Blood %WHITE%+ %ORANGE%Amn %WHITE%| %Purple%Cast %WHITE%+ %ORANGE%Ral %NL%%GREEN%Safe %WHITE%+ %ORANGE%Thul %WHITE%| %GRAY%Vamp %WHITE%+ %ORANGE%Dol %NL%%YELLOW%Bount %WHITE%+ %ORANGE%Ko %WHITE%| %BLUE%Hitpow %WHITE%+ %ORANGE%Thul}
 //Rings
 ItemDisplay[rin MAG !ID CLVL<81 FILTLVL<2]: %WHITE%o %BLUE%%NAME% %WHITE%o%MAP% {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
 ItemDisplay[rin MAG ILVL=86 FILTLVL<2]: %BLUE%%NAME%%WHITE% [%TAN%CLVL 84+%WHITE%] {%RED%Blood %WHITE%+ %ORANGE%Sol %WHITE%| %YELLOW%Bount %WHITE%+ %ORANGE%Lum %NL%%GRAY%Vamp %WHITE%+ %ORANGE%Hel}
